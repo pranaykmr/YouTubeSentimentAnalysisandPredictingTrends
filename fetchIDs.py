@@ -27,11 +27,16 @@ def main():
     flow = google_auth_oauthlib.flow.InstalledAppFlow.from_client_secrets_file(client_secrets_file, scopes)
     credentials = flow.run_console()
     youtube = googleapiclient.discovery.build(api_service_name, api_version, credentials=credentials)
+
+    with open("keys.json") as json_file:
+        keys = json.load(json_file)
     # channelName = input("Enter Channel Name : ")
-    channelName = "TheStraightPipes"
-    URL = "https://www.googleapis.com/youtube/v3/channels?key=AIzaSyB3zWY2vQ-3gaNbHiCzUTEUwafJWMi0PIE&forUsername=" + channelName + "&part=id"
+    channelName = "DailyDrivenExotics"
+    # URL = "https://www.googleapis.com/youtube/v3/channels?key=AIzaSyB3zWY2vQ-3gaNbHiCzUTEUwafJWMi0PIE&forUsername=" + channelName + "&part=id"
+    URL = "https://www.googleapis.com/youtube/v3/channels"
+    getReqParams = {"key": keys["APIKey"], "forUsername": channelName, "part": "id"}
     # https://www.googleapis.com/youtube/v3/channels?key=AIzaSyB3zWY2vQ-3gaNbHiCzUTEUwafJWMi0PIE&forUsername=TheStraightPipes&part=id
-    r = requests.get(url=URL)
+    r = requests.get(url=URL, params=getReqParams)
 
     # extracting data in json format
     data = list(r.json().items())

@@ -1,1660 +1,1660 @@
 {
     "kind": "youtube#searchListResponse",
-    "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/Nm61vAIxukz6OVtKchyJld8gtEE\"",
+    "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/80asy7un1dzbP_1qBjw4H6qm1w8\"",
     "nextPageToken": "CDIQAA",
     "regionCode": "US",
     "pageInfo": {
-        "totalResults": 414,
+        "totalResults": 38836,
         "resultsPerPage": 50
     },
     "items": [
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/Mi3KzIHgnFfc8hyO5VzJOU_hfYQ\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/34vHu06uNChXYfYSdiaGYPZ-hRI\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "84dowJEGgKw"
+                "videoId": "duIrCAoBzYU"
             },
             "snippet": {
-                "publishedAt": "2020-03-24T12:00:32.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "The 2020 Chrysler 300 Still Exists",
-                "description": "2020 Chrysler 300 Review by The Straight Pipes. The Chrysler 300 is pumping out 300hp and 264lb-ft tq from a 3.6L V6. Would this be your pick over the Toyota ...",
+                "publishedAt": "2020-03-24T14:15:01.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "2 CRAZY GUYS ATTACK FERRARI OWNER AT  GAS STATION! *DAUGHTER HIDES IN CAR*",
+                "description": "LAMBORGHINI GOES CRAZY AT HOONIGAN, HITS WALL & BUST INTO FLAMES https://youtu.be/4BOTqhYocOU BEVERLY HILLS POLICE USE UNLAWFUL ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/84dowJEGgKw/default.jpg",
+                        "url": "https://i.ytimg.com/vi/duIrCAoBzYU/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/84dowJEGgKw/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/duIrCAoBzYU/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/84dowJEGgKw/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/duIrCAoBzYU/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/DeFtC78ZqQxUXTHZaptjG0kyyko\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/ymDfLnH04f5UkKsn9DUCAf1YYEo\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "UsOcXG2v3EE"
+                "videoId": "i_TqwqrgCeI"
             },
             "snippet": {
-                "publishedAt": "2020-03-22T12:00:49.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "How to Drive a Manual Transmission in 1 minute + Detailed Tips &amp; Fails",
-                "description": "How to drive a manual transmission car. We teach you how a clutch works, how to shift, how to avoid stalling, and how to stop. Everyone should learn how to ...",
+                "publishedAt": "2020-03-21T13:00:15.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "HOW TO EMBARRASS SUPERCAR OWNERS BRING A WIDEBODY 800HP CORVETTE!",
+                "description": "Install Raid for Free \u2705 IOS: https://clcr.me/7IX6wa \u2705 ANDROID: https://clcr.me/488geq \u2705 PC: https://clcr.me/Yqm6Ub and get a special starter pack Available ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/UsOcXG2v3EE/default.jpg",
+                        "url": "https://i.ytimg.com/vi/i_TqwqrgCeI/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/UsOcXG2v3EE/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/i_TqwqrgCeI/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/UsOcXG2v3EE/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/i_TqwqrgCeI/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/OQvsZc5P12Ndfy7P4-BpNgVQV-U\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/UMKgpNCKbVlWjQBn30p8whVNpA0\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "uN-PkqqmPjg"
+                "videoId": "Uw8mN21UrtY"
             },
             "snippet": {
-                "publishedAt": "2020-03-20T12:00:29.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "The 2020 Porsche Taycan Turbo S is a $250,000 Electric Sports Car",
-                "description": "2020 Porsche Taycan Turbo S Review by The Straight Pipes. The Porsche Taycan Turbo S is pumping out 750hp and 774lb-ft tq from 93 kwH battery and 2 ...",
+                "publishedAt": "2020-03-20T13:00:10.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "COVID-19 GOT US BANNED FROM THE USA!  *EXPLAINED*",
+                "description": "Dear DDEFAM, We want to assure you that we take the health and well-being of our community, audience, and associates very seriously. Like you, we're closely ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/uN-PkqqmPjg/default.jpg",
+                        "url": "https://i.ytimg.com/vi/Uw8mN21UrtY/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/uN-PkqqmPjg/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/Uw8mN21UrtY/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/uN-PkqqmPjg/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/Uw8mN21UrtY/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/W4-kK-_VUJWbMUtmV51NdFmiYUY\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/R2H3khP-XkhrRp-JcZf8OhZv4Q0\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "iaqjVpElwRc"
+                "videoId": "LyLtH-X9hkk"
             },
             "snippet": {
-                "publishedAt": "2020-03-17T12:00:07.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "The 2020 Audi S8 is really Fast and MORE Comfortable than a BMW or Mercedes",
-                "description": "2020 Audi S8 Review by The Straight Pipes. The Audi S8 is pumping out 563hp and 590lb-ft tq from a twin turbo 4L V8 engine with a 48v mild hybrid system.",
+                "publishedAt": "2020-03-19T13:00:07.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "Finally!! PROOF that Cops stop me for nothing!!! (VIDEO EVIDENCE)",
+                "description": "For your chance to win a 2020 McLaren GT and $20000 and support a great cause, enter at http://bit.ly/Win-a-McLaren-GT LAMBORGHINI GOES CRAZY AT ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/iaqjVpElwRc/default.jpg",
+                        "url": "https://i.ytimg.com/vi/LyLtH-X9hkk/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/iaqjVpElwRc/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/LyLtH-X9hkk/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/iaqjVpElwRc/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/LyLtH-X9hkk/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/A2Zscb4A_lHPjcnpgkEE_wapZZw\"",
-            "id": {
-                "kind": "youtube#playlist",
-                "playlistId": "PLA4uenOUaeyRQqfUsceHWRfdli3qKGrWc"
-            },
-            "snippet": {
-                "publishedAt": "2020-03-15T23:11:44.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "Yuri & Jakub's Self Isolation Playlist",
-                "description": "A bunch of different The Straight Pipes videos for you to watch while were all stuck at home.",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/Zhp5qFDzmu0/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/Zhp5qFDzmu0/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/Zhp5qFDzmu0/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "TheStraightPipes",
-                "liveBroadcastContent": "none"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/og3uH9PIgp_OmKDfLrQ2yM3lLTw\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/PrqpRllxWbvAtN6LHo4kNST3AHk\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "1KD1osFIICg"
+                "videoId": "Q1c7FGuDbts"
             },
             "snippet": {
-                "publishedAt": "2020-03-13T12:00:29.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "The FIRST EVER BMW M235i Gran Coupe isn&#39;t really a 2 Series",
-                "description": "2020 BMW M235i Gran Coupe Review by The Straight Pipes. The BMW M235i Gran Coupe is pumping out 301hp and 332lb-ft tq from a turbo 2L 4 cylinder ...",
+                "publishedAt": "2020-03-17T13:00:05.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "MY FIRST HYPERCAR WILL BE ONE OF THESE 2 CARS! *McLaren P1 &amp; Senna*",
+                "description": "LAMBORGHINI GOES CRAZY AT HOONIGAN, HITS WALL & BUST INTO FLAMES https://youtu.be/4BOTqhYocOU BEVERLY HILLS POLICE USE UNLAWFUL ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/1KD1osFIICg/default.jpg",
+                        "url": "https://i.ytimg.com/vi/Q1c7FGuDbts/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/1KD1osFIICg/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/Q1c7FGuDbts/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/1KD1osFIICg/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/Q1c7FGuDbts/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/y1QPKO7AuqdSqPJQTdGP2h-QjOs\"",
-            "id": {
-                "kind": "youtube#playlist",
-                "playlistId": "PLA4uenOUaeyShaDl-yrgaRZn5_1D7zGKO"
-            },
-            "snippet": {
-                "publishedAt": "2020-03-10T13:54:26.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "Luxury SUV's",
-                "description": "",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/X6g0BB4uiEQ/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/X6g0BB4uiEQ/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/X6g0BB4uiEQ/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "TheStraightPipes",
-                "liveBroadcastContent": "none"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/3CVNlGC1fmkZJo65pg38WdoNbKI\"",
-            "id": {
-                "kind": "youtube#playlist",
-                "playlistId": "PLA4uenOUaeyQCMRO2E9LlIHqc53woGIez"
-            },
-            "snippet": {
-                "publishedAt": "2020-03-10T13:25:46.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "Wagons",
-                "description": "",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/vlIi8xMpvZs/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/vlIi8xMpvZs/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/vlIi8xMpvZs/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "TheStraightPipes",
-                "liveBroadcastContent": "none"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/GT6nICBIXipPozyWaRT7SOkBu38\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/lyLFAE8NmrBY4kALeax-6A9bjlg\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "X6g0BB4uiEQ"
+                "videoId": "_W96unnk7Zc"
             },
             "snippet": {
-                "publishedAt": "2020-03-10T12:00:25.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "The 2020 Mercedes-AMG G63 is the Fastest G Wagen",
-                "description": "Check out http://bit.ly/Win-New-G-Wagen to enter for a chance to win a 2020 Mercedes-AMG G63 + $20000. 2020 Mercedes-AMG G63 Review by The Straight ...",
+                "publishedAt": "2020-03-14T13:30:02.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "RWB 911 BUILD CANADA | FIRST DRIVE &amp; DONUTS!",
+                "description": "LAMBORGHINI GOES CRAZY AT HOONIGAN, HITS WALL & BUST INTO FLAMES https://youtu.be/4BOTqhYocOU BEVERLY HILLS POLICE USE UNLAWFUL ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/X6g0BB4uiEQ/default.jpg",
+                        "url": "https://i.ytimg.com/vi/_W96unnk7Zc/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/X6g0BB4uiEQ/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/_W96unnk7Zc/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/X6g0BB4uiEQ/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/_W96unnk7Zc/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/mDAzpKRZBqqumWEpjXpB7hKWTgY\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/6Yd2MmMqYTpZtk4bJCW_TOKnbJQ\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "wGicv0ZrMKQ"
+                "videoId": "JU70bMH-4Rw"
             },
             "snippet": {
-                "publishedAt": "2020-03-06T13:00:40.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "The $400,000 Lamborghini Huracan EVO has the Wildest Launch Control EVER",
-                "description": "2020 Lamborghini Huracan EVO Review by The Straight Pipes. The Lamborghini Huracan EVO is pumping out 640hp from a 5.2L V10. Would this be your pick ...",
+                "publishedAt": "2020-03-13T14:00:19.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "NEW G WAGON GETS FIRST MAJOR MODS! *WHEELS, EXHAUST &amp; MORE!*",
+                "description": "GET YOUR FI EXHAUST HERE http://bit.ly/2LzZkjq GRAB SOME WHEELS! http://vorsteiner.com/ DDE MUSIC BY COMPOSER HERE ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/wGicv0ZrMKQ/default.jpg",
+                        "url": "https://i.ytimg.com/vi/JU70bMH-4Rw/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/wGicv0ZrMKQ/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/JU70bMH-4Rw/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/wGicv0ZrMKQ/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/JU70bMH-4Rw/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/vVAeV_egkOGe6gDawjA7fXEt6Us\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/bO2mPUziaVm8_yO3SIs3LUNrYOs\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "pPUOg9eLVAk"
+                "videoId": "ujgAcz1Yby4"
             },
             "snippet": {
-                "publishedAt": "2020-03-03T13:00:17.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "The 2020 Subaru WRX is a Modern Day Classic",
-                "description": "2020 Subaru WRX Review by The Straight Pipes. The Subaru WRX is pumping out 268hp and 258lb-ft tq from a 2L 4 cylinder turbo boxer engine. At $39695 ...",
+                "publishedAt": "2020-03-12T13:38:23.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "CRASHED SUPERCARS MEGA COMPILATION! *DESTROYED*",
+                "description": "LAMBORGHINI GOES CRAZY AT HOONIGAN, HITS WALL & BUST INTO FLAMES https://youtu.be/4BOTqhYocOU BEVERLY HILLS POLICE USE UNLAWFUL ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/pPUOg9eLVAk/default.jpg",
+                        "url": "https://i.ytimg.com/vi/ujgAcz1Yby4/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/pPUOg9eLVAk/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/ujgAcz1Yby4/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/pPUOg9eLVAk/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/ujgAcz1Yby4/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/IEoaIFKZWIRvyUEtfDS3aWrT8n0\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/hyfJ689y2opOUAZmSzAWKdpJKHU\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "y6YWq3p1aqk"
+                "videoId": "AIgUJcJUjhw"
             },
             "snippet": {
-                "publishedAt": "2020-02-28T13:00:27.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "The 2020 Jaguar XE P300 R Dynamic SE has too many Letters and Numbers in its Name",
-                "description": "2020 Jaguar XE P300 R Dynamic SE Review by The Straight Pipes. The Jaguar XE is pumping out 296hp and 295lb-ft tq from a 2L 4 cylinder turbo. At $61630 ...",
+                "publishedAt": "2020-03-10T13:00:06.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "HOW MUCH DAMAGE DID I DO TO MY LAMBORGHINI??",
+                "description": "SUBSCRIBE TO OUR CHANNEL CHECK OUT BODEN AUTOHAUS http://bit.ly/bodenautohaus DDE MUSIC BY COMPOSER HERE ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/y6YWq3p1aqk/default.jpg",
+                        "url": "https://i.ytimg.com/vi/AIgUJcJUjhw/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/y6YWq3p1aqk/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/AIgUJcJUjhw/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/y6YWq3p1aqk/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/AIgUJcJUjhw/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/jgFVnHQTt9crqmRTw9W4y8RHLYQ\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/GTzhjCtN1Sxpi7RzRGiGw7nFX84\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "FP60G0DbVxc"
+                "videoId": "sdNum-rrfcA"
             },
             "snippet": {
-                "publishedAt": "2020-02-25T13:04:02.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "The 2020 C8 Corvette is the BEST way to spend $60,000 *World&#39;s First DONUTS!*",
-                "description": "2020 Chevrolet C8 Corvette Review. This C8 Corvette review was filmed on the roads without the Z51 Package and on the track with the C8 Corvette Z51 ...",
+                "publishedAt": "2020-03-08T14:00:08.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "BUILDING A TWIN TURBO FERRARI F12 DRIFT CAR! *1200 HP* PART.1",
+                "description": "BOOK YOUR SERVICE* GI AUTOMOTIVE GROUP https://bit.ly/oilchangedde Phone: +1 310-220-4002 LAMBORGHINI GOES CRAZY AT HOONIGAN, HITS ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/FP60G0DbVxc/default.jpg",
+                        "url": "https://i.ytimg.com/vi/sdNum-rrfcA/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/FP60G0DbVxc/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/sdNum-rrfcA/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/FP60G0DbVxc/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/sdNum-rrfcA/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/BTVe_g0snTkiKr4tsqsEvlSiPNk\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/jzmIcZ_5cXTynqpdXor_rbHYPuo\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "vlIi8xMpvZs"
+                "videoId": "gdWpCQIas5U"
             },
             "snippet": {
-                "publishedAt": "2020-02-21T13:00:16.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "2020 Subaru Outback vs VW Golf Alltrack - Off Road Wagon Battle",
-                "description": "2020 Subaru Outback vs 2020 VW Golf Alltrack Review by The Straight Pipes. With 182hp 176lb-ft tq and 168hp 199lb ft tq, would you pick the Subaru Outback ...",
+                "publishedAt": "2020-03-06T14:00:08.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "SCARIEST CAR IVE EVER DRIVEN! 850HP TWIN TURBO PORSCHE FROM 1975",
+                "description": "Special thanks to Bisimoto FOLLOW here http://bit.ly/bisimoto LAMBORGHINI GOES CRAZY AT HOONIGAN, HITS WALL & BUST INTO FLAMES ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/vlIi8xMpvZs/default.jpg",
+                        "url": "https://i.ytimg.com/vi/gdWpCQIas5U/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/vlIi8xMpvZs/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/gdWpCQIas5U/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/vlIi8xMpvZs/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/gdWpCQIas5U/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/bVRO6REBUmZD5KDnfbOQnYT5tFA\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/XOn4gQOW3zeCvU6ljt21nDjamBo\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "vi4WcIm38Gg"
+                "videoId": "4BOTqhYocOU"
             },
             "snippet": {
-                "publishedAt": "2020-02-18T13:00:24.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "The 2020 Subaru Forester is BETTER than you think",
-                "description": "2020 Subaru Forester Review by The Straight Pipes. The 2020 Subaru Forester is pumping out 182hp and 176lb-ft tq. At $39995, would this be your pick over ...",
+                "publishedAt": "2020-03-04T14:00:00.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "LAMBORGHINI GOES CRAZY HITS WALL &amp; BURST INTO FLAMES!",
+                "description": "Lamborghini bursts into flames after massive burnout! BEVERLY HILLS POLICE USE UNLAWFUL INTIMIDATION TACTICS ON LAMBORGHINI OWNER ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/vi4WcIm38Gg/default.jpg",
+                        "url": "https://i.ytimg.com/vi/4BOTqhYocOU/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/vi4WcIm38Gg/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/4BOTqhYocOU/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/vi4WcIm38Gg/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/4BOTqhYocOU/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/asmtVUenFUOVstUYuswaAjHIucA\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/dX6lDy68pEI_PQY-cC1mvFd8OKk\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "nzrWIOgTKbA"
+                "videoId": "PQEuY-OOhXc"
             },
             "snippet": {
-                "publishedAt": "2020-02-14T13:00:24.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "2020 Kia Forte 5 GT Review - not quite a GTI",
-                "description": "2020 Kia Forte 5 GT Review by The Straight Pipes. The 2020 Kia Forte 5 GT is pumping out 201hp and 195lb ft tq. At $29995, would this be your pick over the ...",
+                "publishedAt": "2020-03-02T15:07:55.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "BURNYARD BASH 2020 GYMKHANA MAYHEM! *FEAT: KEN BLOCK X DDE X THE HOONIGANS*",
+                "description": "NEW MUSIC BY COMPOSERS CHANNEL HERE http://bit.ly/COMPOSERTUBE BEVERLY HILLS POLICE USE UNLAWFUL INTIMIDATION TACTICS ON ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/nzrWIOgTKbA/default.jpg",
+                        "url": "https://i.ytimg.com/vi/PQEuY-OOhXc/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/nzrWIOgTKbA/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/PQEuY-OOhXc/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/nzrWIOgTKbA/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/PQEuY-OOhXc/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/clDTlP4H88Q7XEesWit8nWzlMlg\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/hVSRXGuyLxRDLKZnwaKvDvcEEiE\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "er0c3iMvc7k"
+                "videoId": "duFidJqGAqo"
             },
             "snippet": {
-                "publishedAt": "2020-02-11T12:59:39.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "1,200+ Supercharged Horsepower - Jeep Trackhawk vs Jaguar F-Pace SVR",
-                "description": "2020 Jeep Grand Cherokee Trackhawk vs Jaguar F-Pace SVR Review by The Straight Pipes. With 707hp and 550hp, would you pick the Jeep Trackhawk or the ...",
+                "publishedAt": "2020-03-01T15:49:12.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "VIRUS RUINS OUR PLANS FOR NEW SUPERCAR REVEAL!",
+                "description": "GO TO COMPOSERS CHANNEL HERE http://bit.ly/COMPOSERTUBE BEVERLY HILLS POLICE USE UNLAWFUL INTIMIDATION TACTICS ON LAMBORGHINI ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/er0c3iMvc7k/default.jpg",
+                        "url": "https://i.ytimg.com/vi/duFidJqGAqo/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/er0c3iMvc7k/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/duFidJqGAqo/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/er0c3iMvc7k/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/duFidJqGAqo/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/aLDCqgjIYu5TxduiyWT8dPF18lE\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/OPDqyhhQfZWZJ1Y0xKWNK0Xx3QQ\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "I_1FPzRtLMA"
+                "videoId": "WgJ9ywFsX2E"
             },
             "snippet": {
-                "publishedAt": "2020-02-07T12:59:33.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "Battle of the Best Selling Cars - 2020 Honda Civic vs Toyota Corolla",
-                "description": "2020 Honda Civic vs 2020 Toyota Corolla Review by The Straight Pipes. Which one of these would you pick, the Honda Civic Touring or the Toyota Corolla XSE ...",
+                "publishedAt": "2020-02-27T14:00:07.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "WRONG TURN AND I&#39;M CONFRONTING MILITARY POLICE...",
+                "description": "BEVERLY HILLS POLICE USE UNLAWFUL INTIMIDATION TACTICS ON LAMBORGHINI OWNER https://youtu.be/3dqeZq1wJ6k BEVERLY HILLS POLICE ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/I_1FPzRtLMA/default.jpg",
+                        "url": "https://i.ytimg.com/vi/WgJ9ywFsX2E/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/I_1FPzRtLMA/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/WgJ9ywFsX2E/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/I_1FPzRtLMA/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/WgJ9ywFsX2E/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/p4AyWMhqRSu6waClhPGvaafd5Kg\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/X-t7cSJWUxtm9iWgbHoK93iAU4o\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "knyWfA__OyU"
+                "videoId": "Ssl7rUiVrVw"
             },
             "snippet": {
-                "publishedAt": "2020-01-31T13:00:15.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "The NEW McLaren GT is a $300,000 Grand Touring Supercar",
-                "description": "2020 McLaren Review by The Straight Pipes. The 2020 McLaren is pumping out 612hp and 465lb ft tq. At $321258 CAD, would this be your pick over the Audi ...",
+                "publishedAt": "2020-02-25T14:00:05.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "MEET THE DRAKEN TWIN TURBO! SCARIEST CAR EVER...",
+                "description": "Thanks to Josh & the Draken check out his IG for more on that car http://bit.ly/JoshOfTheJungle DESTROYING TIRES WITH FERRARI F12 DRIFTING!",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/knyWfA__OyU/default.jpg",
+                        "url": "https://i.ytimg.com/vi/Ssl7rUiVrVw/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/knyWfA__OyU/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/Ssl7rUiVrVw/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/knyWfA__OyU/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/Ssl7rUiVrVw/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/HiLKtZvBZcs5eaRmWGc6HaiGrZw\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/4-NkERmC6yAQd7ztwZLNQoqt7iI\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "uUubS4OJOuM"
+                "videoId": "viIKNgNdD4c"
             },
             "snippet": {
-                "publishedAt": "2020-01-28T13:00:56.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "Which TRD Pro is Better? 2020 Toyota Sequoia vs Toyota 4Runner",
-                "description": "2020 Toyota Sequoia TRD Pro vs 2020 Toyota 4Runner TRD Pro review by The Straight Pipes. The 2020 Toyota 4Runner TRD Pro has a 4L V6 with 270hp and ...",
+                "publishedAt": "2020-02-24T14:00:12.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "NEW FERRARI WRAP REVEAL! * FULL COLOR CHANGE *",
+                "description": "DESTROYING TIRES WITH FERRARI F12 DRIFTING! *WILL FERRARI ASK CEASE & DESIST?* https://youtu.be/-DY_LNOyYfA BEVERLY HILLS POLICE USE ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/uUubS4OJOuM/default.jpg",
+                        "url": "https://i.ytimg.com/vi/viIKNgNdD4c/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/uUubS4OJOuM/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/viIKNgNdD4c/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/uUubS4OJOuM/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/viIKNgNdD4c/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/eLIAzMsL5G791B_LshYpKMeyiVI\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/I-KVdP5lkSnDxkNmAvwJw0D243U\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "8DooK8xk4YY"
+                "videoId": "wkxbaxxbpic"
             },
             "snippet": {
-                "publishedAt": "2020-01-24T13:00:22.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "The 2020 Lexus RX350 F Sport is Amazing",
-                "description": "2020 Lexus RX350 Review by The Straight Pipes. The 2020 Lexus RX350 F Sport has a 3.5L Naturally Aspirated V6. Would this be your pick over the BMW X3 ...",
+                "publishedAt": "2020-02-23T14:00:08.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "REBUILDING THE CHEAPEST MANUAL LAMBORGHINI LP640 IN THE COUNTRY! *TEST DRIVE GOES WRONG*",
+                "description": "Go to http://www.getroman.com/dde for a free online visit and free two-day shipping! DESTROYING TIRES WITH FERRARI F12 DRIFTING! *WILL FERRARI ASK ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/8DooK8xk4YY/default.jpg",
+                        "url": "https://i.ytimg.com/vi/wkxbaxxbpic/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/8DooK8xk4YY/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/wkxbaxxbpic/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/8DooK8xk4YY/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/wkxbaxxbpic/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/4gqK2Oz4VK7VQLmS9z84tkLE4Ek\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/DYgI9mZCa9mAyPM2MXwFbDa6glU\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "MepG9vNVOjk"
+                "videoId": "7kWCn2A9LPM"
             },
             "snippet": {
-                "publishedAt": "2020-01-21T13:00:38.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "The 2020 Toyota Rav4 is a Very Good Compact SUV",
-                "description": "2020 Toyota Rav4 Review by The Straight Pipes. The 2020 Toyota Rav4 Limited is pumping out 203hp 184lb ft tq. At $41505 CAD, would this be your pick over ...",
+                "publishedAt": "2020-02-22T14:00:00.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "ULTIMATE RACE! COMMUTING IN A SUPERCAR VS A HELICOPTER!",
+                "description": "DESTROYING TIRES WITH FERRARI F12 DRIFTING! *WILL FERRARI ASK CEASE & DESIST?* https://youtu.be/-DY_LNOyYfA BEVERLY HILLS POLICE USE ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/MepG9vNVOjk/default.jpg",
+                        "url": "https://i.ytimg.com/vi/7kWCn2A9LPM/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/MepG9vNVOjk/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/7kWCn2A9LPM/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/MepG9vNVOjk/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/7kWCn2A9LPM/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/5YViDXkKwZ375qxzhz-HE7Py7GY\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/cNWmSZYz44DM3rhOXYZSG7ZYXb0\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "O7zcEfxmIYs"
+                "videoId": "lEd_M_MWMyE"
             },
             "snippet": {
-                "publishedAt": "2020-01-17T13:00:21.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "The 2020 Nissan Altima AWD has the MOST Comfortable Zero Gravity Seats",
-                "description": "2020 Nissan Altima Review by The Straight Pipes. The 2020 Nissan Altima 2.5 Platinum AWD is pumping out 182hp and 178lb ft tq. At $35398 CAD, would this ...",
+                "publishedAt": "2020-02-21T14:00:11.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "OPENING OUR OWN SUPERCAR GARAGE!? *DDE DONUT SHOP*",
+                "description": "We toured 4 locations to open our very own supercar playground! Which one would you choose? DESTROYING TIRES WITH FERRARI F12 DRIFTING!",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/O7zcEfxmIYs/default.jpg",
+                        "url": "https://i.ytimg.com/vi/lEd_M_MWMyE/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/O7zcEfxmIYs/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/lEd_M_MWMyE/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/O7zcEfxmIYs/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/lEd_M_MWMyE/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/E_SESvF9andPkAYr6Gqobb90Aig\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/bTTMcuUPh4sw0cjjoP352Ki6zA8\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "j58ujJ2ZF4k"
+                "videoId": "Lj7NMZPa01Y"
             },
             "snippet": {
-                "publishedAt": "2020-01-14T12:00:58.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "Here&#39;s Why the Volvo XC60 T8 Polestar Engineered is Way Too Expensive",
-                "description": "2020 Volvo XC60 T8 Polestar Engineered Review by The Straight Pipes. The Volvo XC60 T8 Polestar Engineered is pumping out 415hp and 494lb ft tq.",
+                "publishedAt": "2020-02-19T14:00:08.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "WHAT COLOR SHOULD WE WRAP THE FERRARI? I CANT DECIDE...",
+                "description": "DESTROYING TIRES WITH FERRARI F12 DRIFTING! *WILL FERRARI ASK CEASE & DESIST?* https://youtu.be/-DY_LNOyYfA BEVERLY HILLS POLICE USE ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/j58ujJ2ZF4k/default.jpg",
+                        "url": "https://i.ytimg.com/vi/Lj7NMZPa01Y/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/j58ujJ2ZF4k/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/Lj7NMZPa01Y/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/j58ujJ2ZF4k/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/Lj7NMZPa01Y/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/1TjF34c9ttSwlF_5nXSd529z1dw\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/ABT5daJBPpyFpWgYpSIHkkoooVE\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "IvlmnfNzxnM"
+                "videoId": "tbkvbwDfAmI"
             },
             "snippet": {
-                "publishedAt": "2020-01-10T11:59:17.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "The BMW M8 Competition Cabriolet is an Insane Twin Turbo V8 Convertible",
-                "description": "2020 BMW M8 Competition Cabriolet Review by The Straight Pipes. The BMW M8 Competition Cabriolet has a 4.4L Twin Turbo V8 pumping out 617hp and ...",
+                "publishedAt": "2020-02-14T19:30:02.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "DDE LAMBORGHINI LOSES CONTROL &amp; CRASHES... * SUPERCAR FAILS *",
+                "description": "DESTROYING TIRES WITH FERRARI F12 DRIFTING! *WILL FERRARI ASK CEASE & DESIST?* https://youtu.be/-DY_LNOyYfA Check out Armando's channel: ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/IvlmnfNzxnM/default.jpg",
+                        "url": "https://i.ytimg.com/vi/tbkvbwDfAmI/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/IvlmnfNzxnM/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/tbkvbwDfAmI/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/IvlmnfNzxnM/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/tbkvbwDfAmI/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/xq3AwQTAq3VC4T-Ban-it7Tyk_8\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/45VS-a8hzL-cO7_wywLggx3OtFQ\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "DuTM4KacaQg"
+                "videoId": "-DY_LNOyYfA"
             },
             "snippet": {
-                "publishedAt": "2019-12-31T13:00:46.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "Does Your Car Pass The Visor Test? Visor Test Rewind 2019",
-                "description": "The Straight Pipes Visor Test compilation of 2019. It's also pretty much every car we reviewed this year! Thanks for watching all year! Support us on Patreon: ...",
+                "publishedAt": "2020-02-12T14:30:01.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "WILL FERRARI SEND ME A CEASE AND DESIST FOR DRIFTING THEIR CAR?",
+                "description": "DDE Merch https://www.shopdde.com/ BEVERLY HILLS POLICE USE UNLAWFUL INTIMIDATION TACTICS ON LAMBORGHINI OWNER ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/DuTM4KacaQg/default.jpg",
+                        "url": "https://i.ytimg.com/vi/-DY_LNOyYfA/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/DuTM4KacaQg/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/-DY_LNOyYfA/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/DuTM4KacaQg/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/-DY_LNOyYfA/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/rOhcXklOC8dCSSaEDMaMi9jlYHI\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/FaIJD_W-aaZx0IUzS0eu6wfXm6A\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "7oewp0M2BhE"
+                "videoId": "X2LdN5ZyXMY"
             },
             "snippet": {
-                "publishedAt": "2019-12-30T13:00:00.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "The NEW Hyundai Sonata has a Feature from a $150,000 BMW",
-                "description": "2020 Hyundai Sonata Review by The Straight Pipes. The Hyundai Sonata is has a Turbo 1.6L 4 cylinder pumping out 180hp and 195lb ft tq. At around ...",
+                "publishedAt": "2020-02-10T14:00:09.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "WHAT A $10,000 EXHAUST SOUNDS LIKE ON A LAMBORGHINI! * Feat HEATH HUSSAR*",
+                "description": "GET YOUR FI EXHAUST HERE http://bit.ly/2LzZkjq GET YOUR EXOTIC SERVICED BY GI AUTOMOTIVE! https://www.giautomotivegroup.com/ BEVERLY HILLS ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/7oewp0M2BhE/default.jpg",
+                        "url": "https://i.ytimg.com/vi/X2LdN5ZyXMY/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/7oewp0M2BhE/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/X2LdN5ZyXMY/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/7oewp0M2BhE/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/X2LdN5ZyXMY/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/0cjKCdZaBtqTqVerihtrPJg47SI\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/fCa04ypHN4VkqTbpHPxkwfD0ZbY\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "lo_3zIYBAoo"
+                "videoId": "OLoh5bujCdA"
             },
             "snippet": {
-                "publishedAt": "2019-12-27T13:00:48.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "The Range Rover Evoque is One of the Best Luxury SUVs",
-                "description": "2020 Range Rover Evoque Review by The Straight Pipes. The Land Rover Range Rover Evoque P300 R-Dynamic HSE is refreshed with a Turbo 2L 4 cylinder ...",
+                "publishedAt": "2020-02-08T14:00:03.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "BUILDING A FERRARI HIGH SPEED PURSUIT CAMERA CAR?! *TOP SPEED 208 MPH*",
+                "description": "BEVERLY HILLS POLICE USE UNLAWFUL INTIMIDATION TACTICS ON LAMBORGHINI OWNER https://youtu.be/3dqeZq1wJ6k BEVERLY HILLS POLICE ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/lo_3zIYBAoo/default.jpg",
+                        "url": "https://i.ytimg.com/vi/OLoh5bujCdA/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/lo_3zIYBAoo/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/OLoh5bujCdA/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/lo_3zIYBAoo/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/OLoh5bujCdA/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/oHjaIflrijm79juqs8uLudVtVh0\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/x26MTkTFvUqjsBNm5viHFbGiI1M\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "HCX-p_ClitQ"
+                "videoId": "V40oGEsbKH0"
             },
             "snippet": {
-                "publishedAt": "2019-12-24T13:00:37.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "The VW Arteon is an Audi A7 on a Budget",
-                "description": "2020 VW Arteon Review by The Straight Pipes. The Volkswagen Arteon is all new with a Turbo 2L 4 cylinder pumping out 268hp and 258lb ft tq. At $53085 ...",
+                "publishedAt": "2020-02-04T14:00:06.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "MY CRASHED LAMBORGHINI HURACAN IS BACK!",
+                "description": "BEVERLY HILLS POLICE USE UNLAWFUL INTIMIDATION TACTICS ON LAMBORGHINI OWNER https://youtu.be/3dqeZq1wJ6k BEVERLY HILLS POLICE ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/HCX-p_ClitQ/default.jpg",
+                        "url": "https://i.ytimg.com/vi/V40oGEsbKH0/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/HCX-p_ClitQ/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/V40oGEsbKH0/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/HCX-p_ClitQ/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/V40oGEsbKH0/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/MDIQpvBQX5_KuLsYK7AkOkVUnt8\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/sdVhM01I1sv0eHj3jdrE0vZdbUs\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "ZZIItUghEhU"
+                "videoId": "jWVZrBoKSGw"
             },
             "snippet": {
-                "publishedAt": "2019-12-22T13:00:39.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "2020 Volvo V60 T8 Polestar Engineered - Turbocharged, Supercharged, Hybrid Performance Wagon",
-                "description": "2020 Volvo V60 T8 Polestar Engineered Review by The Straight Pipes. The Volvo V60 T8 Polestar Engineered is all new with a turbocharged, supercharged, ...",
+                "publishedAt": "2020-02-02T14:00:07.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "WORLDS FIRST TWIN TURBO NITROUS DODGE VIPER DRIFT CAR! *1400 HP*",
+                "description": "BEVERLY HILLS POLICE USE UNLAWFUL INTIMIDATION TACTICS ON LAMBORGHINI OWNER https://youtu.be/3dqeZq1wJ6k BEVERLY HILLS POLICE ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/ZZIItUghEhU/default.jpg",
+                        "url": "https://i.ytimg.com/vi/jWVZrBoKSGw/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/ZZIItUghEhU/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/jWVZrBoKSGw/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/ZZIItUghEhU/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/jWVZrBoKSGw/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/TPKY7qrTBi7zfAucjq9GuVQXO0k\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/or__sUAJPr3lScdbo8mbTUdflu8\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "4cxWyFlCLhs"
+                "videoId": "W7V7E1dEEFU"
             },
             "snippet": {
-                "publishedAt": "2019-12-20T13:00:43.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "2020 BMW X7 vs Mercedes GLS Review - $100,000 Luxury SUV Battle",
-                "description": "2020 BMW X7 vs Mercedes-Benz GLS Review by The Straight Pipes. The BMW X7 M50i has 523hp and 553lb ft tq, while the Mercedes GLS450 has 362hp ...",
+                "publishedAt": "2020-01-31T14:00:11.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "SURPRISING MY WIFE WITH $5,000 STRAIGHT PIPE EXHAUST! *LOUDEST G63 EVER&quot;",
+                "description": "GET YOUR FI EXHAUST HERE http://bit.ly/2LzZkjq BEVERLY HILLS POLICE USE UNLAWFUL INTIMIDATION TACTICS ON LAMBORGHINI OWNER ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/4cxWyFlCLhs/default.jpg",
+                        "url": "https://i.ytimg.com/vi/W7V7E1dEEFU/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/4cxWyFlCLhs/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/W7V7E1dEEFU/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/4cxWyFlCLhs/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/W7V7E1dEEFU/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/6qIDwipSRDjiLmskZVpgagTjWHs\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/6jZCS4es6qX1sT1HblDlxMrnuag\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "sWi_mv_5hZw"
+                "videoId": "jiO9d3JfNxc"
             },
             "snippet": {
-                "publishedAt": "2019-12-17T13:00:15.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "The $300,000 Mercedes Monster Truck",
-                "description": "2017 Mercedes G550 4x4 Squared Review by The Straight Pipes. The G-Wagen pumps out 415hp and 450lb ft tq from a 4L twin turbo V8. At $268500 CAD ...",
+                "publishedAt": "2020-01-28T14:00:13.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "FINALLY BOUGHT MY DREAM CAR! *SNOWY CANADA*",
+                "description": "GRAB SOME DDE MERCH! www.shopdde.com BUY YOUR DREAM CAR FROM AUGUST MOTORCARS! https://www.augustmotorcars.com/ BEVERLY HILLS ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/sWi_mv_5hZw/default.jpg",
+                        "url": "https://i.ytimg.com/vi/jiO9d3JfNxc/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/sWi_mv_5hZw/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/jiO9d3JfNxc/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/sWi_mv_5hZw/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/jiO9d3JfNxc/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/w1XoTwlbd2lLFqltt05Hap40RsQ\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/7GYRI9kgueSVZPtks63l9U8hJIU\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "uEHw9-RPAB4"
+                "videoId": "ZTkBzi688VU"
             },
             "snippet": {
-                "publishedAt": "2019-12-15T13:00:12.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "Helicopter Review - @Micah Muzio",
-                "description": "1978 Enstrom Helicopter Review by The Straight Pipes with @Micah Muzio . We show you all around the helicopter and relate it to the cars that we regularly ...",
+                "publishedAt": "2020-01-26T14:00:09.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "FULL TOUR OF MY SUPERCAR COLLECTION!!",
+                "description": "Go to getroman.com/dde for a free online visit and free two-day shipping! BEVERLY HILLS POLICE USE UNLAWFUL INTIMIDATION TACTICS ON ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/uEHw9-RPAB4/default.jpg",
+                        "url": "https://i.ytimg.com/vi/ZTkBzi688VU/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/uEHw9-RPAB4/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/ZTkBzi688VU/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/uEHw9-RPAB4/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/ZTkBzi688VU/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/a0_Kr9W89EAd7thCWoSA7Kssh6E\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/fNubgvIYnWGW4GELcAD24QDMyPw\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "d9WbYYtBYy0"
+                "videoId": "XwYYQUvzqrU"
             },
             "snippet": {
-                "publishedAt": "2019-12-13T08:00:05.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "2020 Mazda CX-30 Review - Better Than A Mazda 3?",
-                "description": "2020 Mazda CX-30 Review by The Straight Pipes. The Mazda CX-30 is all new with the same 2.5L 4cyl from the Mazda 3 pumping out 186hp and 186lb ft tq.",
+                "publishedAt": "2020-01-24T14:00:14.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "1000 HP DURAMAX SWAPPING MY HUMMER H1 PREDATOR BUILD!",
+                "description": "BEVERLY HILLS POLICE USE UNLAWFUL INTIMIDATION TACTICS ON LAMBORGHINI OWNER https://youtu.be/3dqeZq1wJ6k YOU WON\"T BELIEVE WHY ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/d9WbYYtBYy0/default.jpg",
+                        "url": "https://i.ytimg.com/vi/XwYYQUvzqrU/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/d9WbYYtBYy0/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/XwYYQUvzqrU/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/d9WbYYtBYy0/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/XwYYQUvzqrU/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/d5cp5vq7Sij6AA_Q8V1E7vhD3D0\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/PRGFoPaRxcechUK9cEnXzbywYic\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "N10nZr5SRtg"
+                "videoId": "TrR0665GChs"
             },
             "snippet": {
-                "publishedAt": "2019-12-12T01:11:15.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "Best LAUNCH CONTROL Reactions",
-                "description": "Launch Control compilation from some of our favorite videos this year like the Chevrolet Corvette Z06, Porsche Panamera GTS, Nissan GTR, Porsche 911 ...",
+                "publishedAt": "2020-01-22T14:00:04.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "YOU WONT BELIEVE HOW FAST CALIFORNIA STATE POLICE CLOCKS ME... *COP VS SUPERCAR*",
+                "description": "BEVERLY HILLS POLICE USE UNLAWFUL INTIMIDATION TACTICS ON LAMBORGHINI OWNER https://youtu.be/3dqeZq1wJ6k YOU WON\"T BELIEVE WHY ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/N10nZr5SRtg/default.jpg",
+                        "url": "https://i.ytimg.com/vi/TrR0665GChs/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/N10nZr5SRtg/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/TrR0665GChs/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/N10nZr5SRtg/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/TrR0665GChs/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/szdaji4Ehn2_ysQhe6YWBrWoWA8\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/E5dx7ZqJ2kKizDKogb-xaVUAWVI\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "CaFWyxLelJs"
+                "videoId": "RE-ytC7NY_k"
             },
             "snippet": {
-                "publishedAt": "2019-12-10T13:00:41.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "The Ford Mustang Shelby GT500 is the Most Powerful Mustang EVER BUILT",
-                "description": "2020 Ford Mustang Shelby GT500 Review by The Straight Pipes. The Mustang GT500 is all new with a supercharged 5.2L V8 pumping out 760hp and 625lb ft ...",
+                "publishedAt": "2020-01-20T14:00:06.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "HOW TO EMBARRASS SUPERCAR OWNERS BRING TWO APOLLO IE HYPERCARS! *FIRST USA DRIVE*",
+                "description": "BEVERLY HILLS POLICE USE UNLAWFUL INTIMIDATION TACTICS ON LAMBORGHINI OWNER https://youtu.be/3dqeZq1wJ6k YOU WON\"T BELIEVE WHY ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/CaFWyxLelJs/default.jpg",
+                        "url": "https://i.ytimg.com/vi/RE-ytC7NY_k/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/CaFWyxLelJs/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/RE-ytC7NY_k/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/CaFWyxLelJs/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/RE-ytC7NY_k/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/V578XmzhVkS1YwuD2sp2V_2DTzs\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/4aOkzHVvy8UBV4fctzMLEDe8Ppk\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "t_PeXs_Deaw"
+                "videoId": "jQJW90dpEZM"
             },
             "snippet": {
-                "publishedAt": "2019-12-06T13:00:14.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "Is The Nissan GTR 50th Anniversary Edition Still Legendary?",
-                "description": "2020 Nissan GTR 50th Anniversary Edition Review by The Straight Pipes. The 50th Anniversary Nissan GTR brings no new performance improvements, but it's ...",
+                "publishedAt": "2020-01-19T14:03:54.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "CRASHING MY LAMBORGHINI INTO WALL AT RACETRACK *NO INSURANCE*",
+                "description": "I crashed my Lamborghini Huracan while practicing some high speed drifts! BEVERLY HILLS POLICE USE UNLAWFUL INTIMIDATION TACTICS ON ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/t_PeXs_Deaw/default.jpg",
+                        "url": "https://i.ytimg.com/vi/jQJW90dpEZM/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/t_PeXs_Deaw/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/jQJW90dpEZM/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/t_PeXs_Deaw/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/jQJW90dpEZM/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/uuCe93V_Bnr9_Fy9pWDg3ukaXFc\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/vS2qujj2cyu2ZS1lz4Mhc5X9GYY\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "JUJkOqvOW2E"
+                "videoId": "26aAWKuozes"
             },
             "snippet": {
-                "publishedAt": "2019-12-03T13:00:53.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "2020 Hyundai Venue Review - Here&#39;s What You Get For $20,000",
-                "description": "2020 Hyundai Venue Review by The Straight Pipes. Would you take it over the Ford Ecosport, Toyota CHR, Honda HRV? Support us on Patreon: ...",
+                "publishedAt": "2020-01-18T14:00:00.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "MY NEW FERRARI IS BACK &amp; WITH NEW WHEEL REVEAL!",
+                "description": "BEVERLY HILLS POLICE USE UNLAWFUL INTIMIDATION TACTICS ON LAMBORGHINI OWNER https://youtu.be/3dqeZq1wJ6k YOU WON\"T BELIEVE WHY ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/JUJkOqvOW2E/default.jpg",
+                        "url": "https://i.ytimg.com/vi/26aAWKuozes/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/JUJkOqvOW2E/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/26aAWKuozes/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/JUJkOqvOW2E/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/26aAWKuozes/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/sQxyXuajoEPo_WZqGPvEBNv9BdU\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/Y9n-z1xF3zz4bQX2S1ZBsBN7cTY\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "2S9p9R-Giy4"
+                "videoId": "ibLDSYUSCy4"
             },
             "snippet": {
-                "publishedAt": "2019-11-29T13:00:00.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "2020 Audi R8 V10 Performance Review - The BEST Everyday Supercar?",
-                "description": "Check out the awesome shoes on https://www.Piloti.com & https://www.Piloti.ca Use STRAIGHTPIPES15 for 15% off your entire order. 2020 Audi R8 V10 ...",
+                "publishedAt": "2020-01-17T14:00:08.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "WE MADE A BAD DECISION...",
+                "description": "BEVERLY HILLS POLICE USE UNLAWFUL INTIMIDATION TACTICS ON LAMBORGHINI OWNER https://youtu.be/3dqeZq1wJ6k YOU WON\"T BELIEVE WHY ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/2S9p9R-Giy4/default.jpg",
+                        "url": "https://i.ytimg.com/vi/ibLDSYUSCy4/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/2S9p9R-Giy4/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/ibLDSYUSCy4/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/2S9p9R-Giy4/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/ibLDSYUSCy4/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/uAE00JFB2K8QhoFtIupcu_OjSHU\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/23ALLluvXZbeI2XducS2NjpItVE\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "9yDVhRSCigk"
+                "videoId": "quLQ9FTfM7Q"
             },
             "snippet": {
-                "publishedAt": "2019-11-26T13:00:42.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "2020 Mini Cooper Countryman JCW SUV Review",
-                "description": "2020 Mini John Cooper Works Countryman review by The Straight Pipes. With over 300 horsepower, is this the best crossover SUV? Would you take it over the ...",
+                "publishedAt": "2020-01-15T14:00:13.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "WORST RACE CAR EVER! 1000 HP LAMBORGHINI TWIN TURBO",
+                "description": "BEVERLY HILLS POLICE USE UNLAWFUL INTIMIDATION TACTICS ON LAMBORGHINI OWNER https://youtu.be/3dqeZq1wJ6k YOU WON\"T BELIEVE WHY ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/9yDVhRSCigk/default.jpg",
+                        "url": "https://i.ytimg.com/vi/quLQ9FTfM7Q/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/9yDVhRSCigk/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/quLQ9FTfM7Q/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/9yDVhRSCigk/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/quLQ9FTfM7Q/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/g8TtjlzeE7af0XogaFKwuxDdDwg\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/niGQSMJpc6caB3o-aM-I1fSelOY\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "bbuQ_xrUZfY"
+                "videoId": "BY2tbmmqN5c"
             },
             "snippet": {
-                "publishedAt": "2019-11-22T13:00:41.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "The Lexus GS F is a Reliable V8 Burnout Machine",
-                "description": "2019 Lexus GS F Review by The Straight Pipes. With 467hp and 389lb-ft of torque from a naturally aspirated V8 engine, this aging GS F is a gem in the world of ...",
+                "publishedAt": "2020-01-14T14:00:01.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "WE SUPERCHARGED MY BEST FRIENDS LAMBORGHINI! *DELIVERY DAY*",
+                "description": "BEVERLY HILLS POLICE USE UNLAWFUL INTIMIDATION TACTICS ON LAMBORGHINI OWNER https://youtu.be/3dqeZq1wJ6k YOU WON\"T BELIEVE WHY ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/bbuQ_xrUZfY/default.jpg",
+                        "url": "https://i.ytimg.com/vi/BY2tbmmqN5c/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/bbuQ_xrUZfY/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/BY2tbmmqN5c/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/bbuQ_xrUZfY/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/BY2tbmmqN5c/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/EOP-DmLO_PMaOnKqAienkShS5Pk\"",
-            "id": {
-                "kind": "youtube#playlist",
-                "playlistId": "PLA4uenOUaeySytsF8C3koZrzqtFvpjLe9"
-            },
-            "snippet": {
-                "publishedAt": "2019-11-21T19:18:59.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "Top 7 Coolest Cars This Year",
-                "description": "Our top 7 favourite cars this year.",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/wev_gievHmo/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/wev_gievHmo/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/wev_gievHmo/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "TheStraightPipes",
-                "liveBroadcastContent": "none"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/QhFjzm5rsxnyXDJY1wKBUBdaJaw\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/Z1XJ7KTbLfzb7D5zwBDYB-5ASzA\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "YbDBztca1WQ"
+                "videoId": "jpfv8wvRZbc"
             },
             "snippet": {
-                "publishedAt": "2019-11-19T13:00:16.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "2020 Porsche 911 Carrera 4S Review - The ALL NEW 992",
-                "description": "2020 Porsche 911 Review by The Straight Pipes. Would you take it over the 991 911, Corvette C8, Nissan GTR, Audi R8? Support us on Patreon: ...",
+                "publishedAt": "2020-01-12T14:30:02.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "GIRL DESTROYS BF LAMBORGHINI AS PAYBACK! $50,000 IN DAMAGES",
+                "description": "BEVERLY HILLS POLICE USE UNLAWFUL INTIMIDATION TACTICS ON LAMBORGHINI OWNER https://youtu.be/3dqeZq1wJ6k YOU WON\"T BELIEVE WHY ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/YbDBztca1WQ/default.jpg",
+                        "url": "https://i.ytimg.com/vi/jpfv8wvRZbc/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/YbDBztca1WQ/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/jpfv8wvRZbc/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/YbDBztca1WQ/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/jpfv8wvRZbc/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/hjTFD0oOv_Wvh0c-ptw17g2xA_A\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/0W5SmXkFO7MTTb8tinTc1kULgy0\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "TZKFd-SNp8s"
+                "videoId": "5srE2cW0qEE"
             },
             "snippet": {
-                "publishedAt": "2019-11-15T13:00:16.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "2010 Mk6 VW GTI Review - The BEST Used Car?",
-                "description": "2010 VW GTI Review by The Straight Pipes. Yuri bought a Mk6 GTI for his wife. It's a DSG even though he always complained about the DSG's being boring.",
+                "publishedAt": "2020-01-10T14:00:03.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "DAMON DESTROYS EVERYTHING... BROKE THE NEW FERRARI FF!!",
+                "description": "BEVERLY HILLS POLICE USE UNLAWFUL INTIMIDATION TACTICS ON LAMBORGHINI OWNER https://youtu.be/3dqeZq1wJ6k YOU WON\"T BELIEVE WHY ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/TZKFd-SNp8s/default.jpg",
+                        "url": "https://i.ytimg.com/vi/5srE2cW0qEE/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/TZKFd-SNp8s/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/5srE2cW0qEE/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/TZKFd-SNp8s/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/5srE2cW0qEE/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/Y8VFZXY5XfVuvyPGpGsRZJWi6ZE\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/FWqO6Gqm5-XrFyofccZWTEl5Vf8\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "VintFwGITv4"
+                "videoId": "XmhTzdwjK4U"
             },
             "snippet": {
-                "publishedAt": "2019-11-12T13:00:16.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "2020 Tesla Model 3 Performance Review with @Engineering Explained",
-                "description": "Tesla Model 3 Performance Review by The Straight Pipes. Would you take it over the Nissan Leaf, Chevrolet Bolt, Tesla Model S, Tesla Model X, Tesla Roadster ...",
+                "publishedAt": "2020-01-08T13:00:12.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "THE $5,000,000 HERMES BUGATTI CHIRON YOU CANT BUY!  *MANNY KHOSHBIN*",
+                "description": "BEVERLY HILLS POLICE USE UNLAWFUL INTIMIDATION TACTICS ON LAMBORGHINI OWNER https://youtu.be/3dqeZq1wJ6k YOU WON\"T BELIEVE WHY ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/VintFwGITv4/default.jpg",
+                        "url": "https://i.ytimg.com/vi/XmhTzdwjK4U/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/VintFwGITv4/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/XmhTzdwjK4U/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/VintFwGITv4/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/XmhTzdwjK4U/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/HjXz_4BIzARU1rGhEpcoxCB3QlY\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/up12R-IXwdePeJXODlTOqzEMeWs\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "4Y-GEUwOwcU"
+                "videoId": "b-fiBQGbBCw"
             },
             "snippet": {
-                "publishedAt": "2019-11-08T13:00:10.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "2020 BMW M850i Gran Coupe Review - Is a 4 Door Coupe Really a Coupe?",
-                "description": "Check out the awesome shoes on https://www.Piloti.com & https://www.Piloti.ca Use STRAIGHTPIPES15 for 15% off your entire order. 2020 BMW M850i Gran ...",
+                "publishedAt": "2020-01-06T14:00:09.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "CALIFORNIA STATE POLICE CONFRONTS LAMBORGHINI OWNER!",
+                "description": "BEVERLY HILLS POLICE USE UNLAWFUL INTIMIDATION TACTICS ON LAMBORGHINI OWNER https://youtu.be/3dqeZq1wJ6k YOU WON\"T BELIEVE WHY ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/4Y-GEUwOwcU/default.jpg",
+                        "url": "https://i.ytimg.com/vi/b-fiBQGbBCw/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/4Y-GEUwOwcU/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/b-fiBQGbBCw/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/4Y-GEUwOwcU/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/b-fiBQGbBCw/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/KteugywS5RR_9yaopEHf7To-yhE\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/wePnxnpv8K668R3hIxj5y2A7er0\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "XnH_pdKCBNc"
+                "videoId": "XwB_JxmfQxY"
             },
             "snippet": {
-                "publishedAt": "2019-11-05T13:00:50.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "2019 Mazda MX-5 Miata 30th Anniversary Edition Review - Limited Worldwide!",
-                "description": "2019 Mazda MX-5 Miata 30th Anniversary Edition review by The Straight Pipes. Power figures from the 2L Naturally Aspirated 4 cylinder are 181hp and 151 lb-ft ...",
+                "publishedAt": "2020-01-05T14:00:08.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "HOW TO EMBARRASS TESLA OWNERS: BUY PORSCHE&#39;S ELECTRIC SUPERCAR! *2020 TAYCAN TURBO S*",
+                "description": "FIRST DRIVE of the 751 horsepower Taycan Turbo S, Porsche's FIRST electric car! Huge THANK YOU to McKenna Porsche: https://www.mckennaporsche.com/ ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/XnH_pdKCBNc/default.jpg",
+                        "url": "https://i.ytimg.com/vi/XwB_JxmfQxY/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/XnH_pdKCBNc/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/XwB_JxmfQxY/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/XnH_pdKCBNc/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/XwB_JxmfQxY/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/fWAJEv5K5fQjeSPjWsTu1YQrarM\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/DE9XC5iihInWOsD8BujW50Nmm2E\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "BPMMiZexwsw"
+                "videoId": "mXklbgKF40Q"
             },
             "snippet": {
-                "publishedAt": "2019-11-03T13:02:26.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "2020 BMW X4M Competition Review - Track Monster",
-                "description": "2020 BMW X4M Competition Review by The Straight Pipes. With 503hp and 442lb ft of torque from a Twin Turbo 3L Inline 6 Cylinder engine, this SUV moves.",
+                "publishedAt": "2019-12-31T18:44:19.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "CRAZIEST DDE SUPERCARS &amp; COPS 2019 REWIND!",
+                "description": "Here is the craziest new supercar reveals, cop pull overs, car stunts, road trips and more from 2019! Thank you to everyone for your support and loyalty DDEFAM ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/BPMMiZexwsw/default.jpg",
+                        "url": "https://i.ytimg.com/vi/mXklbgKF40Q/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/BPMMiZexwsw/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/mXklbgKF40Q/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/BPMMiZexwsw/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/mXklbgKF40Q/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/H5XgBQTxoh7-k4lOB9m-f3acn6g\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/OgBdfFBvxw_gMAJNOU-V18OS860\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "-nIt1BX3DFY"
+                "videoId": "-wVq3YiGFYQ"
             },
             "snippet": {
-                "publishedAt": "2019-11-01T12:00:20.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "1999 Plymouth Prowler Review",
-                "description": "Yuri's 1999 Plymouth Prowler and Jakub's 2010 Ford F-150 Raptor Updates Support us on Patreon: https://www.patreon.com/thestraightpipes Become a ...",
+                "publishedAt": "2019-12-29T17:57:44.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "COPS VS SUPERCAR OWNERS MEGA COMPILATION!",
+                "description": "BEVERLY HILLS POLICE UNLAWFUL CITATION IMPOUNDS LAMBORGHINI OWNER https://youtu.be/KDMp6M-P7vc BEVERLY HILLS POLICE USE ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/-nIt1BX3DFY/default.jpg",
+                        "url": "https://i.ytimg.com/vi/-wVq3YiGFYQ/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/-nIt1BX3DFY/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/-wVq3YiGFYQ/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/-nIt1BX3DFY/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/-wVq3YiGFYQ/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/vFAw94hVLpA-R0GmeohmRDwnajM\"",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/NdypsOk3g13YVLcpf9WxLc_EEi4\"",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "wb1UYAIwdFM"
+                "videoId": "Ch5tonCjUsc"
             },
             "snippet": {
-                "publishedAt": "2019-10-29T12:00:42.000Z",
-                "channelId": "UC86SBFIAgnYL3ll2ZDgmsuA",
-                "title": "2020 Lincoln Aviator Review - American Luxury Done Right",
-                "description": "2020 Lincoln Aviator Review by The Straight Pipes. The Lincoln Aviator has a 3L twin turbo V6 putting out 400hp and 415lb ft of torque. With a loaded price of ...",
+                "publishedAt": "2019-12-28T14:00:00.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "HOW YOUTUBE BOUGHT ME $1,000,000 WORTH OF SUPERCARS BY THE AGE OF 25!",
+                "description": "SUBSCRIBE TO VEHICLE VIRGINS: https://www.youtube.com/user/VehicleVirgins BEVERLY HILLS POLICE UNLAWFUL CITATION IMPOUNDS ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/wb1UYAIwdFM/default.jpg",
+                        "url": "https://i.ytimg.com/vi/Ch5tonCjUsc/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/wb1UYAIwdFM/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/Ch5tonCjUsc/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/wb1UYAIwdFM/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/Ch5tonCjUsc/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "TheStraightPipes",
+                "channelTitle": "DailyDrivenExotics",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/YC9J41pCV13-mISTp547QeRBoBM\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "lbIDOGuGGds"
+            },
+            "snippet": {
+                "publishedAt": "2019-12-27T13:58:56.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "SPENDING $300,000 ON ULTRA RARE BENTLEY BENTAYGA!",
+                "description": "BEVERLY HILLS POLICE UNLAWFUL CITATION IMPOUNDS LAMBORGHINI OWNER https://youtu.be/KDMp6M-P7vc BEVERLY HILLS POLICE USE ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/lbIDOGuGGds/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/lbIDOGuGGds/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/lbIDOGuGGds/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "DailyDrivenExotics",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/gX2lgaM-GG2taLihg8U1GTQTjB4\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "0jFOhOh6eAE"
+            },
+            "snippet": {
+                "publishedAt": "2019-12-26T14:00:00.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "CHEAPEST MCLAREN IN THE COUNTRY EMBARRASSES NEW 600LT! *$99k VS $380k*",
+                "description": "BEVERLY HILLS POLICE UNLAWFUL CITATION IMPOUNDS LAMBORGHINI OWNER https://youtu.be/KDMp6M-P7vc BEVERLY HILLS POLICE USE ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/0jFOhOh6eAE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/0jFOhOh6eAE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/0jFOhOh6eAE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "DailyDrivenExotics",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/WTb-2yqA36It_0zNMFuiyZsN-9M\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "w9Vafaj2UvM"
+            },
+            "snippet": {
+                "publishedAt": "2019-12-25T14:00:16.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "YOU WON\u2019T BELIEVE WHATS BROKEN ON OUR NEW FERRARI!",
+                "description": "BEVERLY HILLS POLICE UNLAWFUL CITATION IMPOUNDS LAMBORGHINI OWNER https://youtu.be/KDMp6M-P7vc BEVERLY HILLS POLICE USE ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/w9Vafaj2UvM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/w9Vafaj2UvM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/w9Vafaj2UvM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "DailyDrivenExotics",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/6b8e_pg8tE9LNxvo62e_p51Sb6w\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "CMjn7o2XV3E"
+            },
+            "snippet": {
+                "publishedAt": "2019-12-24T14:00:03.000Z",
+                "channelId": "UCj_ARBxhCoF5JxUItcEUs7Q",
+                "title": "SURPRISING MY WIFE WITH HER DREAM CAR!",
+                "description": "BEVERLY HILLS POLICE UNLAWFUL CITATION IMPOUNDS LAMBORGHINI OWNER https://youtu.be/KDMp6M-P7vc BEVERLY HILLS POLICE USE ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/CMjn7o2XV3E/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/CMjn7o2XV3E/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/CMjn7o2XV3E/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "DailyDrivenExotics",
                 "liveBroadcastContent": "none"
             }
         }

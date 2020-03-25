@@ -3,12 +3,16 @@ import requests
 import time
 import sys
 import progress_bar as PB
+import json
 
 YOUTUBE_IN_LINK = (
     "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&maxResults=100&order=relevance&pageToken={pageToken}&videoId={videoId}&key={key}"
 )
 YOUTUBE_LINK = "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&maxResults=100&order=relevance&videoId={videoId}&key={key}"
-key = "AIzaSyB3zWY2vQ-3gaNbHiCzUTEUwafJWMi0PIE"
+
+with open("keys.json") as json_file:
+    keys = json.load(json_file)
+key = keys["APIKey"]
 
 
 def commentExtract(videoId, count=-1):
