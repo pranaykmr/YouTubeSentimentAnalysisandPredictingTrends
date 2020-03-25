@@ -9,6 +9,7 @@ import json
 import google_auth_oauthlib.flow
 import googleapiclient.discovery
 import googleapiclient.errors
+import requests
 
 scopes = ["https://www.googleapis.com/auth/youtube.force-ssl"]
 
@@ -26,8 +27,16 @@ def main():
     flow = google_auth_oauthlib.flow.InstalledAppFlow.from_client_secrets_file(client_secrets_file, scopes)
     credentials = flow.run_console()
     youtube = googleapiclient.discovery.build(api_service_name, api_version, credentials=credentials)
+    # channelName = input("Enter Channel Name : ")
+    channelName = "TheStraightPipes"
+    URL = "https://www.googleapis.com/youtube/v3/channels?key=AIzaSyB3zWY2vQ-3gaNbHiCzUTEUwafJWMi0PIE&forUsername=" + channelName + "&part=id"
+    # https://www.googleapis.com/youtube/v3/channels?key=AIzaSyB3zWY2vQ-3gaNbHiCzUTEUwafJWMi0PIE&forUsername=TheStraightPipes&part=id
+    r = requests.get(url=URL)
 
-    request = youtube.search().list(part="snippet", channelId="UCIRgR4iANHI2taJdz8hjwLw", maxResults=50, order="date")
+    # extracting data in json format
+    data = list(r.json().items())
+
+    request = youtube.search().list(part="snippet", channelId=data[3][1][0]["id"], maxResults=50, order="date")
     response = request.execute()
     fdata = json.dumps(response)
     f = open("comments/vidlist.json", "w+")

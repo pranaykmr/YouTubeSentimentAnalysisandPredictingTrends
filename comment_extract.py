@@ -8,7 +8,7 @@ YOUTUBE_IN_LINK = (
     "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&maxResults=100&order=relevance&pageToken={pageToken}&videoId={videoId}&key={key}"
 )
 YOUTUBE_LINK = "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&maxResults=100&order=relevance&videoId={videoId}&key={key}"
-key = "KEY"
+key = "AIzaSyB3zWY2vQ-3gaNbHiCzUTEUwafJWMi0PIE"
 
 
 def commentExtract(videoId, count=-1):
@@ -17,7 +17,7 @@ def commentExtract(videoId, count=-1):
     while page_info.status_code != 200:
         if page_info.status_code != 429:
             print("Comments disabled")
-            sys.exit()
+            return []
 
         time.sleep(20)
         page_info = requests.get(YOUTUBE_LINK.format(videoId=videoId, key=key))
