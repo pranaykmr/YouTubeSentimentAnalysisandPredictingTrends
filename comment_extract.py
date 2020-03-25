@@ -57,7 +57,3 @@ def commentExtract(videoId, count=-1):
     print()
 
     return comments
-
-
-## PRanay Kumar
-
