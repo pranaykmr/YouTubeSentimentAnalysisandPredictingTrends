@@ -12,12 +12,13 @@ import googleapiclient.errors
 import requests
 
 scopes = ["https://www.googleapis.com/auth/youtube.force-ssl"]
+# maxVids = 50
 
 
-def main():
+def getIds(maxVids):
     # Disable OAuthlib's HTTPS verification when running locally.
     # *DO NOT* leave this option enabled in production.
-    os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "0"
+    os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
 
     api_service_name = "youtube"
     api_version = "v3"
@@ -30,26 +31,26 @@ def main():
 
     with open("keys.json") as json_file:
         keys = json.load(json_file)
-    # channelName = input("Enter Channel Name : ")
-    channelName = "DailyDrivenExotics"
-    # URL = "https://www.googleapis.com/youtube/v3/channels?key=AIzaSyB3zWY2vQ-3gaNbHiCzUTEUwafJWMi0PIE&forUsername=" + channelName + "&part=id"
+    # channelName = input('Enter Channel Name : ')
+    channelName = "Shmee150"
+    # URL = 'https://www.googleapis.com/youtube/v3/channels?key=AIzaSyB3zWY2vQ-3gaNbHiCzUTEUwafJWMi0PIE&forUsername=' + channelName + '&part=id'
     URL = "https://www.googleapis.com/youtube/v3/channels"
-    getReqParams = {"key": keys["APIKey"], "forUsername": channelName, "part": "id"}
-    # https://www.googleapis.com/youtube/v3/channels?key=AIzaSyB3zWY2vQ-3gaNbHiCzUTEUwafJWMi0PIE&forUsername=TheStraightPipes&part=id
+    getReqParams = {"key": keys["APIKey"], "forUsername": channelName, "part": "id", "maxResults": 1}
+
     r = requests.get(url=URL, params=getReqParams)
 
     # extracting data in json format
     data = list(r.json().items())
 
-    request = youtube.search().list(part="snippet", channelId=data[3][1][0]["id"], maxResults=50, order="date")
+    request = youtube.search().list(part="snippet", channelId=data[3][1][0]["id"], maxResults=maxVids, order="date")
     response = request.execute()
     fdata = json.dumps(response)
-    f = open("comments/vidlist.json", "w+")
-    f.write(fdata)
-    f.close()
+    filePtr = open("comments/vidlist.json", "w+")
+    filePtr.write(fdata)
+    filePtr.close()
 
     print(response)
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()

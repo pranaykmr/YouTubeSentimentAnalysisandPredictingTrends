@@ -2,7 +2,8 @@ import lxml
 import requests
 import time
 import sys
-import progress_bar as PB
+
+# import progress_bar as PB
 import json
 
 YOUTUBE_IN_LINK = (
@@ -30,17 +31,19 @@ def commentExtract(videoId, count=-1):
 
     comments = []
     co = 0
-    for i in range(len(page_info["items"])):
-        comments.append(page_info["items"][i]["snippet"]["topLevelComment"]["snippet"]["textOriginal"])
-        co += 1
-        if co == count:
-            PB.progress(co, count, cond=True)
-            print()
-            return comments
+    # for i in range(len(page_info["items"])):
+    #     comments.append(page_info["items"][i]["snippet"]["topLevelComment"]["snippet"]["textOriginal"])
+    #     co += 1
+    #     if co == count:
+    #         PB.progress(co, count, cond=True)
+    #         print()
+    #         return comments
 
-    PB.progress(co, count)
+    comments = [x["snippet"]["topLevelComment"]["snippet"]["textOriginal"] for x in page_info["items"]]
+
+    # PB.progress(co, count)
     # INFINTE SCROLLING
-    while "nextPageToken" in page_info:
+    while ("nextPageToken" in page_info) and (len(comments) < count):
         temp = page_info
         page_info = requests.get(YOUTUBE_IN_LINK.format(videoId=videoId, key=key, pageToken=page_info["nextPageToken"]))
 
@@ -49,15 +52,17 @@ def commentExtract(videoId, count=-1):
             page_info = requests.get(YOUTUBE_IN_LINK.format(videoId=videoId, key=key, pageToken=temp["nextPageToken"]))
         page_info = page_info.json()
 
-        for i in range(len(page_info["items"])):
-            comments.append(page_info["items"][i]["snippet"]["topLevelComment"]["snippet"]["textOriginal"])
-            co += 1
-            if co == count:
-                PB.progress(co, count, cond=True)
-                print()
-                return comments
-        PB.progress(co, count)
-    PB.progress(count, count, cond=True)
+        # for i in range(len(page_info["items"])):
+        #     comments.append(page_info["items"][i]["snippet"]["topLevelComment"]["snippet"]["textOriginal"])
+        #     co += 1
+        #     if co == count:
+        #         PB.progress(co, count, cond=True)
+        #         print()
+        #         return comments
+        commentList = [x["snippet"]["topLevelComment"]["snippet"]["textOriginal"] for x in page_info["items"]]
+        comments.extend(commentList)
+        # PB.progress(co, count)
+    # PB.progress(count, count, cond=True)
     print()
 
     return comments
