@@ -5,29 +5,36 @@ import sys
 
 # import progress_bar as PB
 import json
+import googleapiclient
 
-YOUTUBE_IN_LINK = (
-    "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&maxResults=100&order=relevance&pageToken={pageToken}&videoId={videoId}&key={key}"
-)
-YOUTUBE_LINK = "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&maxResults=100&order=relevance&videoId={videoId}&key={key}"
+# YOUTUBE_IN_LINK = (
+#     "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&maxResults=100&order=relevance&pageToken={pageToken}&videoId={videoId}&key={key}"
+# )
+# YOUTUBE_LINK = "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&maxResults=100&order=relevance&videoId={videoId}&key={key}"
 
 with open("keys.json") as json_file:
     keys = json.load(json_file)
 key = keys["APIKey"]
 
 
-def commentExtract(videoId, count=-1):
-    print("Comments downloading")
-    page_info = requests.get(YOUTUBE_LINK.format(videoId=videoId, key=key))
-    while page_info.status_code != 200:
-        if page_info.status_code != 429:
-            print("Comments disabled")
-            return []
+def commentExtract(videoId, youtube, count=-1):
+    # api_service_name = "youtube"
+    # api_version = "v3"
+    # DEVELOPER_KEY = key
 
-        time.sleep(20)
-        page_info = requests.get(YOUTUBE_LINK.format(videoId=videoId, key=key))
+    # youtube = googleapiclient.discovery.build(api_service_name, api_version, developerKey=DEVELOPER_KEY)
 
-    page_info = page_info.json()
+    request = youtube.commentThreads().list(part="snippet", videoId=videoId, maxResults=100)
+    page_info = request.execute()
+    # print("Comments downloading")
+    #     page_info = requests.get(YOUTUBE_LINK.format(videoId=videoId, key=key))
+    # while page_info.status_code != 200:
+    #     if page_info.status_code != 429:
+    #         print("Comments disabled")
+    #         return []
+
+    #     time.sleep(20)
+    #     page_info = requests.get(YOUTUBE_LINK.format(videoId=videoId, key=key))
 
     comments = []
     co = 0
@@ -45,12 +52,14 @@ def commentExtract(videoId, count=-1):
     # INFINTE SCROLLING
     while ("nextPageToken" in page_info) and (len(comments) < count):
         temp = page_info
-        page_info = requests.get(YOUTUBE_IN_LINK.format(videoId=videoId, key=key, pageToken=page_info["nextPageToken"]))
+        request = youtube.commentThreads().list(part="snippet", videoId=videoId, maxResults=100, pageToken=page_info["nextPageToken"])
+        page_info = request.execute()
+        # page_info = requests.get(YOUTUBE_IN_LINK.format(videoId=videoId, key=key, pageToken=page_info["nextPageToken"]))
 
-        while page_info.status_code != 200:
-            time.sleep(20)
-            page_info = requests.get(YOUTUBE_IN_LINK.format(videoId=videoId, key=key, pageToken=temp["nextPageToken"]))
-        page_info = page_info.json()
+        # while page_info.status_code != 200:
+        #     time.sleep(20)
+        #     page_info = requests.get(YOUTUBE_IN_LINK.format(videoId=videoId, key=key, pageToken=temp["nextPageToken"]))
+        # page_info = page_info.json()
 
         # for i in range(len(page_info["items"])):
         #     comments.append(page_info["items"][i]["snippet"]["topLevelComment"]["snippet"]["textOriginal"])
