@@ -2,9 +2,6 @@ import json
 import googleapiclient.errors
 import requests
 
-scopes = ["https://www.googleapis.com/auth/youtube.force-ssl"]
-# maxVids = 50
-
 
 def getIds(youtube, maxVids):
     # Disable OAuthlib's HTTPS verification when running locally.
