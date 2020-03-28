@@ -1,13 +1,4 @@
-# -*- coding: utf-8 -*-
-
-# Sample Python code for youtube.search.list
-# See instructions for running these code samples locally:
-# https://developers.google.com/explorer-help/guides/code_samples#python
-
-import os
 import json
-import google_auth_oauthlib.flow
-import googleapiclient.discovery
 import googleapiclient.errors
 import requests
 
@@ -40,18 +31,39 @@ def getIds(youtube, maxVids):
 
     # # extracting data in json format
     # data = list(r.json().items())
-    # channelName = input('Enter Channel Name : ')
-    channelName = "Shmee150"
-    requestId = youtube.channels().list(part="id", forUsername=channelName, maxResults=1)
-    responseId = requestId.execute()
-    request = youtube.search().list(part="snippet", channelId=responseId["items"][0]["id"], maxResults=maxVids, order="date")
-    response = request.execute()
+    # channelName = input("Enter Channel Name : ")
+    # channelName = "Traveling Desi"
+    # requestId = youtube.channels().list(part="id", forUsername=channelName, maxResults=1)
+    # responseId = requestId.execute()
+
+    # requestId = youtube.search().list(part="snippet", order="videoCount", q=channelName, type="channel")
+    # responseId = requestId.execute()
+    # request = youtube.search().list(part="snippet", channelId=responseId["items"][0]["id"]["channelId"], maxResults=maxVids, order="date")
+    # response = request.execute()
+    responseId = getChannelName(youtube)
+    response = getVideos(youtube, responseId["items"][0]["id"]["channelId"], maxVids)
     fdata = json.dumps(response)
-    filePtr = open("comments/vidlist.json", "w+")
+    filePtr = open("comments/vidlist.json", "w")
     filePtr.write(fdata)
     filePtr.close()
 
     print(response)
+
+
+def getChannelName(youtube):
+    channelName = input("Enter Channel Name : ")
+    requestId = youtube.search().list(part="snippet", order="videoCount", q=channelName, type="channel")
+    responseId = requestId.execute()
+    if len(responseId["items"]) == 0:
+        print("Please Enter Valid Channel Display Name")
+        return getChannelName(youtube)
+    else:
+        return responseId
+
+
+def getVideos(youtube, channelId, maxVids):
+    request = youtube.search().list(part="snippet", type="video", channelId=channelId, maxResults=maxVids, order="date")
+    return request.execute()
 
 
 # if __name__ == "__main__":
