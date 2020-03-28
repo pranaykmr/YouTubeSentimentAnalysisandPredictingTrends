@@ -29,9 +29,9 @@ with open("comments/vidlist.json") as json_file:
     data = json.load(json_file)
     vlist = data["items"]
 
-for v in vlist:
+for index, v in enumerate(vlist):
     title = v["snippet"]["title"]
-    print("Downloading comments of ", title)
+    print("Downloading comments of Video Number : " + str(index + 1) + " --> ", title)
     vid = v["id"]["videoId"]
     comments = ec.commentExtract(vid, youtube, constants["CommentCount"])
     total_comments.extend(comments)
@@ -39,6 +39,7 @@ for v in vlist:
     print(sent)
     total_sentiment.append(sent)
 
+print("Total Comments Scraped " + str(len(total_comments)))
 fs.fancySentiment(total_comments)
 
 total_sentiment = total_sentiment[1:]
