@@ -61,7 +61,3 @@ def getChannelName(youtube):
 def getVideos(youtube, channelId, maxVids):
     request = youtube.search().list(part="snippet", type="video", channelId=channelId, maxResults=maxVids, order="date")
     return request.execute()
-
-
-# if __name__ == "__main__":
-#     main()
