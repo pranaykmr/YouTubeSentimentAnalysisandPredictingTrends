@@ -39,7 +39,14 @@ def getIds(youtube, maxVids):
     # response = request.execute()
     responseId = getChannelName(youtube)
     response = getVideos(youtube, responseId["items"][0]["id"]["channelId"], maxVids)
-    fdata = json.dumps(response)
+    videos = response["items"]
+    while "nextPageToken" in response and len(videos) < maxVids:
+        response = getNextPageVideos(
+            youtube, responseId["items"][0]["id"]["channelId"], response["nextPageToken"], (50 if maxVids - len(videos) > 50 else maxVids - len(videos))
+        )
+        videos.extend(response["items"])
+        # response["items"].extend(getNextPageVideos(youtube, responseId["items"][0]["id"]["channelId"], response["nextPageToken"])["items"])
+    fdata = json.dumps(videos)
     filePtr = open("comments/vidlist.json", "w")
     filePtr.write(fdata)
     filePtr.close()
@@ -59,5 +66,12 @@ def getChannelName(youtube):
 
 
 def getVideos(youtube, channelId, maxVids):
+    if maxVids > 50:
+        maxVids = 50
     request = youtube.search().list(part="snippet", type="video", channelId=channelId, maxResults=maxVids, order="date")
+    return request.execute()
+
+
+def getNextPageVideos(youtube, channelId, nextPageToken, maxVids):
+    request = youtube.search().list(part="snippet", type="video", channelId=channelId, maxResults=maxVids, order="date", pageToken=nextPageToken)
     return request.execute()

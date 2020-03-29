@@ -26,8 +26,8 @@ youtube = googleapiclient.discovery.build(constants["ApiServiceName"], constants
 fid.getIds(youtube, constants["VideoCount"])
 
 with open("comments/vidlist.json") as json_file:
-    data = json.load(json_file)
-    vlist = data["items"]
+    vlist = json.load(json_file)
+    # vlist = data["items"]
 
 for index, v in enumerate(vlist):
     title = v["snippet"]["title"]
