@@ -7,16 +7,12 @@ import getVideoIds as fid
 import googleapiclient.discovery
 import google_auth_oauthlib
 
-# scopes = ["https://www.googleapis.com/auth/youtube.force-ssl"]
-# https://console.developers.google.com/apis/api/youtube.googleapis.com/credentials?authuser=1&project=smdmyoutube-272121
-
 with open("constants.json") as json_file:
     constants = json.load(json_file)
 
 with open("keys.json") as json_file:
     keys = json.load(json_file)
 
-# no_comments = 1000
 total_comments = []
 total_sentiment = [(0, 0)]
 os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
@@ -27,7 +23,6 @@ fid.getIds(youtube, constants["VideoCount"])
 
 with open("comments/vidlist.json") as json_file:
     vlist = json.load(json_file)
-    # vlist = data["items"]
 
 for index, v in enumerate(vlist):
     title = v["snippet"]["title"]
