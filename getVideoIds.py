@@ -45,7 +45,6 @@ def getIds(youtube, maxVids):
             youtube, responseId["items"][0]["id"]["channelId"], response["nextPageToken"], (50 if maxVids - len(videos) > 50 else maxVids - len(videos))
         )
         videos.extend(response["items"])
-        # response["items"].extend(getNextPageVideos(youtube, responseId["items"][0]["id"]["channelId"], response["nextPageToken"])["items"])
     fdata = json.dumps(videos)
     filePtr = open("comments/vidlist.json", "w")
     filePtr.write(fdata)
