@@ -1,6 +1,5 @@
 import json
 import googleapiclient.errors
-import requests
 
 
 def getIds(youtube, maxVids):

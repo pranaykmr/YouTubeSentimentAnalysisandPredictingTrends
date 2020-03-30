@@ -16,6 +16,7 @@ with open("keys.json") as json_file:
 total_comments = []
 total_sentiment = [(0, 0)]
 os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
+input()
 flow = google_auth_oauthlib.flow.InstalledAppFlow.from_client_secrets_file(constants["OAuthFile"], constants["Scopes"])
 credentials = flow.run_console()
 youtube = googleapiclient.discovery.build(constants["ApiServiceName"], constants["ApiVersion"], developerKey=keys["APIKey"])
