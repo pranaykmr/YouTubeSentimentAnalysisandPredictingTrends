@@ -54,7 +54,7 @@ def getIds(youtube, maxVids):
 
 def getChannelName(youtube):
     channelName = input("Enter Channel Name : ")
-    requestId = youtube.search().list(part="snippet", order="videoCount", q=channelName, type="channel")
+    requestId = youtube.search().list(part="snippet", order="relevance", q=channelName, type="channel")
     responseId = requestId.execute()
     if len(responseId["items"]) == 0:
         print("Please Enter Valid Channel Display Name")
