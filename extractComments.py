@@ -8,7 +8,7 @@ from googleapiclient.errors import HttpError
 # )
 # YOUTUBE_LINK = "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&maxResults=100&order=relevance&videoId={videoId}&key={key}"
 
-with open("keys.json") as json_file:
+with open("auth/keys.json") as json_file:
     keys = json.load(json_file)
 key = keys["APIKey"]
 

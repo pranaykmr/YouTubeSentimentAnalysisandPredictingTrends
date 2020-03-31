@@ -1,6 +1,5 @@
 import json
 import googleapiclient.errors
-import requests
 
 
 def getIds(youtube, maxVids):
@@ -37,7 +36,7 @@ def getIds(youtube, maxVids):
     # responseId = requestId.execute()
     # request = youtube.search().list(part="snippet", channelId=responseId["items"][0]["id"]["channelId"], maxResults=maxVids, order="date")
     # response = request.execute()
-    responseId = getChannelName(youtube)
+    responseId, channelName = getChannelName(youtube)
     response = getVideos(youtube, responseId["items"][0]["id"]["channelId"], maxVids)
     videos = response["items"]
     while "nextPageToken" in response and len(videos) < maxVids:
@@ -45,24 +44,23 @@ def getIds(youtube, maxVids):
             youtube, responseId["items"][0]["id"]["channelId"], response["nextPageToken"], (50 if maxVids - len(videos) > 50 else maxVids - len(videos))
         )
         videos.extend(response["items"])
-        # response["items"].extend(getNextPageVideos(youtube, responseId["items"][0]["id"]["channelId"], response["nextPageToken"])["items"])
     fdata = json.dumps(videos)
-    filePtr = open("comments/vidlist.json", "w")
+    filePtr = open("comments/" + channelName + "_vidlist.json", "w")
     filePtr.write(fdata)
     filePtr.close()
-
     print(response)
+    return channelName
 
 
 def getChannelName(youtube):
     channelName = input("Enter Channel Name : ")
-    requestId = youtube.search().list(part="snippet", order="videoCount", q=channelName, type="channel")
+    requestId = youtube.search().list(part="snippet", order="relevance", q=channelName, type="channel")
     responseId = requestId.execute()
     if len(responseId["items"]) == 0:
         print("Please Enter Valid Channel Display Name")
         return getChannelName(youtube)
     else:
-        return responseId
+        return responseId, channelName
 
 
 def getVideos(youtube, channelId, maxVids):
