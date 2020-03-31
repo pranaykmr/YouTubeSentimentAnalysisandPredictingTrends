@@ -18,9 +18,11 @@ total_comments = []
 total_sentiment = [(0, 0, 0)]
 os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
 input()
-flow = google_auth_oauthlib.flow.InstalledAppFlow.from_client_secrets_file(constants["OAuthFile"], constants["Scopes"])
+flow = google_auth_oauthlib.flow.InstalledAppFlow.from_client_secrets_file(
+    constants["OAuthFile"], constants["Scopes"])
 credentials = flow.run_console()
-youtube = googleapiclient.discovery.build(constants["ApiServiceName"], constants["ApiVersion"], developerKey=keys["APIKey"])
+youtube = googleapiclient.discovery.build(
+    constants["ApiServiceName"], constants["ApiVersion"], developerKey=keys["APIKey"])
 channelName = fid.getIds(youtube, constants["VideoCount"])
 
 with open("comments/vidlist.json") as json_file:
@@ -30,8 +32,10 @@ filePath = "sentimentAnalysis/" + str(channelName) + ".txt"
 sentimentFile = open(filePath, "w")
 for index, v in enumerate(vlist):
     title = v["snippet"]["title"]
-    sentimentFile.write("Video Number : " + str(index + 1) + " --> " + title + "\n")
-    print("Downloading comments of Video Number : " + str(index + 1) + " --> ", title)
+    sentimentFile.write("Video Number : " +
+                        str(index + 1) + " --> " + title + "\n")
+    print("Downloading comments of Video Number : " +
+          str(index + 1) + " --> ", title)
     vid = v["id"]["videoId"]
     comments = ec.commentExtract(vid, youtube, constants["CommentCount"])
     total_comments.extend(comments)
