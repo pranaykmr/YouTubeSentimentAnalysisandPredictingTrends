@@ -11,58 +11,61 @@ import itertools
 
 
 def features(words):
-	temp = word_tokenize(words)
+    temp = word_tokenize(words)
 
-	words = [temp[0]]
-	for i in range(1, len(temp)):
-		if(temp[i] != temp[i-1]):
-			words.append(temp[i])
+    words = [temp[0]]
+    for i in range(1, len(temp)):
+        if temp[i] != temp[i - 1]:
+            words.append(temp[i])
 
-	scoreF = BigramAssocMeasures.chi_sq
+    scoreF = BigramAssocMeasures.chi_sq
 
-	# bigram count
-	n = 150
+    # bigram count
+    n = 150
 
-	bigrams = BCF.from_words(words).nbest(scoreF, n)
+    bigrams = BCF.from_words(words).nbest(scoreF, n)
 
-	return dict([word,True] for word in itertools.chain(words, bigrams))
+    return dict([word, True] for word in itertools.chain(words, bigrams))
+
 
 class VoteClassifier(ClassifierI):
-	def __init__(self, *classifiers):
-		self.__classifiers = classifiers
+    def __init__(self, *classifiers):
+        self.__classifiers = classifiers
 
-	def classify(self, comments):
-		votes = []
-		for c in self.__classifiers:
-			v = c.classify(comments)
-			votes.append(v)
-		con = mode(votes)
+    def classify(self, comments):
+        votes = []
+        for c in self.__classifiers:
+            v = c.classify(comments)
+            votes.append(v)
+        con = mode(votes)
 
-		choice_votes = votes.count(mode(votes))
-		conf = (1.0 * choice_votes) / len(votes)
+        choice_votes = votes.count(mode(votes))
+        conf = (1.0 * choice_votes) / len(votes)
 
-		return con, conf
+        return con, conf
 
 
-
-def sentimentNew(comments):
+def sentimentNew(comments, sentimentFile):
     commentbot = SentimentIntensityAnalyzer()
     fresult = {"positivenum": 0, "negativenum": 0, "neutralnum": 0}
     count = 0
     for comment in comments:
         vs = commentbot.polarity_scores(comment)
         count += 1
-        if vs['compound'] >= 0.05:
+        if vs["compound"] >= 0.05:
             fresult["positivenum"] += 1
-        elif vs['compound'] <= - 0.05:
+        elif vs["compound"] <= -0.05:
             fresult["negativenum"] += 1
         else:
             fresult["neutralnum"] += 1
-
-    print("Positive sentiment : ", fresult["positivenum"]/count * 100)
-    print("Negative sentiment : ", fresult["negativenum"]/count * 100)
-    print("Neutral sentiment : ", fresult["neutralnum"]/count * 100)
+    sentimentFile.write("Positive sentiment : " + str(fresult["positivenum"] / count * 100) + "\n")
+    sentimentFile.write("Negative sentiment : " + str(fresult["negativenum"] / count * 100) + "\n")
+    sentimentFile.write("Neutral sentiment : " + str(fresult["neutralnum"] / count * 100) + "\n")
+    print("Positive sentiment : ", fresult["positivenum"] / count * 100)
+    print("Negative sentiment : ", fresult["negativenum"] / count * 100)
+    print("Neutral sentiment : ", fresult["neutralnum"] / count * 100)
     return (fresult["positivenum"], fresult["negativenum"], fresult["neutralnum"])
+
 
 # def sentiment(comments):
 #     if not os.path.isfile('classifier.pickle'):
