@@ -23,7 +23,7 @@ credentials = flow.run_console()
 youtube = googleapiclient.discovery.build(constants["ApiServiceName"], constants["ApiVersion"], developerKey=keys["APIKey"])
 channelName = fid.getIds(youtube, constants["VideoCount"])
 
-with open("comments/vidlist.json") as json_file:
+with open("comments/" + channelName + "_vidlist.json") as json_file:
     vlist = json.load(json_file)
 
 filePath = "sentimentAnalysis/" + str(channelName) + ".txt"
@@ -46,7 +46,7 @@ fs.fancySentiment(total_comments)
 
 total_sentiment = total_sentiment[1:]
 
-with open("comments/ts.txt", "w+") as f:
+with open("comments/" + channelName + "_ts.txt", "w") as f:
     for sentiment in total_sentiment:
         f.write(str(sentiment))
         f.write("\n")
