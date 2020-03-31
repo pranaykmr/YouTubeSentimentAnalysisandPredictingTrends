@@ -1,11 +1,12 @@
 import training_classifier as tcl
-from nltk.tokenize import word_tokenize	
+from nltk.tokenize import word_tokenize
 import os.path
 import pickle
 from statistics import mode
 from nltk.classify import ClassifierI
 from nltk.metrics import BigramAssocMeasures
 from nltk.collocations import BigramCollocationFinder as BCF
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import itertools
 
 
@@ -42,28 +43,48 @@ class VoteClassifier(ClassifierI):
 
 		return con, conf
 
-def sentiment(comments):
 
-	if not os.path.isfile('classifier.pickle'):
-		tcl.training()
 
-	fl = open('classifier.pickle','rb')
-	classifier = pickle.load(fl)
-	fl.close()
+def sentimentNew(comments):
+    commentbot = SentimentIntensityAnalyzer()
+    fresult = {"positivenum": 0, "negativenum": 0, "neutralnum": 0}
+    count = 0
+    for comment in comments:
+        vs = commentbot.polarity_scores(comment)
+        count += 1
+        if vs['compound'] >= 0.05:
+            fresult["positivenum"] += 1
+        elif vs['compound'] <= - 0.05:
+            fresult["negativenum"] += 1
+        else:
+            fresult["neutralnum"] += 1
 
-	pos = 0
-	neg = 0
-	for words in comments:
-		comment = features(words)
-		# print(words)
-		sentiment_value, confidence = VoteClassifier(classifier).classify(comment)
-		# print(sentiment_value)
-		if sentiment_value == 'positive' and confidence * 100 >= 60:
-			pos += 1
-		else:
-			neg += 1
-	psent = (pos * 100.0 /len(comments))
-	nsent = (neg * 100.0 /len(comments))
-	print ("Positive sentiment : ", (pos * 100.0 /len(comments)) )
-	print ("Negative sentiment : ", (neg * 100.0 /len(comments)) )
-	return (psent,nsent)
+    print("Positive sentiment : ", fresult["positivenum"]/count * 100)
+    print("Negative sentiment : ", fresult["negativenum"]/count * 100)
+    print("Neutral sentiment : ", fresult["neutralnum"]/count * 100)
+    return (fresult["positivenum"], fresult["negativenum"], fresult["neutralnum"])
+
+# def sentiment(comments):
+#     if not os.path.isfile('classifier.pickle'):
+#         tcl.training()
+#     fl = open('classifier.pickle', 'rb')
+#     classifier = pickle.load(fl)
+#     fl.close()
+
+#     pos = 0
+#     neg = 0
+#     for words in comments:
+#         comment = features(words)
+#         # print(words)
+#         sentiment_value, confidence = VoteClassifier(
+#             classifier).classify(comment)
+#         # print(sentiment_value)
+#         if sentiment_value == 'positive' and confidence * 100 >= 60:
+#             pos += 1
+#         else:
+#             neg += 1
+#     psent = (pos * 100.0 / len(comments))
+#     nsent = (neg * 100.0 / len(comments))
+#     print("Positive sentiment : ", (pos * 100.0 / len(comments)))
+#     print("Negative sentiment : ", (neg * 100.0 / len(comments)))
+#     return (psent, nsent)
