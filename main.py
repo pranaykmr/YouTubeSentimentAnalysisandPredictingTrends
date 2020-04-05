@@ -6,6 +6,7 @@ import fancySentiment as fs
 import getVideoIds as fid
 import googleapiclient.discovery
 import google_auth_oauthlib
+import getVideoStatistics as vs
 
 with open("constants.json") as json_file:
     constants = json.load(json_file)
@@ -26,6 +27,14 @@ channelName = fid.getIds(youtube, constants["VideoCount"])
 with open("comments/" + channelName + "_vidlist.json") as json_file:
     vlist = json.load(json_file)
 
+
+videoIds = [x["id"]["videoId"] for x in vlist]
+stats = vs.getStatistics(youtube, videoIds)
+fdata = json.dumps(stats)
+filePtr = open("comments/" + channelName + "_stats.json", "w")
+filePtr.write(fdata)
+filePtr.close()
+
 filePath = "sentimentAnalysis/" + str(channelName) + ".txt"
 sentimentFile = open(filePath, "w")
 for index, v in enumerate(vlist):
@@ -39,6 +48,7 @@ for index, v in enumerate(vlist):
     sent = syt.sentimentNew(comments, sentimentFile)
     print(sent)
     total_sentiment.append(sent)
+
 
 sentimentFile.close()
 print("Total Comments Scraped " + str(len(total_comments)))
