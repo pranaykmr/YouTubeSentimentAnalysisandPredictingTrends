@@ -1,0 +1,200 @@
+Video Number : 1 --> BUYING A MCLAREN P1 ON APRIL FOOLS DAY
+Positive sentiment : 44.64500601684717
+Negative sentiment : 19.7352587244284
+Neutral sentiment : 35.619735258724425
+Video Number : 2 --> HOW TO STEAL A ROLLS ROYCE CULLINAN *HACK*
+Positive sentiment : 37.96992481203007
+Negative sentiment : 18.23308270676692
+Neutral sentiment : 43.796992481203006
+Video Number : 3 --> AM I BUYING A MCLAREN P1???!!! *CHEAP P1??*
+Positive sentiment : 46.300000000000004
+Negative sentiment : 18.099999999999998
+Neutral sentiment : 35.6
+Video Number : 4 --> $1.6 MILLION MERCEDES 300SL Ft. Carrol Shelby&#39;s Friend Lee!
+Positive sentiment : 56.23800383877159
+Negative sentiment : 16.698656429942417
+Neutral sentiment : 27.06333973128599
+Video Number : 5 --> I BROKE MY NEW FERRARI!!!
+Positive sentiment : 49.87623762376238
+Negative sentiment : 16.46039603960396
+Neutral sentiment : 33.663366336633665
+Video Number : 6 --> FERRARI 812 SUPERFAST vs. MCLAREN 600LT HEAD TO HEAD REVIEW!
+Positive sentiment : 57.66062602965404
+Negative sentiment : 11.367380560131796
+Neutral sentiment : 30.971993410214164
+Video Number : 7 --> I BOUGHT THE CHEAPEST SELF DRIVING MAYBACH IN THE US
+Positive sentiment : 47.3420260782347
+Negative sentiment : 17.552657973921765
+Neutral sentiment : 35.10531594784353
+Video Number : 8 --> 10 AMAZING FEATURES OF THE TESLA MODEL 3 *Track Mode V2*
+Positive sentiment : 48.643410852713174
+Negative sentiment : 15.69767441860465
+Neutral sentiment : 35.65891472868217
+Video Number : 9 --> MAKING MY NEW FERRARI 812 FASTER THAN A HYPERCAR!
+Positive sentiment : 50.529661016949156
+Negative sentiment : 17.16101694915254
+Neutral sentiment : 32.309322033898304
+Video Number : 10 --> TWIN TURBO LAMBORGHINI RACES ROLLS ROYCE LOL! *Road Rage*!
+Positive sentiment : 40.316205533596836
+Negative sentiment : 24.50592885375494
+Neutral sentiment : 35.177865612648226
+Video Number : 11 --> MODDED 2020 FORD GT500 VS ACURA NSX *Shocking Results*
+Positive sentiment : 44.78114478114478
+Negative sentiment : 18.181818181818183
+Neutral sentiment : 37.03703703703704
+Video Number : 12 --> STRAIGHT PIPED FORD GT SHUTS DOWN MIAMI *SO LOUD*
+Positive sentiment : 46.09218436873748
+Negative sentiment : 22.645290581162325
+Neutral sentiment : 31.262525050100198
+Video Number : 13 --> $32 MILLION PORSCHE DESIGN TOWER PENTHOUSE CRIBS TOUR!
+Positive sentiment : 46.496815286624205
+Negative sentiment : 15.711252653927813
+Neutral sentiment : 37.79193205944799
+Video Number : 14 --> HOUSE SHOPPING IN A ROLLS ROYCE *Feat. 3LAU*
+Positive sentiment : 46.19164619164619
+Negative sentiment : 24.201474201474202
+Neutral sentiment : 29.606879606879605
+Video Number : 15 --> &quot;Wraith Talk&quot; - Feat.  Lil Mosey *Unreleased Music*
+Positive sentiment : 39.800000000000004
+Negative sentiment : 30.5
+Neutral sentiment : 29.7
+Video Number : 16 --> Wraith Talk - Feat. Lil Mosey *Unreleased*
+Positive sentiment : 37.79527559055118
+Negative sentiment : 29.133858267716533
+Neutral sentiment : 33.07086614173229
+Video Number : 17 --> BUYING A FERRARI 812 SUPERFAST AT AGE 25 *emotional*
+Positive sentiment : 53.900000000000006
+Negative sentiment : 15.4
+Neutral sentiment : 30.7
+Video Number : 18 --> BUYING A ROLLS ROYCE WRAITH AT AGE 25!!!
+Positive sentiment : 46.400000000000006
+Negative sentiment : 15.7
+Neutral sentiment : 37.9
+Video Number : 19 --> VEGAS POLICE USE UNLAWFUL INTIMIDATION ON LAMBORGHINI OWNER
+Positive sentiment : 37.267080745341616
+Negative sentiment : 32.546583850931675
+Neutral sentiment : 30.186335403726712
+Video Number : 20 --> F90 BMW M5 RACES SUPRA FOR PINK SLIPS!
+Positive sentiment : 36.54618473895582
+Negative sentiment : 20.481927710843372
+Neutral sentiment : 42.971887550200805
+Video Number : 21 --> IS THE 2020 POLARIS SLINGSHOT REALLY WORTH $30,000
+Positive sentiment : 44.73684210526316
+Negative sentiment : 16.666666666666664
+Neutral sentiment : 38.59649122807017
+Video Number : 22 --> THIS RX7 IS INSANE!!
+Positive sentiment : 45.089285714285715
+Negative sentiment : 11.607142857142858
+Neutral sentiment : 43.30357142857143
+Video Number : 23 --> 2019 Was The CRAZIEST Year EVER!
+Positive sentiment : 49.047619047619044
+Negative sentiment : 15.238095238095239
+Neutral sentiment : 35.714285714285715
+Video Number : 24 --> 1200WHP NISSAN SKYLINE R34 GTR FIRST DRIVE! *Sequential Manual*
+Positive sentiment : 39.300000000000004
+Negative sentiment : 20.4
+Neutral sentiment : 40.300000000000004
+Video Number : 25 --> MY MCLAREN 600LT IS NOW THE FASTEST CAR I’VE EVER OWNED!
+Positive sentiment : 41.18811881188119
+Negative sentiment : 14.257425742574256
+Neutral sentiment : 44.554455445544555
+Video Number : 26 --> SAYING GOODBYE TO MY MERCEDES E63S *Emotional*
+Positive sentiment : 35.0
+Negative sentiment : 11.1
+Neutral sentiment : 53.900000000000006
+Video Number : 27 --> DAILYDRIVENEXOTICS GAVE ME THEIR FERRARI FF!
+Positive sentiment : 37.37704918032787
+Negative sentiment : 7.3224043715847
+Neutral sentiment : 55.30054644808743
+Video Number : 28 --> EXTREMELY DISAPPOINTED WITH MY TURBO SUPRA :(
+Positive sentiment : 36.58536585365854
+Negative sentiment : 33.28550932568149
+Neutral sentiment : 30.129124820659968
+Video Number : 29 --> ELECTRIC SCOOTER RACES FERRARI! *Shocking Results*
+Positive sentiment : 44.166666666666664
+Negative sentiment : 18.75
+Neutral sentiment : 37.083333333333336
+Video Number : 30 --> HOUSE UPDATE!
+Positive sentiment : 38.1
+Negative sentiment : 10.7
+Neutral sentiment : 51.2
+Video Number : 31 --> COCKY LAMBORGHINI AVENTADOR OWNER DESTROYED BY MCLAREN!
+Positive sentiment : 45.45454545454545
+Negative sentiment : 13.506493506493506
+Neutral sentiment : 41.03896103896104
+Video Number : 32 --> I MESSED UP BUYING THE MCLAREN 600LT!
+Positive sentiment : 44.626168224299064
+Negative sentiment : 17.289719626168225
+Neutral sentiment : 38.084112149532714
+Video Number : 33 --> STRAIGHT PIPING MY FRIENDS PORSCHE GT2RS!!!
+Positive sentiment : 44.44444444444444
+Negative sentiment : 19.230769230769234
+Neutral sentiment : 36.324786324786324
+Video Number : 34 --> WE SHOULDN&#39;T HAVE DONE THAT...*Bad Idea*
+Positive sentiment : 40.67796610169492
+Negative sentiment : 14.971751412429379
+Neutral sentiment : 44.35028248587571
+Video Number : 35 --> BUYING A 2020 BMW X5M?! *New Car*
+Positive sentiment : 41.14052953156823
+Negative sentiment : 9.877800407331975
+Neutral sentiment : 48.9816700610998
+Video Number : 36 --> ALEX CHOI ACTUALLY TRIED TO KILL ME *NOT CLICKBAIT*
+Positive sentiment : 37.16915995397008
+Negative sentiment : 27.73302646720368
+Neutral sentiment : 35.09781357882623
+Video Number : 37 --> 800HP MCLAREN DESTROYS TIRES!
+Positive sentiment : 37.44075829383886
+Negative sentiment : 15.165876777251185
+Neutral sentiment : 47.39336492890995
+Video Number : 38 --> RACING ALEX CHOI&#39;S MCLAREN 720S *Shocking Results*
+Positive sentiment : 41.74528301886792
+Negative sentiment : 16.50943396226415
+Neutral sentiment : 41.74528301886792
+Video Number : 39 --> I TUNED MY MCLAREN 600LT *INSANE POWER*
+Positive sentiment : 42.886178861788615
+Negative sentiment : 19.10569105691057
+Neutral sentiment : 38.00813008130081
+Video Number : 40 --> BIGGER TURBO FOR MY 2020 SUPRA! *More Power*
+Positive sentiment : 45.588235294117645
+Negative sentiment : 18.75
+Neutral sentiment : 35.661764705882355
+Video Number : 41 --> 5 INSANE Features Of The Lamborghini Huracan Evo! *I NEED ONE*
+Positive sentiment : 47.32824427480916
+Negative sentiment : 12.46819338422392
+Neutral sentiment : 40.20356234096692
+Video Number : 42 --> MODDED TOYOTA SUPRA DESTROYS DODGE DEMON!!
+Positive sentiment : 42.41379310344828
+Negative sentiment : 18.620689655172416
+Neutral sentiment : 38.96551724137931
+Video Number : 43 --> The TOP 5 Most Insane Toyota Supras Ever Made!
+Positive sentiment : 36.07954545454545
+Negative sentiment : 15.340909090909092
+Neutral sentiment : 48.57954545454545
+Video Number : 44 --> I Bet DailyDrivenExotics $5,000 I’d Beat His Supra! *Bad Idea*
+Positive sentiment : 49.19093851132686
+Negative sentiment : 13.268608414239482
+Neutral sentiment : 37.54045307443366
+Video Number : 45 --> EVERYTHING I HATE ABOUT MY 2020 TOYOTA SUPRA!
+Positive sentiment : 34.60410557184751
+Negative sentiment : 26.099706744868033
+Neutral sentiment : 39.29618768328446
+Video Number : 46 --> LOUD Exhaust For My Mclaren!!
+Positive sentiment : 44.223107569721115
+Negative sentiment : 15.936254980079681
+Neutral sentiment : 39.8406374501992
+Video Number : 47 --> COMPLETE TOUR OF MY SUPERCAR COLLECTION!
+Positive sentiment : 37.62162162162162
+Negative sentiment : 12.324324324324325
+Neutral sentiment : 50.054054054054056
+Video Number : 48 --> TAKING DELIVERY OF A NEW FORD GT!
+Positive sentiment : 60.15981735159818
+Negative sentiment : 9.703196347031962
+Neutral sentiment : 30.136986301369863
+Video Number : 49 --> MY MERCEDES E63S AMG IS BROKEN! *Here’s Why*
+Positive sentiment : 42.129629629629626
+Negative sentiment : 22.685185185185187
+Neutral sentiment : 35.18518518518518
+Video Number : 50 --> 2020 Bentley Flying Spur First Drive Review! - Better Than A Rolls Royce Ghost?
+Positive sentiment : 51.61290322580645
+Negative sentiment : 10.64516129032258
+Neutral sentiment : 37.74193548387097

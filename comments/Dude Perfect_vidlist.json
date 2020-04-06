@@ -1,7 +1,7 @@
 [
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/Tyv0a-bRJXlCckMGAATtW9T0pBI\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/Tyv0a-bRJXlCckMGAATtW9T0pBI\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "aV0BK3QCk0g"
@@ -34,7 +34,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/bxMGakhkEGwuH-KuojU4O_B6PVw\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/bxMGakhkEGwuH-KuojU4O_B6PVw\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "xG61CapseLU"
@@ -67,7 +67,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/7UcHcw8MskbdITtmvKbR78W8QI8\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/7UcHcw8MskbdITtmvKbR78W8QI8\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "v_BgzDHGav0"
@@ -100,7 +100,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/7_Qvdg7FTa8g4BTGU-I2fwXIo7Y\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/7_Qvdg7FTa8g4BTGU-I2fwXIo7Y\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "hfzSedylBog"
@@ -133,7 +133,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/4N48SmMrasqMmV_86OnMtTZXop0\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/4N48SmMrasqMmV_86OnMtTZXop0\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "4MMdJHYHoiA"
@@ -166,7 +166,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/GNwVvFm7A2yVO1mOetlOjxT4NF0\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/GNwVvFm7A2yVO1mOetlOjxT4NF0\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "gqdwyXC4Jwk"
@@ -199,7 +199,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/hIjlptuZik3WwB2jAu9LcgO9lbs\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/hIjlptuZik3WwB2jAu9LcgO9lbs\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "ItMpKIxXwlw"
@@ -232,7 +232,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/v3RQPqpDixVXRTAebR-reZvLf70\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/v3RQPqpDixVXRTAebR-reZvLf70\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "GSTyIwVqO6Q"
@@ -265,7 +265,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/esRMjX8lfYSOijwGljVauH8OWKw\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/esRMjX8lfYSOijwGljVauH8OWKw\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "XYX-IZa3rNs"
@@ -298,7 +298,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/8JzgnP_aXqtWZKBJE20aJ9oRwZo\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/8JzgnP_aXqtWZKBJE20aJ9oRwZo\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "Iw8qP0GdZ_0"
@@ -331,7 +331,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/vs-_fjRYDvyKn2jGUKht27yEpUg\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/vs-_fjRYDvyKn2jGUKht27yEpUg\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "3C0btIJjrW8"
@@ -364,7 +364,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/s66gotiytRrhI9zPiBp5tbL4Fng\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/s66gotiytRrhI9zPiBp5tbL4Fng\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "O5Sduwj9G98"
@@ -397,7 +397,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/9MSw1Egrat-TA3x64UeB9euQHjA\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/9MSw1Egrat-TA3x64UeB9euQHjA\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "4xGFo_lYUrs"
@@ -430,7 +430,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/OVSsnfLQTVXMlG5S4xYQ22tqwFM\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/OVSsnfLQTVXMlG5S4xYQ22tqwFM\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "bIDKhZ_4jLQ"
@@ -463,7 +463,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/g9fZ5lNykCx5vUrMnRPa4Oht3ho\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/g9fZ5lNykCx5vUrMnRPa4Oht3ho\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "aDrVrz76z1A"
@@ -496,7 +496,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/wK8xkhkMoncv8LCP11scb8jycKg\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/wK8xkhkMoncv8LCP11scb8jycKg\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "j7ZXF7jbXbY"
@@ -529,7 +529,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/cLY07LMW0CmlGa0FaAsIvcQGzG0\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/cLY07LMW0CmlGa0FaAsIvcQGzG0\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "j9I7jt4Y_-A"
@@ -562,7 +562,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/5YdnCkwaYzbjX8mgvphELew48MM\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/5YdnCkwaYzbjX8mgvphELew48MM\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "Jvy7eXMxE9Y"
@@ -595,7 +595,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/Fb5LuC-O8uXjXV-yRPF2gRMxrAU\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/Fb5LuC-O8uXjXV-yRPF2gRMxrAU\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "2lrBphwQOrI"
@@ -628,7 +628,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/NxeDCdV-ByGlR4-zZn5hATwpw44\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/NxeDCdV-ByGlR4-zZn5hATwpw44\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "XMilHdBYZzA"
@@ -661,7 +661,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/Xvp8m570uYmL0KqWDs1ivA5VXUw\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/Xvp8m570uYmL0KqWDs1ivA5VXUw\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "8qwjvDROE4E"
@@ -694,7 +694,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/9hEfU1A-iST37yXMhlE8YQVRWes\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/9hEfU1A-iST37yXMhlE8YQVRWes\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "q9bX7EkMvrA"
@@ -727,7 +727,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/JFDMmrlJTFFgh2v7Sgy5QhlaM0M\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/JFDMmrlJTFFgh2v7Sgy5QhlaM0M\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "FjPvXMwTwQo"
@@ -760,7 +760,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/QoRPtLRrQsKlm7cf90syhZZcMaU\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/QoRPtLRrQsKlm7cf90syhZZcMaU\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "FPg89qonG0E"
@@ -793,7 +793,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/xcnwjzQDoLiFP-jSVcMUZCKwl-A\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/xcnwjzQDoLiFP-jSVcMUZCKwl-A\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "2t3GnbhbVCc"
@@ -826,7 +826,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/dVnBgRfVEPVTSJJa2vCfQpfm5_g\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/dVnBgRfVEPVTSJJa2vCfQpfm5_g\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "dwV04XuiWq4"
@@ -859,7 +859,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/7edap3kURDuFM3u89KoYxFC7Nxs\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/7edap3kURDuFM3u89KoYxFC7Nxs\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "_YTWwTo6xcY"
@@ -892,7 +892,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/dinHzLd6I3jZ3gzzPUICy5NF--g\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/dinHzLd6I3jZ3gzzPUICy5NF--g\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "uUio9YoGhxo"
@@ -925,7 +925,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/EAmNz45KjnmjV9iuvWhD_HWh7Tc\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/EAmNz45KjnmjV9iuvWhD_HWh7Tc\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "OxoOSohmaag"
@@ -958,7 +958,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/Fv9EwHn9hf4Wu010BDPq9-0eJgk\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/Fv9EwHn9hf4Wu010BDPq9-0eJgk\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "qlzVPauUgw8"
@@ -991,7 +991,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/yJ1010dkiPLYI1FRJao7mnvese0\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/yJ1010dkiPLYI1FRJao7mnvese0\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "rT9PI5q2Etc"
@@ -1024,7 +1024,40 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/W1OX2AWUTTrss4hfhTcFzGC89Yw\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/yi0FVC3XU6e9OslpQfBuFx5t7_8\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "VOzA2V4HbJA"
+        },
+        "snippet": {
+            "publishedAt": "2019-01-28T22:58:15.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Super Bowl Stadium Trick Shots | Dude Perfect",
+            "description": "SUPER BIG trick shots in a Super Bowl stadium! Special thanks to the NFL for sponsoring this video! See more from the NFL here: http://bit.ly/NFLyoutube ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/VOzA2V4HbJA/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/VOzA2V4HbJA/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/VOzA2V4HbJA/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/W1OX2AWUTTrss4hfhTcFzGC89Yw\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "uPCi5Rs7EuA"
@@ -1057,7 +1090,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/ppOQT7i8op1n0BqBf7rI3WqIjDw\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/ppOQT7i8op1n0BqBf7rI3WqIjDw\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "DXcuvtbotYQ"
@@ -1090,7 +1123,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/pIDJTmC3PFMIEbQno_9x7RrFDuE\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/pIDJTmC3PFMIEbQno_9x7RrFDuE\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "7y-hKLfeurY"
@@ -1123,7 +1156,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/ifETbeDhISmD7bwevfkMB_Lage4\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/ifETbeDhISmD7bwevfkMB_Lage4\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "i25i6vyjIpg"
@@ -1156,7 +1189,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/vyhHbd4QzD2Odn9HhrQUhmWx_9I\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/vyhHbd4QzD2Odn9HhrQUhmWx_9I\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "rQWb_oYS1tg"
@@ -1189,7 +1222,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/ndi1sSigSjXExm_9l7jnoGlSeYs\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/ndi1sSigSjXExm_9l7jnoGlSeYs\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "5LZ_G8jRGHg"
@@ -1222,7 +1255,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/rZQY0Y7SiXzqcxn6SJSep0MWA_A\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/rZQY0Y7SiXzqcxn6SJSep0MWA_A\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "JHiLEkV8l_8"
@@ -1255,7 +1288,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/YlPU4_91meCskbPDFhY2aUAJhrg\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/YlPU4_91meCskbPDFhY2aUAJhrg\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "-qATVnpaHTo"
@@ -1288,7 +1321,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/9bPqAt7-AfGVQSt0SV2X9MY6Kcg\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/9bPqAt7-AfGVQSt0SV2X9MY6Kcg\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "4RkZAfD-HeM"
@@ -1321,7 +1354,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/yZsPUfn9xUb9i6sTzB83DLFSTeg\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/yZsPUfn9xUb9i6sTzB83DLFSTeg\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "6bH9Qb_feRY"
@@ -1354,7 +1387,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/NXqZJypHAoe2EPwNPUAfEbEs9oY\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/NXqZJypHAoe2EPwNPUAfEbEs9oY\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "wSB9JvsBT4M"
@@ -1387,7 +1420,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/e3YKeruFLK39zW_n88wyGeJLMO8\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/e3YKeruFLK39zW_n88wyGeJLMO8\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "muzeGsrYpnQ"
@@ -1420,7 +1453,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/7zFCnIjQ_0Taq7VzyZqHikPJ8oM\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/7zFCnIjQ_0Taq7VzyZqHikPJ8oM\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "No8-mBek3rs"
@@ -1453,7 +1486,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/wmJjgZurrsSN-7sqXgtTKBXDE1w\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/wmJjgZurrsSN-7sqXgtTKBXDE1w\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "6re9XAwo4b4"
@@ -1486,7 +1519,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/Q6qDWFLbl2zn_RJ9wf6q78kTJpo\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/Q6qDWFLbl2zn_RJ9wf6q78kTJpo\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "RohJfM-VFS0"
@@ -1519,7 +1552,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/M9zyA7s5j0Awj-OidHDpU9CE6jo\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/M9zyA7s5j0Awj-OidHDpU9CE6jo\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "DkW87-Z9FAY"
@@ -1552,7 +1585,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/21eHCGzz0-TDTXcJuQwkO4OVOU4\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/21eHCGzz0-TDTXcJuQwkO4OVOU4\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "QU1byle-nmA"
@@ -1585,7 +1618,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/KExMY3qpwqv8GPNkPLQWh018jNk\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/KExMY3qpwqv8GPNkPLQWh018jNk\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "v-dfygYIfLs"
@@ -1618,7 +1651,7 @@
     },
     {
         "kind": "youtube#searchResult",
-        "etag": "\"ksCrgYQhtFrXgbHAhi9Fo5t0C2I/S89qs1mKsVAgcX5ITIiq5FCnn1k\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/S89qs1mKsVAgcX5ITIiq5FCnn1k\"",
         "id": {
             "kind": "youtube#video",
             "videoId": "9m9oO84Q2fk"
@@ -1641,6 +1674,1623 @@
                 },
                 "high": {
                     "url": "https://i.ytimg.com/vi/9m9oO84Q2fk/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/xZ2QBIepwh9mm4GNeyTpujrJlmY\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "FepIkIILumA"
+        },
+        "snippet": {
+            "publishedAt": "2018-05-07T21:55:24.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Fortnite with Ninja | Overtime 3 | Dude Perfect",
+            "description": "Dude Perfect plays Fortnite with Ninja! \u25bb Play Fortnite yourself! https://pixly.go2cloud.org/SHcD Sponsored by Epic Games \u25bbClick HERE to follow Dude Perfect ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/FepIkIILumA/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/FepIkIILumA/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/FepIkIILumA/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/Rb3QKvZEPYe_mWkU5i20KIZs4vg\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "Hk5dxn5dj2M"
+        },
+        "snippet": {
+            "publishedAt": "2018-04-23T21:57:40.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Deep Sea Fishing Battle | Dude Perfect",
+            "description": "Time to catch some big fish! Special thanks to Old Bahama Bay for sponsoring this video! Click HERE to check out their resort and yacht harbor: ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/Hk5dxn5dj2M/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/Hk5dxn5dj2M/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/Hk5dxn5dj2M/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/85YL5o2eomCL_eK3aaUTbNGzSvo\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "hYirFqEc8Tg"
+        },
+        "snippet": {
+            "publishedAt": "2018-04-09T21:55:11.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Crossbow Trick Shots | Dude Perfect",
+            "description": "It's crossbow time! Special thanks to Hearthstone for sponsoring this video! \u25bb Click HERE to play Hearthstone for FREE: http://dudeperfect.com/hearthstone ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/hYirFqEc8Tg/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/hYirFqEc8Tg/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/hYirFqEc8Tg/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/lyYPvTQYJHHB_xwS4MkrMYzs7ZQ\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "S9KxqRUcnCU"
+        },
+        "snippet": {
+            "publishedAt": "2018-03-26T22:01:01.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Boomerang Trick Shots | Dude Perfect",
+            "description": "Time to take boomerangs to the next level! \u25bb Click HERE to subscribe to Dude Perfect! http://bit.ly/SubDudePerfect \u25bb Click HERE to watch our most recent ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/S9KxqRUcnCU/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/S9KxqRUcnCU/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/S9KxqRUcnCU/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/l30-KSR0wxNhXYcECnfQjMnGxd0\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "Wh1L0rOaa88"
+        },
+        "snippet": {
+            "publishedAt": "2018-03-13T00:45:57.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "March Madness Stereotypes",
+            "description": "March Madness Stereotypes. Love 'em or Hate 'em, we all know 'em. \u25bb Click HERE to subscribe to Dude Perfect! http://bit.ly/SubDudePerfect \u25bb Click HERE to ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/Wh1L0rOaa88/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/Wh1L0rOaa88/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/Wh1L0rOaa88/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/hlHNHp9jPikt0dXi5E3rKA4__D8\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "MuPL-PSMX0Q"
+        },
+        "snippet": {
+            "publishedAt": "2018-03-05T22:54:42.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "World&#39;s Longest LEGO Walk | Overtime 2 | Dude Perfect",
+            "description": "Ty braves over 140 feet of LEGOS... barefoot! \u25bb Click HERE to subscribe to Dude Perfect! http://bit.ly/SubDudePerfect \u25bb Click HERE to watch our most recent ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/MuPL-PSMX0Q/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/MuPL-PSMX0Q/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/MuPL-PSMX0Q/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/mkdJpRvkHl5Ff1-IoUW1oExKwAg\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "qZHycHI3F1Q"
+        },
+        "snippet": {
+            "publishedAt": "2018-02-19T22:56:12.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Football vs Soccer Trick Shots | Dude Perfect",
+            "description": "Dude Perfect football vs F2 soccer... trick shot style! \u25bb Special thanks to Whistle Sports! Click HERE to subscribe to Whistle Sports: ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/qZHycHI3F1Q/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/qZHycHI3F1Q/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/qZHycHI3F1Q/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/rrKETTnkpPK5TiqtFIxyQEIuex8\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "WpqUOW19aJQ"
+        },
+        "snippet": {
+            "publishedAt": "2018-02-05T22:58:27.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Model Rocket Battle | Dude Perfect",
+            "description": "Launching model rockets is our new favorite hobby! \u25bb Click HERE to subscribe to Dude Perfect! http://bit.ly/SubDudePerfect \u25bb Subscribe and SHARE this video ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/WpqUOW19aJQ/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/WpqUOW19aJQ/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/WpqUOW19aJQ/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/1szGxIC2JpHOZayLDDyWY1wRMRg\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "VRJmcxCrAOA"
+        },
+        "snippet": {
+            "publishedAt": "2018-01-22T22:55:24.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Real Life Trick Shots 2 | Dude Perfect",
+            "description": "Trick shots should be an everyday thing! Thanks to Kay Jewelers for sponsoring this video! Win Valentine's Day by going to http://dudeperfect.com/KayJewelers ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/VRJmcxCrAOA/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/VRJmcxCrAOA/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/VRJmcxCrAOA/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/fdYZE0ijsdDg0Tb1WOJM6tHLPo8\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "g1QONg2b2JQ"
+        },
+        "snippet": {
+            "publishedAt": "2018-01-08T22:59:46.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Crush a Diamond with a Hammer? | Dude Perfect",
+            "description": "It's time for our brand NEW series: Overtime! Subscribe AND share this video for a chance to win new DP merch! \u25bb Click HERE to subscribe to Dude Perfect!",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/g1QONg2b2JQ/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/g1QONg2b2JQ/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/g1QONg2b2JQ/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/MI1YcjB2r5l06QL33agjT_X7Gdo\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "9oyKePWRi8Y"
+        },
+        "snippet": {
+            "publishedAt": "2017-12-26T22:55:15.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Dude Perfect Rewind 2017",
+            "description": "It's time for our BEST and FUNNIEST moments from 2017! \u25bb Click HERE to subscribe to Dude Perfect! http://bit.ly/SubDudePerfect \u25bb Click HERE to watch all ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/9oyKePWRi8Y/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/9oyKePWRi8Y/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/9oyKePWRi8Y/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/1PZolSho6uuIZQpBFvePmQnzkIg\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "ycVc1jsaAA0"
+        },
+        "snippet": {
+            "publishedAt": "2017-12-11T22:57:21.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Christmas Stereotypes",
+            "description": "Christmas Stereotypes. Love 'em or hate 'em, we all know 'em. \u25bb Special thanks to Bass Pro Shops for sponsoring this video! Click HERE to get some awesome ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/ycVc1jsaAA0/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/ycVc1jsaAA0/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/ycVc1jsaAA0/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/Hxqo5qppOqeKQLGtIZCVzqWVxfU\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "-RmUADCWI4A"
+        },
+        "snippet": {
+            "publishedAt": "2017-12-04T22:57:07.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "All Sports Golf Battle 2 | Dude Perfect",
+            "description": "Golf + every other sport = awesome! \u25bb Click HERE to subscribe to Dude Perfect! http://bit.ly/SubDudePerfect \u25bb Click HERE to watch our most recent videos!",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/-RmUADCWI4A/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/-RmUADCWI4A/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/-RmUADCWI4A/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/dEOAa2SRFsGlt50jSh_esEfLII0\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "VJwoSfTOhyM"
+        },
+        "snippet": {
+            "publishedAt": "2017-11-20T23:00:24.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Water Bottle Flip 2 | Dude Perfect",
+            "description": "It's water bottle flipping time...again :) \u25bb Click HERE to subscribe to Dude Perfect! http://bit.ly/SubDudePerfect \u25bb Click HERE to watch our most recent videos!",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/VJwoSfTOhyM/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/VJwoSfTOhyM/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/VJwoSfTOhyM/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/OCdO9olYI3pU0Y0MtFlHYyr8jxA\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "cqylLiMzk54"
+        },
+        "snippet": {
+            "publishedAt": "2017-11-07T22:55:50.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Freeze Frame Football Battle | Dude Perfect",
+            "description": "Now this is pressure football! Sponsored Advertising by Coke Zero Sugar Click here to try Coke Zero Sugar for yourself: http://dudeperfect.com/cokezerosugar ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/cqylLiMzk54/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/cqylLiMzk54/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/cqylLiMzk54/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/s8VI3zBTOP4M5h7oPy3zv3cmPD0\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "sOCQipbEqNg"
+        },
+        "snippet": {
+            "publishedAt": "2017-10-16T21:55:44.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Glow In The Dark Trick Shots | Dude Perfect",
+            "description": "Let's make some glowy trick shots! Special thanks to Ghosted on Fox for sponsoring this video! \u25bb Click here to watch the latest episodes of Ghosted!",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/sOCQipbEqNg/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/sOCQipbEqNg/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/sOCQipbEqNg/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/ktu2ZaufBUkc9krJAWEbCcDiF1w\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "RdNqmKrRmbU"
+        },
+        "snippet": {
+            "publishedAt": "2017-10-09T21:53:28.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Build A Boat Battle | Dude Perfect",
+            "description": "Who will build the best boat and reach the other shore?! \u25bb Click HERE to subscribe to Dude Perfect! http://bit.ly/SubDudePerfect \u25bb Click HERE to watch our ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/RdNqmKrRmbU/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/RdNqmKrRmbU/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/RdNqmKrRmbU/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/B7WCI99-1aDhVfmQW63l141q3fY\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "XM23h-eJ08A"
+        },
+        "snippet": {
+            "publishedAt": "2017-09-25T21:55:47.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Soccer Trick Shots 2 | Dude Perfect",
+            "description": "Time for some soccer (football) trick shots with the reigning champions, Chelsea FC! Special thanks to Yokohama Tire for sponsoring this video! Click here for a ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/XM23h-eJ08A/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/XM23h-eJ08A/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/XM23h-eJ08A/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/NwKJrLs9756rXmQhh3VlfruURJA\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "LcZ2AuvxXNA"
+        },
+        "snippet": {
+            "publishedAt": "2017-09-11T21:55:14.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Nerf Bow Trick Shots | Dude Perfect",
+            "description": "It's Nerf bow and arrow time! Special thanks to Nerf for sponsoring this video! \u25bb Click HERE to get your own Dude Perfect Nerf Bow! http://bit.ly/DPNerfBow ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/LcZ2AuvxXNA/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/LcZ2AuvxXNA/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/LcZ2AuvxXNA/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/fIqMneOeobYfoYGaz7lYWQIIZPA\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "8IQbF0IK-f4"
+        },
+        "snippet": {
+            "publishedAt": "2017-08-28T21:56:21.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Airplane Trick Shots | Dude Perfect",
+            "description": "Foam airplanes are the jam \u25bb Click HERE to subscribe to Dude Perfect! http://bit.ly/SubDudePerfect \u25bb Click HERE to watch our most recent videos!",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/8IQbF0IK-f4/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/8IQbF0IK-f4/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/8IQbF0IK-f4/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/aQTlc5rf0wP5aIMXMXfngeDkvBY\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "gA8Gru79DcE"
+        },
+        "snippet": {
+            "publishedAt": "2017-08-14T21:52:45.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Blitzball Trick Shots 3 | Dude Perfect",
+            "description": "More fun than a water bottle flip! Thanks to Blitzball for sponsoring this video! Get your own blitzballs here: http://DudePerfect.com/Blitzball \u25bb Click HERE to ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/gA8Gru79DcE/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/gA8Gru79DcE/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/gA8Gru79DcE/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/8xF4QzPo0gREXprNik-Djb21iec\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "6uhN97Cpz6I"
+        },
+        "snippet": {
+            "publishedAt": "2017-07-31T21:55:21.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Nerf Slip and Slide Battle | Dude Perfect",
+            "description": "Nerf blasters + slip and slide! Special thanks to Nerf Rival for sponsoring this video! Get your own Rival blasters here: http://nerfrival.com \u25bb Click HERE to ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/6uhN97Cpz6I/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/6uhN97Cpz6I/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/6uhN97Cpz6I/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/jJue4YuhLrsjZu5FA8QlOz0g45o\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "TvNTcB6c-V8"
+        },
+        "snippet": {
+            "publishedAt": "2017-07-17T21:55:27.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Card Throwing Trick Shots | Dude Perfect",
+            "description": "Is card throwing the new water bottle flipping? \u25bb Click HERE to subscribe to Dude Perfect! http://bit.ly/SubDudePerfect \u25bb Click HERE for more card throwing ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/TvNTcB6c-V8/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/TvNTcB6c-V8/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/TvNTcB6c-V8/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/DszkJPDbZ-8V-HOLsnjuuP_xhbs\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "ggR_SPwP6cw"
+        },
+        "snippet": {
+            "publishedAt": "2017-07-03T21:53:50.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Beach Stereotypes | Dude Perfect",
+            "description": "Beach Stereotypes. Love 'em or hate 'em, we all know 'em. \u25bb PLAY our NEW iPhone/Android GAME \u2014 http://smarturl.it/thatslit \u25bb Click HERE to subscribe to ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/ggR_SPwP6cw/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/ggR_SPwP6cw/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/ggR_SPwP6cw/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/OygIuDAbKrIh4c4GoQAmR5p9pMU\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "3J6o7hcm8bE"
+        },
+        "snippet": {
+            "publishedAt": "2017-06-19T22:00:37.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Fidget Spinner Trick Shots | Dude Perfect",
+            "description": "It's not quite water bottle flipping, but you CAN do trick shots with fidget spinners!! Click HERE to get your own custom DP fidget spinner: http://bit.ly/DPspinner ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/3J6o7hcm8bE/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/3J6o7hcm8bE/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/3J6o7hcm8bE/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/SxbFxPlvHkofUKwyaALkh8unuOU\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "tsEoLVBk_Ts"
+        },
+        "snippet": {
+            "publishedAt": "2017-06-05T21:56:40.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Drew Brees Edition | Dude Perfect",
+            "description": "It's time for Drew Brees to do some trick shots! We do water bottle flipping for a living. This guy wins Super Bowls! \u25bb Click HERE to subscribe to Dude Perfect!",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/tsEoLVBk_Ts/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/tsEoLVBk_Ts/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/tsEoLVBk_Ts/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/id3uz64VI_Frb6lxlzAYDG8yCuw\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "A2FsgKoGD04"
+        },
+        "snippet": {
+            "publishedAt": "2017-05-25T21:58:58.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Real Life Trick Shots | Dude Perfect",
+            "description": "Trick shots should be an everyday thing! Thanks to Kingsford for sponsoring this video! \u25bb Click HERE to subscribe to Dude Perfect! http://bit.ly/SubDudePerfect ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/A2FsgKoGD04/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/A2FsgKoGD04/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/A2FsgKoGD04/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/GWfPxL8HcoD_zZqmzFQGWZ7NBCs\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "HKuCPqUpp4s"
+        },
+        "snippet": {
+            "publishedAt": "2017-05-01T21:55:53.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Stunt Driving Battle | Dude Perfect",
+            "description": "It's time to get drifty! Special thanks to TireRack.com for sponsoring this video! \u25bbClick HERE to subscribe to Dude Perfect! http://bit.ly/SubDudePerfect Some of ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/HKuCPqUpp4s/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/HKuCPqUpp4s/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/HKuCPqUpp4s/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/keUQpUYj9EcoWncm7syI9iPw96U\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "th2T6rygqNU"
+        },
+        "snippet": {
+            "publishedAt": "2017-04-17T22:16:43.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Giant Sumo Battle | Dude Perfect",
+            "description": "It's time for a GIANT sumo battle! \u25bbClick HERE to subscribe to Dude Perfect! http://bit.ly/SubDudePerfect Some of our biggest videos ever are coming out soon ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/th2T6rygqNU/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/th2T6rygqNU/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/th2T6rygqNU/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/aOlCnWlwo2eo589SxH_f0Tigfos\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "UeG1ftTmLAg"
+        },
+        "snippet": {
+            "publishedAt": "2017-04-03T21:57:27.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Ping Pong Trick Shots 3 | Dude Perfect",
+            "description": "We take Ping Pong Trick Shots to the next level! Sponsored advertising by Oreo Cookies. Some of our biggest videos ever are coming out soon so stay tuned so ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/UeG1ftTmLAg/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/UeG1ftTmLAg/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/UeG1ftTmLAg/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/LwQS0pWBpQWY-GM_4VZfq8p997g\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "nhL3vSVlvFo"
+        },
+        "snippet": {
+            "publishedAt": "2017-03-20T21:55:43.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Dude Perfect vs. Power Rangers",
+            "description": "It's time to take on the Power Rangers! Special thanks to the Power Rangers movie for sponsoring this video! Click http://tickets.powerrangers.movie to get your ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/nhL3vSVlvFo/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/nhL3vSVlvFo/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/nhL3vSVlvFo/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/yHv0KQoe4ghOz5Y4KlZji70yODQ\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "evXDnRpgolc"
+        },
+        "snippet": {
+            "publishedAt": "2017-03-06T22:54:16.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Virtual Reality Battle | Dude Perfect",
+            "description": "It's time for a REAL battle in FAKE world! Some of our biggest videos ever are coming out soon so stay tuned so you won't miss a thing! \u25bbClick HERE to ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/evXDnRpgolc/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/evXDnRpgolc/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/evXDnRpgolc/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/QXTPi_tB8KZBK8tIBys2ot1-RXA\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "ofyyJWHnEPM"
+        },
+        "snippet": {
+            "publishedAt": "2017-02-20T22:57:07.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Pool Trick Shots 2 |  Dude Perfect",
+            "description": "Dude Perfect teams back up w/ Pool Trick Shot legend Florian 'Venom' Kohler Watch the BONUS video for some behind the scenes pool table fun!",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/ofyyJWHnEPM/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/ofyyJWHnEPM/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/ofyyJWHnEPM/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/npLS2OZ5gj2_DiMfOwuRmlJ-qVU\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "SOk-KVq-O1I"
+        },
+        "snippet": {
+            "publishedAt": "2017-02-06T23:02:27.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "World Record Edition 2 | Dude Perfect",
+            "description": "Time to break some football recs! (records) Thanks to McDonald's Big Mac for sponsoring this video! Click HERE to check out the New Mac Trio: ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/SOk-KVq-O1I/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/SOk-KVq-O1I/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/SOk-KVq-O1I/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/tEnKp6x6CUWBjRfauBzG7seRrh0\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "QWV3cEI-zoE"
+        },
+        "snippet": {
+            "publishedAt": "2017-01-30T22:54:59.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Epic Trick Shot Battle 3 | Dude Perfect",
+            "description": "It's time for Dude Perfect and Brodie Smith's most epic battle yet! Thanks to Ruffles for sponsoring this video! Click HERE to sign up for the Ruffles Ridge ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/QWV3cEI-zoE/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/QWV3cEI-zoE/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/QWV3cEI-zoE/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/1lKqvu50z5s1D3S86rUCA-oo3Cw\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "kxgB2-ZpZeY"
+        },
+        "snippet": {
+            "publishedAt": "2017-01-02T22:55:38.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Dude Perfect Rewind 2016",
+            "description": "It's time for the best Dude Perfect moments of 2016! \u25bb Click HERE to subscribe to Dude Perfect! http://bit.ly/SubDudePerfect \u25bb Click HERE to watch the 2016 ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/kxgB2-ZpZeY/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/kxgB2-ZpZeY/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/kxgB2-ZpZeY/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/WTss3guapRdKzzJWibHQMPJf3Lw\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "xPxbrHMHgNE"
+        },
+        "snippet": {
+            "publishedAt": "2016-12-19T23:05:34.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Editor Edition | Dude Perfect",
+            "description": "It's time for our editors to star in an epic video! \u25bb Click HERE to subscribe to Dude Perfect! http://bit.ly/SubDudePerfect \u25bb Click HERE to follow DPeditors on ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/xPxbrHMHgNE/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/xPxbrHMHgNE/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/xPxbrHMHgNE/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/8Tgk5z9nYJ04hMVgaqRwJF-cjpA\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "YwabP6B_UkE"
+        },
+        "snippet": {
+            "publishedAt": "2016-12-05T23:01:24.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Extreme Weather Golf Battle | Dude Perfect",
+            "description": "Time to golf in a hurricane! Thanks to Full Swing for sponsoring this video! \u25bb Click HERE to subscribe to Dude Perfect! http://bit.ly/SubDudePerfect \u25bb Click ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/YwabP6B_UkE/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/YwabP6B_UkE/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/YwabP6B_UkE/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/SXC_3DUIkSp7qHuQt0LW4oP08cA\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "8YydogFXCPM"
+        },
+        "snippet": {
+            "publishedAt": "2016-11-21T22:57:54.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Flip Edition | Dude Perfect",
+            "description": "It's time to flip some stuff! Sponsored Advertising by Hasbro Gaming! Go to http://bit.ly/FantasticGymnasticsDP to get Fantastic Gymnastics for yourself! Batteries ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/8YydogFXCPM/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/8YydogFXCPM/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/8YydogFXCPM/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/zzrujX-4zuUKOt3elhyMl5CvP_U\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "LAbXD3sx3fc"
+        },
+        "snippet": {
+            "publishedAt": "2016-11-07T22:55:56.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Drone Hunting Battle | Dude Perfect",
+            "description": "It's time to hunt some drones! Thanks to Skyrocket Toys for sponsoring this video! Go to http://bit.ly/SkyViperDudePerfect to check out their Sky Viper drone!",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/LAbXD3sx3fc/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/LAbXD3sx3fc/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/LAbXD3sx3fc/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/sWXuKdkDv3IbR9OV3C-59VZi_0I\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "779akDPBNYc"
+        },
+        "snippet": {
+            "publishedAt": "2016-10-31T20:35:36.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "DPHQ2 Trick Shots | Dude Perfect",
+            "description": "It's time to unveil our BRAND NEW OFFICE! Thanks to Ruffles for sponsoring this video! Go to http://Ruffles.com to get the Ruffles Home Court Advantage!",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/779akDPBNYc/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/779akDPBNYc/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/779akDPBNYc/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/gNCyN6ftBpMAjFe-ZdJuU_Jnq4Q\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "rdfC6XwXTW0"
+        },
+        "snippet": {
+            "publishedAt": "2016-10-17T22:03:39.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Giant Warship Battle | Dude Perfect",
+            "description": "IT'S TIME TO SINK SOME SHIPS! Thanks to World of Warships for sponsoring this video! If you're all about action and strategy like we are, then you're going to ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/rdfC6XwXTW0/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/rdfC6XwXTW0/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/rdfC6XwXTW0/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/td5JhTgz0HrQNjJYn-FHi6sbxe4\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "09Z9tbJLkCE"
+        },
+        "snippet": {
+            "publishedAt": "2016-10-10T22:22:49.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Metal Detector Battle | Dude Perfect",
+            "description": "It's time to find some treasure! Thanks to Audible for supporting our channel. Get a free audiobook with a 30 day free trial at http://www.audible.com/dudeperfect.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/09Z9tbJLkCE/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/09Z9tbJLkCE/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/09Z9tbJLkCE/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/7q2SvRhFy1_Uw3n1HpD2G1WiMDs\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "gpe4kNlRcmE"
+        },
+        "snippet": {
+            "publishedAt": "2016-09-26T21:55:05.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Trampoline Charades Battle | Dude Perfect",
+            "description": "It's time for some high-flying Trampoline Charades! Play our FREE new iPhone game!! \u25bbPlay FREE on iPhone -- http://smarturl.it/EndlessDucker \u25bbPLAY FREE ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/gpe4kNlRcmE/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/gpe4kNlRcmE/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/gpe4kNlRcmE/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/S69Xwd4D-A9fBxMEHJevXAOgs30\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "4o1PTcoZbKQ"
+        },
+        "snippet": {
+            "publishedAt": "2016-09-12T21:56:26.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Giant Nerf Trick Shots | Dude Perfect",
+            "description": "It's time for some GIANT trick shots! This video is sponsored by Nerf \u25bb GRAB our NEW Nerf TOYS! - https://www.amazon.com/shop/dudeperfect \u25bb Click HERE ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/4o1PTcoZbKQ/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/4o1PTcoZbKQ/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/4o1PTcoZbKQ/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/imJupbH9rgbNxlOo_y27GJKdZyo\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "dFLj3DeKT-E"
+        },
+        "snippet": {
+            "publishedAt": "2016-08-29T21:56:00.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Shotgun Trick Shots | Dude Perfect",
+            "description": "It's trick-shot-gun shootin' time! Click HERE to subscribe to the Gould Brothers! http://bit.ly/SubGouldBrothers Click HERE to subscribe to Dude Perfect!",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/dFLj3DeKT-E/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/dFLj3DeKT-E/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/dFLj3DeKT-E/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/gTpqLnHHOvEddmOcoGsZQM7wpvE\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "CAUO3YGvqnU"
+        },
+        "snippet": {
+            "publishedAt": "2016-08-15T20:59:51.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Endless Ducker Battle | Dude Perfect",
+            "description": "Run Cody Run!! \u25bb PLAY Endless Ducker FREE on iPhone -- http://smarturl.it/EndlessDucker \u25bb PLAY Endless Ducker FREE on Android ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/CAUO3YGvqnU/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/CAUO3YGvqnU/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/CAUO3YGvqnU/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/Rw5TBYyRVUmR4F0PCj9EehrwUYw\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "jC9l0_NClrY"
+        },
+        "snippet": {
+            "publishedAt": "2016-08-01T21:56:00.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "DP vs NFL Battle | Dude Perfect",
+            "description": "NFL players are good at football. \u25bb Click HERE for Madden 17 player ratings! http://bit.ly/Madden17PlayerRatings \u25bb SUBSCRIBE for MORE!",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/jC9l0_NClrY/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/jC9l0_NClrY/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/jC9l0_NClrY/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Dude Perfect",
+            "liveBroadcastContent": "none"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/5HrZFxls8LSrtNtV4qVtzXF2Awo\"",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "P8V_bx0L4RY"
+        },
+        "snippet": {
+            "publishedAt": "2016-07-18T21:56:02.000Z",
+            "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+            "title": "Water Bottle Flip Edition | Dude Perfect",
+            "description": "It's time to flip some water bottles! \u25bb VISIT our NEW STORE - http://bit.ly/DPStore \u25bb SUBSCRIBE for MORE! - http://bit.ly/SubscribeToDP Play our FREE new ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/P8V_bx0L4RY/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/P8V_bx0L4RY/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/P8V_bx0L4RY/hqdefault.jpg",
                     "width": 480,
                     "height": 360
                 }
