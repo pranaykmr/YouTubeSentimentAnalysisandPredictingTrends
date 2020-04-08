@@ -1,1202 +1,327 @@
 [
     {
         "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/SANAesUWXdGvGOnrwfalkszDbpY\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/PrgYUPw4YLRDVGj2nucInkkrNtI\"",
+        "id": "YYBqfzDPOWU",
+        "positive": 43.9,
+        "negative": 14.899999999999999,
+        "neutral": 41.199999999999996,
+        "title": "Video Number : 1 --> Blindfolded Archery Battle | Dude Perfect\n",
+        "viewCount": "4497505",
+        "likeCount": "202046",
+        "dislikeCount": "1986",
+        "commentCount": "10104"
+    },
+    {
+        "kind": "youtube#video",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/lGpYJM4uOOCwHcskmrbcmkMeGZQ\"",
         "id": "aV0BK3QCk0g",
-        "statistics": {
-            "viewCount": "7986100",
-            "likeCount": "278859",
-            "dislikeCount": "3996",
-            "favoriteCount": "0",
-            "commentCount": "16093"
-        }
+        "positive": 40.5,
+        "negative": 10.4,
+        "neutral": 49.1,
+        "title": "Video Number : 2 --> Freeze Frame Nerf Battle | Dude Perfect\n",
+        "viewCount": "8574983",
+        "likeCount": "290393",
+        "dislikeCount": "4247",
+        "commentCount": "16508"
     },
     {
         "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/C7WZzwVaJW-3lyrkpGv_GTNRnqY\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/63uWj14VfjXU-Wc_IGnfdQbJxnM\"",
         "id": "xG61CapseLU",
-        "statistics": {
-            "viewCount": "13094969",
-            "likeCount": "331333",
-            "dislikeCount": "12124",
-            "favoriteCount": "0",
-            "commentCount": "35280"
-        }
+        "positive": 41.4,
+        "negative": 19.900000000000002,
+        "neutral": 38.7,
+        "title": "Video Number : 3 --> World&#39;s Best Candy | Overtime 14 | Dude Perfect\n",
+        "viewCount": "13506694",
+        "likeCount": "335045",
+        "dislikeCount": "12269",
+        "commentCount": "35772"
     },
     {
         "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/Y6m2N2mwie1AKAExuqlp63pLZA0\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/u5JAdfXkXO4A6xrob0A0zezWb7I\"",
         "id": "v_BgzDHGav0",
-        "statistics": {
-            "viewCount": "16485064",
-            "likeCount": "602177",
-            "dislikeCount": "9243",
-            "favoriteCount": "0",
-            "commentCount": "28212"
-        }
+        "positive": 42.199999999999996,
+        "negative": 17.0,
+        "neutral": 40.8,
+        "title": "Video Number : 4 --> Airsoft Battle Royale 2 | Dude Perfect\n",
+        "viewCount": "16850303",
+        "likeCount": "607740",
+        "dislikeCount": "9378",
+        "commentCount": "28386"
     },
     {
         "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/R9eY5JECJ22giNMqIXbt0_Q12h4\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/z3vy1PEUfZ2iEvZgyAxVL9Mn04E\"",
         "id": "hfzSedylBog",
-        "statistics": {
-            "viewCount": "18324840",
-            "likeCount": "690754",
-            "dislikeCount": "12776",
-            "favoriteCount": "0",
-            "commentCount": "22646"
-        }
+        "positive": 53.6,
+        "negative": 9.8,
+        "neutral": 36.6,
+        "title": "Video Number : 5 --> Water Bottle Flip 3 | Dude Perfect\n",
+        "viewCount": "18547020",
+        "likeCount": "694124",
+        "dislikeCount": "12859",
+        "commentCount": "22700"
     },
     {
         "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/aM5WO3hvr1SKyAZnnqjhE19yI7c\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/IsM7xhXkFJl3GwWq8OaiJ8OQsyg\"",
         "id": "4MMdJHYHoiA",
-        "statistics": {
-            "viewCount": "19573900",
-            "likeCount": "477873",
-            "dislikeCount": "15402",
-            "favoriteCount": "0",
-            "commentCount": "36960"
-        }
+        "positive": 34.0,
+        "negative": 12.8,
+        "neutral": 53.2,
+        "title": "Video Number : 6 --> Lightsaber Accident | Overtime 13 | Dude Perfect\n",
+        "viewCount": "19818880",
+        "likeCount": "480138",
+        "dislikeCount": "15472",
+        "commentCount": "37137"
     },
     {
         "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/xsLQzNKEPHXxqDS3lBLQwOjGrnM\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/QAj6x3ndgNakjvCQB_wEepTWPzA\"",
         "id": "gqdwyXC4Jwk",
-        "statistics": {
-            "viewCount": "21279494",
-            "likeCount": "695197",
-            "dislikeCount": "12805",
-            "favoriteCount": "0",
-            "commentCount": "36741"
-        }
+        "positive": 34.8,
+        "negative": 11.200000000000001,
+        "neutral": 54.0,
+        "title": "Video Number : 7 --> Bucket List: Aircraft Carrier\n",
+        "viewCount": "21506768",
+        "likeCount": "698581",
+        "dislikeCount": "12881",
+        "commentCount": "36905"
     },
     {
         "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/n7mW3pzhSNMSKzGicYJWgyqhOlo\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/AIUNFFY5nhziDtORhjehTq8MBW0\"",
         "id": "ItMpKIxXwlw",
-        "statistics": {
-            "viewCount": "11451059",
-            "likeCount": "385884",
-            "dislikeCount": "5581",
-            "favoriteCount": "0",
-            "commentCount": "17850"
-        }
+        "positive": 42.6,
+        "negative": 14.6,
+        "neutral": 42.8,
+        "title": "Video Number : 8 --> Hockey Trick Shots | Dude Perfect\n",
+        "viewCount": "11497657",
+        "likeCount": "386399",
+        "dislikeCount": "5590",
+        "commentCount": "17857"
     },
     {
         "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/FkGTDYhlDUCWoqXJfFUm6pgwyeI\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/I2YcCJn1MeQ9I8gCGvx556hpVaE\"",
         "id": "GSTyIwVqO6Q",
-        "statistics": {
-            "viewCount": "7833031",
-            "likeCount": "342765",
-            "dislikeCount": "5335",
-            "favoriteCount": "0",
-            "commentCount": "9262"
-        }
+        "positive": 48.5,
+        "negative": 11.899999999999999,
+        "neutral": 39.6,
+        "title": "Video Number : 9 --> YouTube Rewind 2019: Dude Perfect Edition | #YouTubeRewind\n",
+        "viewCount": "7858406",
+        "likeCount": "343057",
+        "dislikeCount": "5338",
+        "commentCount": "9261"
     },
     {
         "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/jQJHX9apuQZ7tYG7Pdx3SM29IGY\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/AMYHIkGDv3Mij7HjCHIz9GJftp4\"",
         "id": "XYX-IZa3rNs",
-        "statistics": {
-            "viewCount": "15564541",
-            "likeCount": "367867",
-            "dislikeCount": "7129",
-            "favoriteCount": "0",
-            "commentCount": "13555"
-        }
+        "positive": 38.5,
+        "negative": 22.3,
+        "neutral": 39.2,
+        "title": "Video Number : 10 --> All Sports Bowling Battle | Dude Perfect\n",
+        "viewCount": "15743642",
+        "likeCount": "369569",
+        "dislikeCount": "7183",
+        "commentCount": "13554"
     },
     {
         "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/EL4Cf89N0HiHkbHdfYnqP0HnoFk\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/50UPjfAMQt0h5y217oEPts47leE\"",
         "id": "Iw8qP0GdZ_0",
-        "statistics": {
-            "viewCount": "19897848",
-            "likeCount": "600895",
-            "dislikeCount": "17688",
-            "favoriteCount": "0",
-            "commentCount": "15240"
-        }
+        "positive": 39.4,
+        "negative": 16.7,
+        "neutral": 43.9,
+        "title": "Video Number : 11 --> Nerf Trick Shots | Dude Perfect\n",
+        "viewCount": "19967078",
+        "likeCount": "601609",
+        "dislikeCount": "17717",
+        "commentCount": "15212"
     },
     {
         "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/HMaqBQ3SzImwxPdQD0WMOtYkQ_U\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/NhEBukJHATbRWPlY0xocF3HS-6U\"",
         "id": "3C0btIJjrW8",
-        "statistics": {
-            "viewCount": "22983711",
-            "likeCount": "536742",
-            "dislikeCount": "12772",
-            "favoriteCount": "0",
-            "commentCount": "14740"
-        }
+        "positive": 48.699999999999996,
+        "negative": 13.900000000000002,
+        "neutral": 37.4,
+        "title": "Video Number : 12 --> Backyard Games Battle | Dude Perfect\n",
+        "viewCount": "23175219",
+        "likeCount": "538898",
+        "dislikeCount": "12837",
+        "commentCount": "14708"
     },
     {
         "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/RKbWu3DAIjurNoKEj7YFfMhnfYQ\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/zv5qZqoZEYffHBQ545wpCLZ0_i4\"",
         "id": "O5Sduwj9G98",
-        "statistics": {
-            "viewCount": "26528226",
-            "likeCount": "1007912",
-            "dislikeCount": "31998",
-            "favoriteCount": "0",
-            "commentCount": "115780"
-        }
+        "positive": 21.5,
+        "negative": 33.7,
+        "neutral": 44.800000000000004,
+        "title": "Video Number : 13 --> We Broke The Budget | Overtime 12 | Dude Perfect\n",
+        "viewCount": "26703077",
+        "likeCount": "1011418",
+        "dislikeCount": "32084",
+        "commentCount": "116184"
     },
     {
         "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/w4oCu6h7HawaTktoFjxnEu83GVs\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/dHXSPYwW08pteqMyCOuimFpvM1A\"",
         "id": "4xGFo_lYUrs",
-        "statistics": {
-            "viewCount": "32007077",
-            "likeCount": "800465",
-            "dislikeCount": "17186",
-            "favoriteCount": "0",
-            "commentCount": "24635"
-        }
+        "positive": 25.2,
+        "negative": 12.0,
+        "neutral": 62.8,
+        "title": "Video Number : 14 --> Unexpected Trick Shots | Dude Perfect\n",
+        "viewCount": "32244275",
+        "likeCount": "803183",
+        "dislikeCount": "17269",
+        "commentCount": "24713"
     },
     {
         "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/iC_yMZwZr7e1bO9Z7Af0k_VtaHU\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/c6MuuXMnOUONQeEGuNjIO5I_CzI\"",
         "id": "bIDKhZ_4jLQ",
-        "statistics": {
-            "viewCount": "19058620",
-            "likeCount": "532709",
-            "dislikeCount": "12006",
-            "favoriteCount": "0",
-            "commentCount": "24319"
-        }
+        "positive": 33.0,
+        "negative": 17.9,
+        "neutral": 49.1,
+        "title": "Video Number : 15 --> All Sports Trick Shots | Dude Perfect\n",
+        "viewCount": "19128533",
+        "likeCount": "533341",
+        "dislikeCount": "12021",
+        "commentCount": "24334"
     },
     {
         "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/k6-_K-A9lD9wlD7mLjPoep6Mwuk\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/HU20qzPas5FN3fN-wzCK_THZ_7s\"",
         "id": "aDrVrz76z1A",
-        "statistics": {
-            "viewCount": "26749926",
-            "likeCount": "531433",
-            "dislikeCount": "14731",
-            "favoriteCount": "0",
-            "commentCount": "29226"
-        }
+        "positive": 33.5,
+        "negative": 24.2,
+        "neutral": 42.3,
+        "title": "Video Number : 16 --> Camping Stereotypes\n",
+        "viewCount": "26907434",
+        "likeCount": "532793",
+        "dislikeCount": "14779",
+        "commentCount": "29297"
     },
     {
         "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/46qnaVMqv79QDhJHFu67V_mM34o\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/Pn_JYro3XyTmfbXYS7u0YmZMrjM\"",
         "id": "j7ZXF7jbXbY",
-        "statistics": {
-            "viewCount": "12475025",
-            "likeCount": "327924",
-            "dislikeCount": "10223",
-            "favoriteCount": "0",
-            "commentCount": "11576"
-        }
+        "positive": 39.30846223839855,
+        "negative": 19.017288444040037,
+        "neutral": 41.67424931756142,
+        "title": "Video Number : 17 --> Helicopter Battleship Battle | Dude Perfect\n",
+        "viewCount": "12555067",
+        "likeCount": "328597",
+        "dislikeCount": "10239",
+        "commentCount": "11593"
     },
     {
         "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/mJpoHWf1aRPeMA5K0eTmsactTnk\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/N2_ipyWLzqpBPVTd44EptdgJFjg\"",
         "id": "j9I7jt4Y_-A",
-        "statistics": {
-            "viewCount": "22264297",
-            "likeCount": "396224",
-            "dislikeCount": "13423",
-            "favoriteCount": "0",
-            "commentCount": "20541"
-        }
+        "positive": 39.300000000000004,
+        "negative": 20.7,
+        "neutral": 40.0,
+        "title": "Video Number : 18 --> World&#39;s Weirdest Pillow | Overtime 11 | Dude Perfect\n",
+        "viewCount": "22374412",
+        "likeCount": "397013",
+        "dislikeCount": "13443",
+        "commentCount": "20581"
     },
     {
         "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/9kStNxm3ySedB8K-sSXJ1kuy8js\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/AfexlDZ7_yV8XP35_rYYisa1aGA\"",
         "id": "Jvy7eXMxE9Y",
-        "statistics": {
-            "viewCount": "14203387",
-            "likeCount": "474946",
-            "dislikeCount": "19427",
-            "favoriteCount": "0",
-            "commentCount": "14312"
-        }
+        "positive": 40.400000000000006,
+        "negative": 15.0,
+        "neutral": 44.6,
+        "title": "Video Number : 19 --> Editor Edition 2 | Dude Perfect\n",
+        "viewCount": "14233820",
+        "likeCount": "475275",
+        "dislikeCount": "19431",
+        "commentCount": "14310"
     },
     {
         "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/KwTGjFlSSITFtQShan8HBrd4Mh0\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/Sk6y49-4Se2QyqjfW1a7_UXxH5Q\"",
         "id": "2lrBphwQOrI",
-        "statistics": {
-            "viewCount": "27984763",
-            "likeCount": "506505",
-            "dislikeCount": "15447",
-            "favoriteCount": "0",
-            "commentCount": "17319"
-        }
+        "positive": 44.9,
+        "negative": 14.899999999999999,
+        "neutral": 40.2,
+        "title": "Video Number : 20 --> Bass Fishing Battle | Dude Perfect\n",
+        "viewCount": "28114712",
+        "likeCount": "507644",
+        "dislikeCount": "15482",
+        "commentCount": "17350"
     },
     {
         "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/PHnmH9bewf7plBsgqclsGzAP-ew\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/LFDSh-ey0P8FcZ0_vk2PhfhzYEE\"",
         "id": "XMilHdBYZzA",
-        "statistics": {
-            "viewCount": "31495090",
-            "likeCount": "648599",
-            "dislikeCount": "18049",
-            "favoriteCount": "0",
-            "commentCount": "23334"
-        }
+        "positive": 41.699999999999996,
+        "negative": 9.700000000000001,
+        "neutral": 48.6,
+        "title": "Video Number : 21 --> RC Airplane Battle | Dude Perfect\n",
+        "viewCount": "31641423",
+        "likeCount": "650019",
+        "dislikeCount": "18108",
+        "commentCount": "23348"
     },
     {
         "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/g2x9199lxifWDfIKjk3zIsN5f9w\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/AnLkqqRg-pWP8i7uRmU9Li2B4BU\"",
         "id": "8qwjvDROE4E",
-        "statistics": {
-            "viewCount": "27622152",
-            "likeCount": "525395",
-            "dislikeCount": "16336",
-            "favoriteCount": "0",
-            "commentCount": "28010"
-        }
+        "positive": 40.400000000000006,
+        "negative": 15.299999999999999,
+        "neutral": 44.3,
+        "title": "Video Number : 22 --> World&#39;s Best Gaming Room | Overtime 10 | Dude Perfect\n",
+        "viewCount": "27748946",
+        "likeCount": "526314",
+        "dislikeCount": "16369",
+        "commentCount": "28024"
     },
     {
         "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/6SzPLOncvV205l0DMcpYz5XkNMQ\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/WhfHTowoC-zgRb7C6N5GWN_Idfc\"",
         "id": "q9bX7EkMvrA",
-        "statistics": {
-            "viewCount": "36362364",
-            "likeCount": "590140",
-            "dislikeCount": "19687",
-            "favoriteCount": "0",
-            "commentCount": "25193"
-        }
+        "positive": 40.9,
+        "negative": 17.4,
+        "neutral": 41.699999999999996,
+        "title": "Video Number : 23 --> Metal Detector Battle 2 | Dude Perfect\n",
+        "viewCount": "36476214",
+        "likeCount": "591091",
+        "dislikeCount": "19724",
+        "commentCount": "25221"
     },
     {
         "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/_Wzkzu5x_B5w03x0RFZf7YCUXWE\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/bko58M7m_tMr52G9CcaZ3bKUXGA\"",
         "id": "FjPvXMwTwQo",
-        "statistics": {
-            "viewCount": "36529497",
-            "likeCount": "775271",
-            "dislikeCount": "30058",
-            "favoriteCount": "0",
-            "commentCount": "36221"
-        }
+        "positive": 41.3,
+        "negative": 14.499999999999998,
+        "neutral": 44.2,
+        "title": "Video Number : 24 --> Plunger Trick Shots | Dude Perfect\n",
+        "viewCount": "36661845",
+        "likeCount": "776240",
+        "dislikeCount": "30109",
+        "commentCount": "36232"
     },
     {
         "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/yYlhnPEsakAP1--PC18j1dQVrAM\"",
+        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/WnH-IlafO-sJBEjdcBXmsgiFk3U\"",
         "id": "FPg89qonG0E",
-        "statistics": {
-            "viewCount": "26109366",
-            "likeCount": "420346",
-            "dislikeCount": "16423",
-            "favoriteCount": "0",
-            "commentCount": "28344"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/2h6cWyV_quZatSWAqGHowfK4qR4\"",
-        "id": "2t3GnbhbVCc",
-        "statistics": {
-            "viewCount": "47079515",
-            "likeCount": "1122608",
-            "dislikeCount": "23252",
-            "favoriteCount": "0",
-            "commentCount": "24923"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/FiHWNku2VgLSPzXCnGZLrHTYwEs\"",
-        "id": "dwV04XuiWq4",
-        "statistics": {
-            "viewCount": "38015125",
-            "likeCount": "572596",
-            "dislikeCount": "17370",
-            "favoriteCount": "0",
-            "commentCount": "19993"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/LCLu9KDUWFSqvJ3tqIYpNm4MdxA\"",
-        "id": "_YTWwTo6xcY",
-        "statistics": {
-            "viewCount": "31633881",
-            "likeCount": "570109",
-            "dislikeCount": "19072",
-            "favoriteCount": "0",
-            "commentCount": "23053"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/-HFC0nG-q2wpB3QVBPKNSf9lR0A\"",
-        "id": "uUio9YoGhxo",
-        "statistics": {
-            "viewCount": "34904128",
-            "likeCount": "512592",
-            "dislikeCount": "16890",
-            "favoriteCount": "0",
-            "commentCount": "33284"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/ELg_HAm_NbIBD-BM1ydrmuQlMJA\"",
-        "id": "OxoOSohmaag",
-        "statistics": {
-            "viewCount": "46860965",
-            "likeCount": "988743",
-            "dislikeCount": "29275",
-            "favoriteCount": "0",
-            "commentCount": "32489"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/KNLLI2SRY1tDPrFI-PEZX_tIJto\"",
-        "id": "qlzVPauUgw8",
-        "statistics": {
-            "viewCount": "82014303",
-            "likeCount": "1715698",
-            "dislikeCount": "28397",
-            "favoriteCount": "0",
-            "commentCount": "44264"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/CCum9iEW_nlqkRFw-MgE8HdfHXk\"",
-        "id": "rT9PI5q2Etc",
-        "statistics": {
-            "viewCount": "27373857",
-            "likeCount": "391453",
-            "dislikeCount": "15795",
-            "favoriteCount": "0",
-            "commentCount": "31579"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/rCtLiOUw9B4phjnCAA8TiTIJSa8\"",
-        "id": "VOzA2V4HbJA",
-        "statistics": {
-            "viewCount": "19827719",
-            "likeCount": "459831",
-            "dislikeCount": "9611",
-            "favoriteCount": "0",
-            "commentCount": "19609"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/YuBC1kHXK0qtzWj8we7MGd0qwdY\"",
-        "id": "uPCi5Rs7EuA",
-        "statistics": {
-            "viewCount": "77295415",
-            "likeCount": "1180386",
-            "dislikeCount": "38878",
-            "favoriteCount": "0",
-            "commentCount": "40608"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/ZSDhX1TgnEAR977xgLzDDsSSqdA\"",
-        "id": "DXcuvtbotYQ",
-        "statistics": {
-            "viewCount": "14505724",
-            "likeCount": "395518",
-            "dislikeCount": "7359",
-            "favoriteCount": "0",
-            "commentCount": "18360"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/_YVDK2m445KBU6I13X_hKyVMOuw\"",
-        "id": "7y-hKLfeurY",
-        "statistics": {
-            "viewCount": "36709735",
-            "likeCount": "556240",
-            "dislikeCount": "15215",
-            "favoriteCount": "0",
-            "commentCount": "32216"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/Kp6acMcjEZZAFGi8ObtRV-2rBsk\"",
-        "id": "i25i6vyjIpg",
-        "statistics": {
-            "viewCount": "41745652",
-            "likeCount": "562258",
-            "dislikeCount": "23415",
-            "favoriteCount": "0",
-            "commentCount": "27982"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/3vt24EdXNTC4j6XOnbwN4ZYj7yM\"",
-        "id": "rQWb_oYS1tg",
-        "statistics": {
-            "viewCount": "61268553",
-            "likeCount": "1178902",
-            "dislikeCount": "26272",
-            "favoriteCount": "0",
-            "commentCount": "55392"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/L2h-v7o5tv6uY_tDLo5W2BcHjmI\"",
-        "id": "5LZ_G8jRGHg",
-        "statistics": {
-            "viewCount": "27901730",
-            "likeCount": "422610",
-            "dislikeCount": "14238",
-            "favoriteCount": "0",
-            "commentCount": "20408"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/8E1xf2kE0ySTGL-a7--Gau41maQ\"",
-        "id": "JHiLEkV8l_8",
-        "statistics": {
-            "viewCount": "64688210",
-            "likeCount": "749147",
-            "dislikeCount": "27988",
-            "favoriteCount": "0",
-            "commentCount": "60541"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/1wv7jVJZjPGZfZPlFVY7XDbNZW0\"",
-        "id": "-qATVnpaHTo",
-        "statistics": {
-            "viewCount": "53765801",
-            "likeCount": "651383",
-            "dislikeCount": "28150",
-            "favoriteCount": "0",
-            "commentCount": "41117"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/_XF7HNQYhyVT4gvIvPKkJ6c37PE\"",
-        "id": "4RkZAfD-HeM",
-        "statistics": {
-            "viewCount": "23737288",
-            "likeCount": "514731",
-            "dislikeCount": "9971",
-            "favoriteCount": "0",
-            "commentCount": "32035"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/YeDy54exmZ4fhj2qyvXjXvC4I5A\"",
-        "id": "6bH9Qb_feRY",
-        "statistics": {
-            "viewCount": "27783350",
-            "likeCount": "919037",
-            "dislikeCount": "19979",
-            "favoriteCount": "0",
-            "commentCount": "26396"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/tjzQkQKTzmwf03Dt7KX6KZITQIU\"",
-        "id": "wSB9JvsBT4M",
-        "statistics": {
-            "viewCount": "51735862",
-            "likeCount": "761773",
-            "dislikeCount": "18866",
-            "favoriteCount": "0",
-            "commentCount": "28318"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/MyJNsuUkdSrHexmUgzjp_v5IwHY\"",
-        "id": "muzeGsrYpnQ",
-        "statistics": {
-            "viewCount": "54441537",
-            "likeCount": "787594",
-            "dislikeCount": "28947",
-            "favoriteCount": "0",
-            "commentCount": "35490"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/SLZSPCZn-o-nHoHJ3XmYYXInnCM\"",
-        "id": "No8-mBek3rs",
-        "statistics": {
-            "viewCount": "50975801",
-            "likeCount": "574869",
-            "dislikeCount": "15667",
-            "favoriteCount": "0",
-            "commentCount": "29397"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/DxCY8o8SBPJvqxMlUCqooGjS2is\"",
-        "id": "6re9XAwo4b4",
-        "statistics": {
-            "viewCount": "51949998",
-            "likeCount": "728985",
-            "dislikeCount": "21808",
-            "favoriteCount": "0",
-            "commentCount": "26304"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/etq4REOl70-cEBFkR6XV4DNlSV0\"",
-        "id": "RohJfM-VFS0",
-        "statistics": {
-            "viewCount": "54687735",
-            "likeCount": "589952",
-            "dislikeCount": "20393",
-            "favoriteCount": "0",
-            "commentCount": "53226"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/yPXYnCNgj1x_78ptIqRZPBaimhM\"",
-        "id": "DkW87-Z9FAY",
-        "statistics": {
-            "viewCount": "134576504",
-            "likeCount": "3954126",
-            "dislikeCount": "82362",
-            "favoriteCount": "0",
-            "commentCount": "60454"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/0V31V6AF-9BoU47YmXdZ9AU51N0\"",
-        "id": "QU1byle-nmA",
-        "statistics": {
-            "viewCount": "33116677",
-            "likeCount": "509730",
-            "dislikeCount": "13354",
-            "favoriteCount": "0",
-            "commentCount": "41955"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/5Mw3zIPQ9LIZQtHIpCr3g7Iyr9I\"",
-        "id": "v-dfygYIfLs",
-        "statistics": {
-            "viewCount": "47307176",
-            "likeCount": "811029",
-            "dislikeCount": "19193",
-            "favoriteCount": "0",
-            "commentCount": "52153"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/_y5jd5gSyBP9U910mg_JtWnuEVY\"",
-        "id": "9m9oO84Q2fk",
-        "statistics": {
-            "viewCount": "50618707",
-            "likeCount": "683730",
-            "dislikeCount": "21490",
-            "favoriteCount": "0",
-            "commentCount": "34296"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/_v6JU71TvXmhVygiYKBjlq-W9Xc\"",
-        "id": "FepIkIILumA",
-        "statistics": {
-            "viewCount": "49671192",
-            "likeCount": "749547",
-            "dislikeCount": "31836",
-            "favoriteCount": "0",
-            "commentCount": "44317"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/4r5FaKxheevRHPscBxlMLBEdHPA\"",
-        "id": "Hk5dxn5dj2M",
-        "statistics": {
-            "viewCount": "72837248",
-            "likeCount": "840704",
-            "dislikeCount": "38337",
-            "favoriteCount": "0",
-            "commentCount": "46233"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/NG4pxkSJ1QIj_Ex8Qv5C_75BlHI\"",
-        "id": "hYirFqEc8Tg",
-        "statistics": {
-            "viewCount": "31783370",
-            "likeCount": "565504",
-            "dislikeCount": "13369",
-            "favoriteCount": "0",
-            "commentCount": "28966"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/1ozVsxlsuyqUwmCXN_M8BodFIKM\"",
-        "id": "S9KxqRUcnCU",
-        "statistics": {
-            "viewCount": "82585309",
-            "likeCount": "1858459",
-            "dislikeCount": "39561",
-            "favoriteCount": "0",
-            "commentCount": "45690"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/sDvjW38TPCnFnsH0c7FOT-x645Q\"",
-        "id": "Wh1L0rOaa88",
-        "statistics": {
-            "viewCount": "52757148",
-            "likeCount": "506801",
-            "dislikeCount": "17435",
-            "favoriteCount": "0",
-            "commentCount": "29411"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/eBZYqu_wT8ijHfgaViz84IWyJkg\"",
-        "id": "MuPL-PSMX0Q",
-        "statistics": {
-            "viewCount": "49572480",
-            "likeCount": "711540",
-            "dislikeCount": "30884",
-            "favoriteCount": "0",
-            "commentCount": "50038"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/XyymbHOJxLicgjN2fpOVpVv49NU\"",
-        "id": "qZHycHI3F1Q",
-        "statistics": {
-            "viewCount": "80526343",
-            "likeCount": "1312061",
-            "dislikeCount": "28721",
-            "favoriteCount": "0",
-            "commentCount": "97963"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/U8SswEcrPq0TZpXAJ-lWFFRyAk0\"",
-        "id": "WpqUOW19aJQ",
-        "statistics": {
-            "viewCount": "69255586",
-            "likeCount": "952300",
-            "dislikeCount": "20126",
-            "favoriteCount": "0",
-            "commentCount": "60624"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/zA219l0ss_LMrkqYHKtE8w318KA\"",
-        "id": "VRJmcxCrAOA",
-        "statistics": {
-            "viewCount": "251332797",
-            "likeCount": "3844759",
-            "dislikeCount": "111489",
-            "favoriteCount": "0",
-            "commentCount": "126516"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/QPANRnvWB-__zq1q_MRcyetiT2U\"",
-        "id": "g1QONg2b2JQ",
-        "statistics": {
-            "viewCount": "52814574",
-            "likeCount": "879964",
-            "dislikeCount": "25141",
-            "favoriteCount": "0",
-            "commentCount": "103172"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/PFpXobZpFoCsw34KWYgoid01DxE\"",
-        "id": "9oyKePWRi8Y",
-        "statistics": {
-            "viewCount": "18850747",
-            "likeCount": "480021",
-            "dislikeCount": "5818",
-            "favoriteCount": "0",
-            "commentCount": "20146"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/EO6P8gJeBjCRephppYMTQn7gFYU\"",
-        "id": "ycVc1jsaAA0",
-        "statistics": {
-            "viewCount": "78875702",
-            "likeCount": "871271",
-            "dislikeCount": "24738",
-            "favoriteCount": "0",
-            "commentCount": "68466"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/n6nINhf2ASu8b-0-sQlwIFI8Ke4\"",
-        "id": "-RmUADCWI4A",
-        "statistics": {
-            "viewCount": "80202803",
-            "likeCount": "699074",
-            "dislikeCount": "23369",
-            "favoriteCount": "0",
-            "commentCount": "42950"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/RqKKYB4FUnnVU1u7vPufl561hg0\"",
-        "id": "VJwoSfTOhyM",
-        "statistics": {
-            "viewCount": "278773058",
-            "likeCount": "2061837",
-            "dislikeCount": "103113",
-            "favoriteCount": "0",
-            "commentCount": "73125"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/y_kRiyF38IgSdnn1cAELpf138lM\"",
-        "id": "cqylLiMzk54",
-        "statistics": {
-            "viewCount": "86340047",
-            "likeCount": "963507",
-            "dislikeCount": "31940",
-            "favoriteCount": "0",
-            "commentCount": "31633"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/6wFKheSkHA98O-qUsp0OQfK5iL4\"",
-        "id": "sOCQipbEqNg",
-        "statistics": {
-            "viewCount": "25933001",
-            "likeCount": "515255",
-            "dislikeCount": "12811",
-            "favoriteCount": "0",
-            "commentCount": "26586"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/UZPA93FtDTZ7lRpkC-gjLXql0X0\"",
-        "id": "RdNqmKrRmbU",
-        "statistics": {
-            "viewCount": "66500226",
-            "likeCount": "788191",
-            "dislikeCount": "18382",
-            "favoriteCount": "0",
-            "commentCount": "65133"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/kWo9_cFEhxs0Nk6bZoFHpJu226k\"",
-        "id": "XM23h-eJ08A",
-        "statistics": {
-            "viewCount": "37582597",
-            "likeCount": "624680",
-            "dislikeCount": "13712",
-            "favoriteCount": "0",
-            "commentCount": "58065"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/lvoTBSxOCmYTkAf2UiU8TswP7_c\"",
-        "id": "LcZ2AuvxXNA",
-        "statistics": {
-            "viewCount": "58736083",
-            "likeCount": "830919",
-            "dislikeCount": "26673",
-            "favoriteCount": "0",
-            "commentCount": "29138"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/AiFUq2EUiCUGsIiRG01nSEUtnzY\"",
-        "id": "8IQbF0IK-f4",
-        "statistics": {
-            "viewCount": "170460189",
-            "likeCount": "4353803",
-            "dislikeCount": "94791",
-            "favoriteCount": "0",
-            "commentCount": "75160"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/eGztx2tJvIntbvaHKgHoe24Eajw\"",
-        "id": "gA8Gru79DcE",
-        "statistics": {
-            "viewCount": "62164238",
-            "likeCount": "838219",
-            "dislikeCount": "20581",
-            "favoriteCount": "0",
-            "commentCount": "38729"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/x5TjorAAf2Sb6OPhNbo96pRJ9QQ\"",
-        "id": "6uhN97Cpz6I",
-        "statistics": {
-            "viewCount": "45045805",
-            "likeCount": "1234288",
-            "dislikeCount": "15600",
-            "favoriteCount": "0",
-            "commentCount": "26368"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/H4Jcjbuv71f1x1lNGkBrMCpsVwM\"",
-        "id": "TvNTcB6c-V8",
-        "statistics": {
-            "viewCount": "138269973",
-            "likeCount": "2564700",
-            "dislikeCount": "55651",
-            "favoriteCount": "0",
-            "commentCount": "67992"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/uYdCkTj_cYJs1exMYLQrddnRlsQ\"",
-        "id": "ggR_SPwP6cw",
-        "statistics": {
-            "viewCount": "148819250",
-            "likeCount": "1389581",
-            "dislikeCount": "58215",
-            "favoriteCount": "0",
-            "commentCount": "56314"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/bx8TCB6ZM8PgBD1STThvUpdXgKI\"",
-        "id": "3J6o7hcm8bE",
-        "statistics": {
-            "viewCount": "144529363",
-            "likeCount": "1891335",
-            "dislikeCount": "92705",
-            "favoriteCount": "0",
-            "commentCount": "90616"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/pk8JgSBjtOwZDAuialLlLETjtT8\"",
-        "id": "tsEoLVBk_Ts",
-        "statistics": {
-            "viewCount": "25308148",
-            "likeCount": "442935",
-            "dislikeCount": "7932",
-            "favoriteCount": "0",
-            "commentCount": "40271"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/EL-8MX-Nx3wl4H9Vao18bW266sM\"",
-        "id": "A2FsgKoGD04",
-        "statistics": {
-            "viewCount": "193611028",
-            "likeCount": "2565732",
-            "dislikeCount": "61747",
-            "favoriteCount": "0",
-            "commentCount": "90446"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/vuvsU45FHGxZkASTW2s7I5LjcfY\"",
-        "id": "HKuCPqUpp4s",
-        "statistics": {
-            "viewCount": "52947705",
-            "likeCount": "1589498",
-            "dislikeCount": "20719",
-            "favoriteCount": "0",
-            "commentCount": "36888"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/AArVdKnqPRGWB5c9Dy8ApYuuwWg\"",
-        "id": "th2T6rygqNU",
-        "statistics": {
-            "viewCount": "76553056",
-            "likeCount": "1556625",
-            "dislikeCount": "25675",
-            "favoriteCount": "0",
-            "commentCount": "114604"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/d-59Etx3EghC6LRhHm5EY--R74s\"",
-        "id": "UeG1ftTmLAg",
-        "statistics": {
-            "viewCount": "260540777",
-            "likeCount": "5674977",
-            "dislikeCount": "151005",
-            "favoriteCount": "0",
-            "commentCount": "631609"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/OKk4kL10YJ-9yWshkRzbTjt754M\"",
-        "id": "nhL3vSVlvFo",
-        "statistics": {
-            "viewCount": "39912786",
-            "likeCount": "432345",
-            "dislikeCount": "10879",
-            "favoriteCount": "0",
-            "commentCount": "19467"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/JggLJdZGF8Z5yjFvNIK7a2fdhvY\"",
-        "id": "evXDnRpgolc",
-        "statistics": {
-            "viewCount": "40591063",
-            "likeCount": "427828",
-            "dislikeCount": "11148",
-            "favoriteCount": "0",
-            "commentCount": "16920"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/TfcffCd-rKGDyqU-LJ67mFtQOT4\"",
-        "id": "ofyyJWHnEPM",
-        "statistics": {
-            "viewCount": "69836530",
-            "likeCount": "964180",
-            "dislikeCount": "20419",
-            "favoriteCount": "0",
-            "commentCount": "51398"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/p-TYHZwBGcvZlRZ0XU2Kcbyl4sg\"",
-        "id": "SOk-KVq-O1I",
-        "statistics": {
-            "viewCount": "35218866",
-            "likeCount": "476533",
-            "dislikeCount": "9771",
-            "favoriteCount": "0",
-            "commentCount": "28342"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/NCe5q9mmcsf_YkugEVidLTDopR8\"",
-        "id": "QWV3cEI-zoE",
-        "statistics": {
-            "viewCount": "53709188",
-            "likeCount": "623056",
-            "dislikeCount": "12393",
-            "favoriteCount": "0",
-            "commentCount": "23719"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/X59H9fUM7NxJeii5YpiawbaekLo\"",
-        "id": "kxgB2-ZpZeY",
-        "statistics": {
-            "viewCount": "11848305",
-            "likeCount": "287627",
-            "dislikeCount": "2949",
-            "favoriteCount": "0",
-            "commentCount": "20257"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/eoiCNYsZmdUiT1NbIPMTZKzWgzI\"",
-        "id": "xPxbrHMHgNE",
-        "statistics": {
-            "viewCount": "26741725",
-            "likeCount": "624197",
-            "dislikeCount": "11021",
-            "favoriteCount": "0",
-            "commentCount": "22637"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/0p5LjfwxCvmbg-wGiy1-hJuOmaw\"",
-        "id": "YwabP6B_UkE",
-        "statistics": {
-            "viewCount": "36498154",
-            "likeCount": "353481",
-            "dislikeCount": "9483",
-            "favoriteCount": "0",
-            "commentCount": "30166"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/I_Hh08NjoG8RR0xmetWDNr8x2Vw\"",
-        "id": "8YydogFXCPM",
-        "statistics": {
-            "viewCount": "149836214",
-            "likeCount": "1734994",
-            "dislikeCount": "51150",
-            "favoriteCount": "0",
-            "commentCount": "92654"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/8U0YUkKTXPVGoJ0REZTBVWYD6rI\"",
-        "id": "LAbXD3sx3fc",
-        "statistics": {
-            "viewCount": "61200121",
-            "likeCount": "596462",
-            "dislikeCount": "18049",
-            "favoriteCount": "0",
-            "commentCount": "33239"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/IqjCplRAwZ2H6DhON8n_0OBntrQ\"",
-        "id": "779akDPBNYc",
-        "statistics": {
-            "viewCount": "49810445",
-            "likeCount": "635820",
-            "dislikeCount": "10322",
-            "favoriteCount": "0",
-            "commentCount": "164190"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/YlUaqpGk6Qv2-Ef1IwDQmoygWPo\"",
-        "id": "rdfC6XwXTW0",
-        "statistics": {
-            "viewCount": "91273451",
-            "likeCount": "791956",
-            "dislikeCount": "22726",
-            "favoriteCount": "0",
-            "commentCount": "33504"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/MHJUuqeNd1BdjG1WeNIKzW_i_WQ\"",
-        "id": "09Z9tbJLkCE",
-        "statistics": {
-            "viewCount": "55651911",
-            "likeCount": "503249",
-            "dislikeCount": "13513",
-            "favoriteCount": "0",
-            "commentCount": "24662"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/vFRFMoQyDK2yprjmvEZ9qCi-xIQ\"",
-        "id": "gpe4kNlRcmE",
-        "statistics": {
-            "viewCount": "33384930",
-            "likeCount": "331819",
-            "dislikeCount": "10355",
-            "favoriteCount": "0",
-            "commentCount": "34920"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/xMSNmvrk3mdf7pGZBaP8SleWdog\"",
-        "id": "4o1PTcoZbKQ",
-        "statistics": {
-            "viewCount": "69383546",
-            "likeCount": "761734",
-            "dislikeCount": "24621",
-            "favoriteCount": "0",
-            "commentCount": "169297"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/fdXfWPIZyRaVnerNHLvqcD-MCBU\"",
-        "id": "dFLj3DeKT-E",
-        "statistics": {
-            "viewCount": "42388569",
-            "likeCount": "688255",
-            "dislikeCount": "14926",
-            "favoriteCount": "0",
-            "commentCount": "43054"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/DTHij-3h8YYM8_zS6qdPFyiNKTw\"",
-        "id": "CAUO3YGvqnU",
-        "statistics": {
-            "viewCount": "28435627",
-            "likeCount": "235274",
-            "dislikeCount": "7790",
-            "favoriteCount": "0",
-            "commentCount": "36015"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/2dlCKCwLLYkjBX5bNF8PKm4DOyk\"",
-        "id": "jC9l0_NClrY",
-        "statistics": {
-            "viewCount": "33298178",
-            "likeCount": "291322",
-            "dislikeCount": "8016",
-            "favoriteCount": "0",
-            "commentCount": "13273"
-        }
-    },
-    {
-        "kind": "youtube#video",
-        "etag": "\"xwzn9fn_LczrfK9QS3iZcGzqRGs/7JgNCH7afOYTLH_BDRrQ5qU9Llw\"",
-        "id": "P8V_bx0L4RY",
-        "statistics": {
-            "viewCount": "111252212",
-            "likeCount": "1563537",
-            "dislikeCount": "42345",
-            "favoriteCount": "0",
-            "commentCount": "103802"
-        }
+        "positive": 34.5,
+        "negative": 18.2,
+        "neutral": 47.3,
+        "title": "Video Number : 25 --> Laying in a Box of Snakes | Overtime 9 | Dude Perfect\n",
+        "viewCount": "26221047",
+        "likeCount": "421137",
+        "dislikeCount": "16454",
+        "commentCount": "28371"
     }
 ]
