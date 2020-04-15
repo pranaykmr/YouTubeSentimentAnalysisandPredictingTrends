@@ -71,19 +71,20 @@ filePtr.close()
 Data Frame Created
 
 Data columns (total 11 columns):
- #   Column        Non-Null Count  Dtype  
----  ------        --------------  -----  
- 0   kind          25 non-null     object 
- 1   etag          25 non-null     object 
- 2   id            25 non-null     object 
- 3   positive      25 non-null     float64
- 4   negative      25 non-null     float64
- 5   neutral       25 non-null     float64
- 6   title         25 non-null     object 
- 7   viewCount     25 non-null     int64  
- 8   likeCount     25 non-null     int64  
- 9   dislikeCount  25 non-null     int64  
- 10  commentCount  25 non-null     int64  
+ #   Column            Non-Null Count  Dtype  
+---  ------            --------------  -----  
+ 0   kind              200 non-null    object 
+ 1   etag              200 non-null    object 
+ 2   id                200 non-null    object 
+ 3   positive          200 non-null    float64
+ 4   negative          200 non-null    float64
+ 5   neutral           200 non-null    float64
+ 6   title             200 non-null    object 
+ 7   viewCount         200 non-null    int64  
+ 8   likeCount         200 non-null    int64  
+ 9   dislikeCount      200 non-null    int64  
+ 10  commentCount      200 non-null    int64  
+ 11  likedislikeratio  200 non-null    float64 
 
 """
 dataframe = p.read_json("comments/" + channelName + "_stats.json")
