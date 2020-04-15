@@ -55,6 +55,7 @@ for index, v in enumerate(vlist):
             stats[i]["likeCount"] = stats[i]["statistics"]["likeCount"]
             stats[i]["dislikeCount"] = stats[i]["statistics"]["dislikeCount"]
             stats[i]["commentCount"] = stats[i]["statistics"]["commentCount"]
+            stats[i]["likedislikeratio"] = (stats[i]["likeCount"]) / (stats[i]["dislikeCount"])
             del stats[i]["statistics"]
             break
     print(sent)
