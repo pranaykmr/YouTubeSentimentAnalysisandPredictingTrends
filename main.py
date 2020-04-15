@@ -51,10 +51,10 @@ for index, v in enumerate(vlist):
             stats[i]["negative"] = (negative / len(comments)) * 100
             stats[i]["neutral"] = (neutral / len(comments)) * 100
             stats[i]["title"] = "Video Number : " + str(index + 1) + " --> " + title + "\n"
-            stats[i]["viewCount"] = stats[i]["statistics"]["viewCount"]
-            stats[i]["likeCount"] = stats[i]["statistics"]["likeCount"]
-            stats[i]["dislikeCount"] = stats[i]["statistics"]["dislikeCount"]
-            stats[i]["commentCount"] = stats[i]["statistics"]["commentCount"]
+            stats[i]["viewCount"] = int(stats[i]["statistics"]["viewCount"])
+            stats[i]["likeCount"] = int(stats[i]["statistics"]["likeCount"])
+            stats[i]["dislikeCount"] = int(stats[i]["statistics"]["dislikeCount"])
+            stats[i]["commentCount"] = int(stats[i]["statistics"]["commentCount"])
             stats[i]["likedislikeratio"] = (stats[i]["likeCount"]) / (stats[i]["dislikeCount"])
             del stats[i]["statistics"]
             break
