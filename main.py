@@ -35,6 +35,7 @@ stats = vs.getStatistics(youtube, videoIds)
 
 filePath = "sentimentAnalysis/" + str(channelName) + ".txt"
 sentimentFile = open(filePath, "w")
+commentsInfo = []
 for index, v in enumerate(vlist):
     title = v["snippet"]["title"]
     sentimentFile.write("Video Number : " + str(index + 1) + " --> " + title + "\n")
@@ -59,8 +60,13 @@ for index, v in enumerate(vlist):
             del stats[i]["statistics"]
             break
     print(sent)
+    commentsInfo.extend([{"channelName": str(channelName), "videoID": vid, "name": title, "comment": x} for x in comments])
     total_sentiment.append(sent)
 
+commentData = json.dumps(commentsInfo)
+fileCPtr = open("comments/" + channelName + "_commentwise.json", "w")
+fileCPtr.write(commentData)
+fileCPtr.close()
 
 fdata = json.dumps(stats)
 filePtr = open("comments/" + channelName + "_stats.json", "w")
@@ -90,6 +96,20 @@ Data columns (total 11 columns):
 dataframe = p.read_json("comments/" + channelName + "_stats.json")
 dataframe.info()
 dataframe.shape
+"""
+Data Frame 2
+
+Data columns (total 4 columns):
+ #   Column       Non-Null Count  Dtype 
+---  ------       --------------  ----- 
+ 0   channelName  10000 non-null  object
+ 1   videoID      10000 non-null  object
+ 2   name         10000 non-null  object
+ 3   comment      10000 non-null  object
+"""
+commentwiseDF = p.read_json("comments/" + channelName + "_commentwise.json")
+commentwiseDF.info()
+commentwiseDF.shape
 
 sentimentFile.close()
 print("Total Comments Scraped " + str(len(total_comments)))
