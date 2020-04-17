@@ -111,5 +111,6 @@ pipeline = Pipeline(estimators)
 kfold = KFold(n_splits=10)
 results = cross_val_score(pipeline, X, Y, cv=kfold)
 print("Standardized: %.2f (%.2f) MSE" % (results.mean(), results.std()))
+print("RMSE: %2.f" % (results.std() ** (1 / 2)))
 
 print()

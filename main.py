@@ -46,19 +46,32 @@ for index, v in enumerate(vlist):
     # sent = syt.sentiment(comments)
     sent = syt.sentimentNew(comments, sentimentFile)
     positive, negative, neutral = sent
-    for i in range(len(stats)):
-        if stats[i]["id"] == vid:
-            stats[i]["positive"] = (positive / len(comments)) * 100
-            stats[i]["negative"] = (negative / len(comments)) * 100
-            stats[i]["neutral"] = (neutral / len(comments)) * 100
-            stats[i]["title"] = "Video Number : " + str(index + 1) + " --> " + title + "\n"
-            stats[i]["viewCount"] = int(stats[i]["statistics"]["viewCount"])
-            stats[i]["likeCount"] = int(stats[i]["statistics"]["likeCount"])
-            stats[i]["dislikeCount"] = int(stats[i]["statistics"]["dislikeCount"])
-            stats[i]["commentCount"] = int(stats[i]["statistics"]["commentCount"])
-            stats[i]["likedislikeratio"] = (stats[i]["likeCount"]) / (stats[i]["dislikeCount"])
-            del stats[i]["statistics"]
-            break
+    # if stats[index]["id"] == vlist[index]["id"]["videoId"]:
+    stats[index]["positive"] = (positive / len(comments)) * 100
+    stats[index]["negative"] = (negative / len(comments)) * 100
+    stats[index]["neutral"] = (neutral / len(comments)) * 100
+    stats[index]["title"] = "Video Number : " + str(index + 1) + " --> " + title + "\n"
+    stats[index]["viewCount"] = int(stats[index]["statistics"]["viewCount"])
+    stats[index]["likeCount"] = int(stats[index]["statistics"]["likeCount"])
+    stats[index]["dislikeCount"] = int(stats[index]["statistics"]["dislikeCount"])
+    stats[index]["commentCount"] = int(stats[index]["statistics"]["commentCount"])
+    stats[index]["likedislikeratio"] = (stats[index]["likeCount"]) / (stats[index]["dislikeCount"])
+    del stats[index]["statistics"]
+    # else:
+    #     print("Lauda")
+    #     for i in range(len(stats)):
+    #         if stats[i]["id"] == vid:
+    #             stats[i]["positive"] = (positive / len(comments)) * 100
+    #             stats[i]["negative"] = (negative / len(comments)) * 100
+    #             stats[i]["neutral"] = (neutral / len(comments)) * 100
+    #             stats[i]["title"] = "Video Number : " + str(index + 1) + " --> " + title + "\n"
+    #             stats[i]["viewCount"] = int(stats[i]["statistics"]["viewCount"])
+    #             stats[i]["likeCount"] = int(stats[i]["statistics"]["likeCount"])
+    #             stats[i]["dislikeCount"] = int(stats[i]["statistics"]["dislikeCount"])
+    #             stats[i]["commentCount"] = int(stats[i]["statistics"]["commentCount"])
+    #             stats[i]["likedislikeratio"] = (stats[i]["likeCount"]) / (stats[i]["dislikeCount"])
+    #             del stats[i]["statistics"]
+    #             break
     print(sent)
     commentsInfo.extend([{"channelName": str(channelName), "videoID": vid, "name": title, "comment": x} for x in comments])
     total_sentiment.append(sent)
