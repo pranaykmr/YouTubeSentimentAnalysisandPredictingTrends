@@ -81,7 +81,7 @@ def analyze_sentiment(comments, sentimentFile):
     data = p.DataFrame(comments, columns=["Comments"])
     data["word_count"] = data["Comments"].apply(lambda x: len(str(x).split(" ")))
     data_clean = data.copy()
-    data_clean["Comments"] = data_clean["Comments"].str.lower().strip()
+    data_clean["Comments"] = data_clean["Comments"].str.lower().str.strip()
     # data_clean["Comments"] = data_clean["Comments"].str
     data_clean["Comments"] = data_clean["Comments"].apply(preprocess)
 

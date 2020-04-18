@@ -1,6 +1,6 @@
 {
-    "VideoCount": 100,
-    "CommentCount": 1000,
+    "VideoCount": 50,
+    "CommentCount": 2500,
     "ApiServiceName": "youtube",
     "ApiVersion": "v3",
     "OAuthFile": "auth/OauthKeys.json",
