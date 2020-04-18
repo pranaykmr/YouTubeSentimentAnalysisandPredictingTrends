@@ -1,7 +1,7 @@
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 
-def sentimentNew(comments, sentimentFile):
+def analyze_sentiment(comments, sentimentFile):
     commentbot = SentimentIntensityAnalyzer()
     fresult = {"positivenum": 0, "negativenum": 0, "neutralnum": 0}
     count = 0

@@ -1,12 +1,6 @@
 import pandas as p
-import matplotlib.pyplot as plt
-import seaborn as sns
 import re, string, unicodedata
 import contractions
-import numpy as np
-
-# import spacy
-# import spacy.cli
 import nltk
 from nltk.tokenize.toktok import ToktokTokenizer
 from nltk.tokenize import word_tokenize
@@ -14,10 +8,6 @@ from nltk.stem.lancaster import LancasterStemmer
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import stopwords
 from afinn import Afinn
-
-# nltk.download('wordnet')
-# nltk.download('punkt')
-# nltk.download('stopwords')
 from string import punctuation
 
 tokenizer = ToktokTokenizer()
@@ -86,18 +76,15 @@ def preprocess(text):
     return text
 
 
-def sentimentNew(comments, sentimentFile):
+def analyze_sentiment(comments, sentimentFile):
     af = Afinn()
     data = p.DataFrame(comments, columns=["Comments"])
     data["word_count"] = data["Comments"].apply(lambda x: len(str(x).split(" ")))
     data_clean = data.copy()
-    data_clean["Comments"] = data_clean["Comments"].str.lower()
-    data_clean["Comments"] = data_clean["Comments"].str.strip()
+    data_clean["Comments"] = data_clean["Comments"].str.lower().strip()
+    # data_clean["Comments"] = data_clean["Comments"].str
     data_clean["Comments"] = data_clean["Comments"].apply(preprocess)
-    #     data_clean["Comments"] = data_clean["Comments"].apply(remove_special_chars)
-    #     data_clean["Comments"] = data_clean["Comments"].apply(remove_accented_chars)
-    #     data_clean["Comments"] = data_clean["Comments"].apply(expand_contractions)
-    # print(data_clean.head())
+
     data_clean_bckup = data_clean.copy()
     data_clean["Comments_Clean"] = data_clean["Comments"].apply(remove_stopwords)
     data_clean["Normalized_Comments"] = data_clean["Comments_Clean"].apply(simple_stemmer)
@@ -110,11 +97,11 @@ def sentimentNew(comments, sentimentFile):
     positive = len(data_clean[data_clean["afinn_sent_category"] == "positive"])
     negative = len(data_clean[data_clean["afinn_sent_category"] == "negative"])
     neutral = len(data_clean[data_clean["afinn_sent_category"] == "neutral"])
-    count1 = len(data_clean.index)
-    sentimentFile.write("Positive sentiment : " + str(positive / count1 * 100) + "\n")
-    sentimentFile.write("Negative sentiment : " + str(negative / count1 * 100) + "\n")
-    sentimentFile.write("Neutral sentiment : " + str(neutral / count1 * 100) + "\n")
-    print("Positive sentiment : ", positive / count1 * 100)
-    print("Negative sentiment : ", negative / count1 * 100)
-    print("Neutral sentiment : ", neutral / count1 * 100)
+    count = len(data_clean.index)
+    sentimentFile.write("Positive sentiment : " + str(positive / count * 100) + "\n")
+    sentimentFile.write("Negative sentiment : " + str(negative / count * 100) + "\n")
+    sentimentFile.write("Neutral sentiment : " + str(neutral / count * 100) + "\n")
+    print("Positive sentiment : ", positive / count * 100)
+    print("Negative sentiment : ", negative / count * 100)
+    print("Neutral sentiment : ", neutral / count * 100)
     return (positive, negative, neutral)
