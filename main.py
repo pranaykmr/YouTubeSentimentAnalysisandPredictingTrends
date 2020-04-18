@@ -9,6 +9,7 @@ import google_auth_oauthlib
 import getVideoStatistics as vs
 import pandas as p
 import sentiment_afinn as sa
+import sentiment_NRC as snrc
 
 with open("constants.json") as json_file:
     constants = json.load(json_file)
@@ -58,9 +59,7 @@ for index, v in enumerate(vlist):
     stats[index]["likedislikeratio"] = (stats[index]["likeCount"]) / (stats[index]["dislikeCount"])
     del stats[index]["statistics"]
     print(sent)
-    for comment in comments:
-        obj = {"channelName": str(channelName), "videoID": vid, "name": title, "comment": comment}
-        commentsInfo.append(obj)
+    commentsInfo.append({"channelName": str(channelName), "videoTitle": title, "comment": ' '.join([str(comment) for comment in comments])})
     total_sentiment.append(sent)
 
 commentData = json.dumps(commentsInfo)
@@ -104,13 +103,15 @@ Data columns (total 4 columns):
  #   Column       Non-Null Count  Dtype 
 ---  ------       --------------  ----- 
  0   channelName  10000 non-null  object
- 1   videoID      10000 non-null  object
- 2   name         10000 non-null  object
+ 2   videoTitle   10000 non-null  object
  3   comment      10000 non-null  object
 """
 commentwiseDF = p.read_json("comments/" + channelName + "_commentwise.json")
 commentwiseDF.info()
 commentwiseDF.shape
+
+# Sentiment Analysis using NRC Lexicon
+snrc.sentimentNRC(channelName)
 
 sentimentFile.close()
 print("Total Comments Scraped " + str(len(total_comments)))
