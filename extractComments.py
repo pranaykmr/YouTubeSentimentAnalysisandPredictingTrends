@@ -27,7 +27,8 @@ def makeRequest(youtube, videoId):
         request = youtube.commentThreads().list(part="snippet", videoId=videoId, maxResults=100)
         return request.execute()
     except HttpError as ex:
-        time.sleep(60)
+        if ex.resp.status == 403:
+            time.sleep(60)
         return makeRequest(youtube, videoId)
 
 
@@ -36,5 +37,6 @@ def getNextPage(youtube, videoId, pageToken):
         request = youtube.commentThreads().list(part="snippet", videoId=videoId, maxResults=100, pageToken=pageToken)
         return request.execute()
     except HttpError as ex:
-        time.sleep(60)
+        if ex.resp.status == 403:
+            time.sleep(60)
         return getNextPage(youtube, videoId, pageToken)

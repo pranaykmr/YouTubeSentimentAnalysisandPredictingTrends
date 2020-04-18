@@ -1,0 +1,120 @@
+import pandas as p
+import matplotlib.pyplot as plt
+import seaborn as sns
+import re, string, unicodedata
+import contractions
+import numpy as np
+
+# import spacy
+# import spacy.cli
+import nltk
+from nltk.tokenize.toktok import ToktokTokenizer
+from nltk.tokenize import word_tokenize
+from nltk.stem.lancaster import LancasterStemmer
+from nltk.stem.wordnet import WordNetLemmatizer
+from nltk.corpus import stopwords
+from afinn import Afinn
+
+# nltk.download('wordnet')
+# nltk.download('punkt')
+# nltk.download('stopwords')
+from string import punctuation
+
+tokenizer = ToktokTokenizer()
+ps = nltk.porter.PorterStemmer()
+pattern = r"[^a-zA-z0-9\s]"
+stopword_list = set(stopwords.words("english"))
+
+
+def remove_punct(text):
+    for p in punctuation:
+        text = text.replace(p, "")
+    return text
+
+
+def remove_special_chars(text, remove_digits=True):
+    text = re.sub(pattern, "", text)
+    return text
+
+
+def remove_accented_chars(text):
+    text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode("utf-8", "ignore")
+    return text
+
+
+def expand_contractions(con_text):
+    con_text = contractions.fix(con_text)
+    return con_text
+
+
+def remove_stopwords(text, is_lower_case=False):
+    tokens = tokenizer.tokenize(text)
+    tokens = [token.strip() for token in tokens]
+    if is_lower_case:
+        filtered_tokens = [token for token in tokens if token not in stopword_list]
+    else:
+        filtered_tokens = [token for token in tokens if token.lower() not in stopword_list]
+    filtered_text = " ".join(filtered_tokens)
+    return filtered_text
+
+
+def simple_stemmer(text):
+    text = " ".join([ps.stem(word) for word in text.split()])
+    return text
+
+
+def afinn_sent_analysis(text1, af):
+    score = af.score(text1)
+    return score
+
+
+def afinn_sent_category(score):
+    categories = ["positive", "negative", "neutral"]
+    if score > 0:
+        return categories[0]
+    elif score < 0:
+        return categories[1]
+    else:
+        return categories[2]
+
+
+def preprocess(text):
+    text = remove_punct(text)
+    text = remove_special_chars(text)
+    text = remove_accented_chars(text)
+    text = expand_contractions(text)
+    return text
+
+
+def sentimentNew(comments, sentimentFile):
+    af = Afinn()
+    data = p.DataFrame(comments, columns=["Comments"])
+    data["word_count"] = data["Comments"].apply(lambda x: len(str(x).split(" ")))
+    data_clean = data.copy()
+    data_clean["Comments"] = data_clean["Comments"].str.lower()
+    data_clean["Comments"] = data_clean["Comments"].str.strip()
+    data_clean["Comments"] = data_clean["Comments"].apply(preprocess)
+    #     data_clean["Comments"] = data_clean["Comments"].apply(remove_special_chars)
+    #     data_clean["Comments"] = data_clean["Comments"].apply(remove_accented_chars)
+    #     data_clean["Comments"] = data_clean["Comments"].apply(expand_contractions)
+    # print(data_clean.head())
+    data_clean_bckup = data_clean.copy()
+    data_clean["Comments_Clean"] = data_clean["Comments"].apply(remove_stopwords)
+    data_clean["Normalized_Comments"] = data_clean["Comments_Clean"].apply(simple_stemmer)
+    data_clean = data_clean.drop(columns=data_clean[["Comments_Clean"]], axis=1)
+    data_clean = data_clean[["Comments", "Normalized_Comments", "word_count"]]
+    data_clean_bckup_norm = data_clean.copy()
+    # data_clean.head()
+    data_clean["afinn_score"] = [afinn_sent_analysis(comm, af) for comm in data_clean["Normalized_Comments"]]
+    data_clean["afinn_sent_category"] = [afinn_sent_category(scr) for scr in data_clean["afinn_score"]]
+    positive = len(data_clean[data_clean["afinn_sent_category"] == "positive"])
+    negative = len(data_clean[data_clean["afinn_sent_category"] == "negative"])
+    neutral = len(data_clean[data_clean["afinn_sent_category"] == "neutral"])
+    count1 = len(data_clean.index)
+    sentimentFile.write("Positive sentiment : " + str(positive / count1 * 100) + "\n")
+    sentimentFile.write("Negative sentiment : " + str(negative / count1 * 100) + "\n")
+    sentimentFile.write("Neutral sentiment : " + str(neutral / count1 * 100) + "\n")
+    print("Positive sentiment : ", positive / count1 * 100)
+    print("Negative sentiment : ", negative / count1 * 100)
+    print("Neutral sentiment : ", neutral / count1 * 100)
+    return (positive, negative, neutral)

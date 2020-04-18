@@ -1,5 +1,7 @@
 import json
+import time
 import googleapiclient.errors
+from googleapiclient.errors import HttpError
 
 
 def getIds(youtube, maxVids):
@@ -31,12 +33,22 @@ def getChannelName(youtube):
 
 
 def getVideos(youtube, channelId, maxVids):
-    if maxVids > 50:
-        maxVids = 50
-    request = youtube.search().list(part="snippet", type="video", channelId=channelId, maxResults=maxVids, order="date")
-    return request.execute()
+    try:
+        if maxVids > 50:
+            maxVids = 50
+        request = youtube.search().list(part="snippet", type="video", channelId=channelId, maxResults=maxVids, order="date")
+        return request.execute()
+    except HttpError as ex:
+        if ex.resp.status == 403:
+            time.sleep(60)
+        return getVideos(youtube, channelId, maxVids)
 
 
 def getNextPageVideos(youtube, channelId, nextPageToken, maxVids):
-    request = youtube.search().list(part="snippet", type="video", channelId=channelId, maxResults=maxVids, order="date", pageToken=nextPageToken)
-    return request.execute()
+    try:
+        request = youtube.search().list(part="snippet", type="video", channelId=channelId, maxResults=maxVids, order="date", pageToken=nextPageToken)
+        return request.execute()
+    except HttpError as ex:
+        if ex.resp.status == 403:
+            time.sleep(60)
+        return getNextPageVideos(youtube, channelId, nextPageToken, maxVids)

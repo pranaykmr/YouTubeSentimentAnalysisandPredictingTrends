@@ -1,13 +1,14 @@
 import os
 import json
 import extractComments as ec
-import sentimentYouTube as syt
+import sentiment_vader as sv
 import fancySentiment as fs
 import getVideoIds as fid
 import googleapiclient.discovery
 import google_auth_oauthlib
 import getVideoStatistics as vs
 import pandas as p
+import sentiment_afinn as sa
 
 with open("constants.json") as json_file:
     constants = json.load(json_file)
@@ -43,8 +44,8 @@ for index, v in enumerate(vlist):
     vid = v["id"]["videoId"]
     comments = ec.commentExtract(vid, youtube, constants["CommentCount"])
     total_comments.extend(comments)
-    # sent = syt.sentiment(comments)
-    sent = syt.sentimentNew(comments, sentimentFile)
+    sent = sv.analyze_sentiment(comments, sentimentFile)
+    sentNew = sa.analyze_sentiment(comments, sentimentFile)
     positive, negative, neutral = sent
     # if stats[index]["id"] == vlist[index]["id"]["videoId"]:
     stats[index]["positive"] = (positive / len(comments)) * 100
@@ -73,7 +74,9 @@ for index, v in enumerate(vlist):
     #             del stats[i]["statistics"]
     #             break
     print(sent)
-    commentsInfo.extend([{"channelName": str(channelName), "videoID": vid, "name": title, "comment": x} for x in comments])
+    for comment in comments:
+        obj = {"channelName": str(channelName), "videoID": vid, "name": title, "comment": comment}
+        commentsInfo.append(obj)
     total_sentiment.append(sent)
 
 commentData = json.dumps(commentsInfo)
@@ -109,6 +112,7 @@ Data columns (total 11 columns):
 dataframe = p.read_json("comments/" + channelName + "_stats.json")
 dataframe.info()
 dataframe.shape
+
 """
 Data Frame 2
 
