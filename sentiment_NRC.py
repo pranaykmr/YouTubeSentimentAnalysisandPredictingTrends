@@ -18,15 +18,23 @@ def sentimentNRC(comments, sentimentFile):
     stopword = set(stopwords.words("english") + list(string.punctuation) + ["n't"])
 
     document = word_tokenize(comment)
-    document = [word for word in document if word.isalpha() and word not in stopword]
+
+    freq = {}
+    for item in document:
+        if item in freq:
+            freq[item] += 1
+        else:
+            freq[item] = 1
+
     word_count = 0
-    for word in document:
-        word = stemmer.stem(word.lower())
-        emo_score = emolex_words[emolex_words.word == word]
-        if not emo_score.empty:
-            word_count += 1
-            for emotion in list(emotions):
-                emo_df.at[0, emotion] += emo_score[emotion]
+    for word, count in freq.items():
+        if word.isalpha() and word not in stopword:
+            word = stemmer.stem(word.lower())
+            emo_score = emolex_words[emolex_words.word == word]
+            if not emo_score.empty:
+                word_count += 1 * count
+                for emotion in list(emotions):
+                    emo_df.at[0, emotion] += emo_score[emotion] * count
 
     sentimentFile.write("Sentiment NRC" + "\n")
     print("Sentiment NRC")
