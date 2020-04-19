@@ -29,9 +29,10 @@ def sentimentNRC(comments, sentimentFile):
                 emo_df.at[0, emotion] += emo_score[emotion]
 
     sentimentFile.write("Sentiment NRC" + "\n")
+    print("Sentiment NRC")
     for emotion in emotions:
         emo_df[emotion] = emo_df[emotion] / word_count
         print(emotion + " : ", (emo_df[emotion][0]))
-        sentimentFile.write(emotion + " : " + str((emo_df[emotion][0])))
+        sentimentFile.write(emotion + " : " + str((emo_df[emotion][0])) + "\n")
 
     return emo_df
