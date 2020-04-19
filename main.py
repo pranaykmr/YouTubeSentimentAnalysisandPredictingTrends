@@ -11,6 +11,7 @@ import pandas as p
 import sentiment_afinn as sa
 import sentiment_NRC as snrc
 import mapper
+import predictionModels as pred
 
 with open("constants.json") as json_file:
     constants = json.load(json_file)
@@ -99,6 +100,8 @@ dataframe.shape
 sentimentFile.close()
 print("Total Comments Scraped " + str(len(total_comments)))
 fs.fancySentiment(total_comments)
+
+pred.performPredictions(channelName)
 
 total_sentiment = total_sentiment[1:]
 
