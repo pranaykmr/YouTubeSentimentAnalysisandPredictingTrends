@@ -10,6 +10,7 @@ import getVideoStatistics as vs
 import pandas as p
 import sentiment_afinn as sa
 import sentiment_NRC as snrc
+import mapper
 
 with open("constants.json") as json_file:
     constants = json.load(json_file)
@@ -18,7 +19,6 @@ with open("auth/keys.json") as json_file:
     keys = json.load(json_file)
 
 total_comments = []
-# total_sentiment = [(0, 0)]
 total_sentiment = [(0, 0, 0)]
 os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
 input()
@@ -47,32 +47,11 @@ for index, v in enumerate(vlist):
     total_comments.extend(comments)
     if len(comments) > 0:
         sent_vader = sv.analyze_sentiment(comments, sentimentFile)
-        positive, negative, neutral = sent_vader
-        stats[index]["positive_vader"] = (positive / len(comments)) * 100
-        stats[index]["negative_vader"] = (negative / len(comments)) * 100
-        stats[index]["neutral_vader"] = (neutral / len(comments)) * 100
-
         sent_afinn = sa.analyze_sentiment(comments, sentimentFile)
-        positive, negative, neutral = sent_afinn
-        stats[index]["positive_afinn"] = (positive / len(comments)) * 100
-        stats[index]["negative_afinn"] = (negative / len(comments)) * 100
-        stats[index]["neutral_afinn"] = (neutral / len(comments)) * 100
-
+        sent_NRC = snrc.sentimentNRC(comments, sentimentFile)
         stats[index]["title"] = "Video Number : " + str(index + 1) + " --> " + title + "\n"
-        stats[index]["viewCount"] = int(stats[index]["statistics"]["viewCount"])
-        stats[index]["likeCount"] = int(stats[index]["statistics"]["likeCount"])
-        stats[index]["dislikeCount"] = int(stats[index]["statistics"]["dislikeCount"])
-        stats[index]["commentCount"] = int(stats[index]["statistics"]["commentCount"])
-        stats[index]["likedislikeratio"] = (stats[index]["likeCount"]) / (stats[index]["dislikeCount"])
-        del stats[index]["statistics"]
-        print(sent_vader)
-    commentsInfo.append({"channelName": str(channelName), "videoTitle": title, "comment": " ".join([str(comment) for comment in comments])})
+        stats[index] = mapper.mapObject(sent_vader, sent_afinn, sent_NRC, stats[index], comments)
     total_sentiment.append(sent_vader)
-
-commentData = json.dumps(commentsInfo)
-fileCPtr = open("comments/" + channelName + "_commentwise.json", "w")
-fileCPtr.write(commentData)
-fileCPtr.close()
 
 fdata = json.dumps(stats)
 filePtr = open("comments/" + channelName + "_stats.json", "w")
@@ -82,43 +61,40 @@ filePtr.close()
 """
 Data Frame Created
 
-Data columns (total 11 columns):
+Data columns (total 25 columns):
  #   Column            Non-Null Count  Dtype  
 ---  ------            --------------  -----  
- 0   kind              200 non-null    object 
- 1   etag              200 non-null    object 
- 2   id                200 non-null    object 
- 3   positive          200 non-null    float64
- 4   negative          200 non-null    float64
- 5   neutral           200 non-null    float64
- 6   title             200 non-null    object 
- 7   viewCount         200 non-null    int64  
- 8   likeCount         200 non-null    int64  
- 9   dislikeCount      200 non-null    int64  
- 10  commentCount      200 non-null    int64  
- 11  likedislikeratio  200 non-null    float64 
+ 0   kind              25 non-null     object 
+ 1   etag              25 non-null     object 
+ 2   id                25 non-null     object 
+ 3   title             25 non-null     object 
+ 4   positive_vader    25 non-null     float64
+ 5   negative_vader    25 non-null     float64
+ 6   neutral_vader     25 non-null     int64  
+ 7   positive_afinn    25 non-null     float64
+ 8   negative_afinn    25 non-null     int64  
+ 9   neutral_afinn     25 non-null     float64
+ 10  anger_NRC         25 non-null     float64
+ 11  anticipation_NRC  25 non-null     float64
+ 12  disgust_NRC       25 non-null     float64
+ 13  fear_NRC          25 non-null     float64
+ 14  joy_NRC           25 non-null     float64
+ 15  negative_NRC      25 non-null     float64
+ 16  positive_NRC      25 non-null     float64
+ 17  sadness_NRC       25 non-null     float64
+ 18  surprise_NRC      25 non-null     float64
+ 19  trust_NRC         25 non-null     float64
+ 20  viewCount         25 non-null     int64  
+ 21  likeCount         25 non-null     int64  
+ 22  dislikeCount      25 non-null     int64  
+ 23  commentCount      25 non-null     int64  
+ 24  likedislikeratio  25 non-null     float64
 
 """
 dataframe = p.read_json("comments/" + channelName + "_stats.json")
 dataframe.info()
 dataframe.shape
 
-"""
-Data Frame 2
-
-Data columns (total 4 columns):
- #   Column       Non-Null Count  Dtype 
----  ------       --------------  ----- 
- 0   channelName  10000 non-null  object
- 2   videoTitle   10000 non-null  object
- 3   comment      10000 non-null  object
-"""
-commentwiseDF = p.read_json("comments/" + channelName + "_commentwise.json")
-commentwiseDF.info()
-commentwiseDF.shape
-
-# Sentiment Analysis using NRC Lexicon
-snrc.sentimentNRC(channelName)
 
 sentimentFile.close()
 print("Total Comments Scraped " + str(len(total_comments)))
