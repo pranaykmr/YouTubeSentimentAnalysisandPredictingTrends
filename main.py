@@ -45,22 +45,29 @@ for index, v in enumerate(vlist):
     vid = v["id"]["videoId"]
     comments = ec.commentExtract(vid, youtube, constants["CommentCount"])
     total_comments.extend(comments)
-    sent = sv.analyze_sentiment(comments, sentimentFile)
-    sentNew = sa.analyze_sentiment(comments, sentimentFile)
-    positive, negative, neutral = sent
-    stats[index]["positive"] = (positive / len(comments)) * 100
-    stats[index]["negative"] = (negative / len(comments)) * 100
-    stats[index]["neutral"] = (neutral / len(comments)) * 100
-    stats[index]["title"] = "Video Number : " + str(index + 1) + " --> " + title + "\n"
-    stats[index]["viewCount"] = int(stats[index]["statistics"]["viewCount"])
-    stats[index]["likeCount"] = int(stats[index]["statistics"]["likeCount"])
-    stats[index]["dislikeCount"] = int(stats[index]["statistics"]["dislikeCount"])
-    stats[index]["commentCount"] = int(stats[index]["statistics"]["commentCount"])
-    stats[index]["likedislikeratio"] = (stats[index]["likeCount"]) / (stats[index]["dislikeCount"])
-    del stats[index]["statistics"]
-    print(sent)
-    commentsInfo.append({"channelName": str(channelName), "videoTitle": title, "comment": ' '.join([str(comment) for comment in comments])})
-    total_sentiment.append(sent)
+    if len(comments) > 0:
+        sent_vader = sv.analyze_sentiment(comments, sentimentFile)
+        positive, negative, neutral = sent_vader
+        stats[index]["positive_vader"] = (positive / len(comments)) * 100
+        stats[index]["negative_vader"] = (negative / len(comments)) * 100
+        stats[index]["neutral_vader"] = (neutral / len(comments)) * 100
+
+        sent_afinn = sa.analyze_sentiment(comments, sentimentFile)
+        positive, negative, neutral = sent_afinn
+        stats[index]["positive_afinn"] = (positive / len(comments)) * 100
+        stats[index]["negative_afinn"] = (negative / len(comments)) * 100
+        stats[index]["neutral_afinn"] = (neutral / len(comments)) * 100
+
+        stats[index]["title"] = "Video Number : " + str(index + 1) + " --> " + title + "\n"
+        stats[index]["viewCount"] = int(stats[index]["statistics"]["viewCount"])
+        stats[index]["likeCount"] = int(stats[index]["statistics"]["likeCount"])
+        stats[index]["dislikeCount"] = int(stats[index]["statistics"]["dislikeCount"])
+        stats[index]["commentCount"] = int(stats[index]["statistics"]["commentCount"])
+        stats[index]["likedislikeratio"] = (stats[index]["likeCount"]) / (stats[index]["dislikeCount"])
+        del stats[index]["statistics"]
+        print(sent_vader)
+    commentsInfo.append({"channelName": str(channelName), "videoTitle": title, "comment": " ".join([str(comment) for comment in comments])})
+    total_sentiment.append(sent_vader)
 
 commentData = json.dumps(commentsInfo)
 fileCPtr = open("comments/" + channelName + "_commentwise.json", "w")

@@ -82,7 +82,7 @@ def analyze_sentiment(comments, sentimentFile):
     data["word_count"] = data["Comments"].apply(lambda x: len(str(x).split(" ")))
     data_clean = data.copy()
     data_clean["Comments"] = data_clean["Comments"].str.lower().str.strip()
-    # data_clean["Comments"] = data_clean["Comments"].str
+
     data_clean["Comments"] = data_clean["Comments"].apply(preprocess)
 
     data_clean_bckup = data_clean.copy()
@@ -98,9 +98,11 @@ def analyze_sentiment(comments, sentimentFile):
     negative = len(data_clean[data_clean["afinn_sent_category"] == "negative"])
     neutral = len(data_clean[data_clean["afinn_sent_category"] == "neutral"])
     count = len(data_clean.index)
+    sentimentFile.write("Sentiment Afinn" + "\n")
     sentimentFile.write("Positive sentiment : " + str(positive / count * 100) + "\n")
     sentimentFile.write("Negative sentiment : " + str(negative / count * 100) + "\n")
     sentimentFile.write("Neutral sentiment : " + str(neutral / count * 100) + "\n")
+    print("Sentiment Afinn")
     print("Positive sentiment : ", positive / count * 100)
     print("Negative sentiment : ", negative / count * 100)
     print("Neutral sentiment : ", neutral / count * 100)

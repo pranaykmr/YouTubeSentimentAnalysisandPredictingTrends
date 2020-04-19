@@ -1,3 +1,4 @@
+import sys
 import json
 import time
 import googleapiclient.errors
@@ -17,14 +18,12 @@ def getIds(youtube, maxVids):
     filePtr = open("comments/" + channelName + "_vidlist.json", "w")
     filePtr.write(fdata)
     filePtr.close()
-    # print(response)
     return channelName
 
 
 def getChannelName(youtube):
     channelName = input("Enter Channel Name : ")
-    requestId = youtube.search().list(part="snippet", order="relevance", q=channelName, type="channel")
-    responseId = requestId.execute()
+    responseId = requestChannelId(youtube, channelName)
     if len(responseId["items"]) == 0:
         print("Please Enter Valid Channel Display Name")
         return getChannelName(youtube)
@@ -32,23 +31,41 @@ def getChannelName(youtube):
         return responseId, channelName
 
 
-def getVideos(youtube, channelId, maxVids):
+def requestChannelId(youtube, channelName, retryCount=3):
+    try:
+        requestId = youtube.search().list(part="snippet", order="relevance", q=channelName, type="channel")
+        return requestId.execute()
+    except HttpError as ex:
+        if retryCount - 1 == 0:
+            print("Unable to fetch channel id : " + str(ex.resp.status) + str(ex.resp.reason))
+            print("Exiting.............")
+            sys.exit()
+        if ex.resp.status == 403:
+            time.sleep(60)
+        return requestChannelId(youtube, channelName, retryCount - 1)
+
+
+def getVideos(youtube, channelId, maxVids, retryCount=3):
     try:
         if maxVids > 50:
             maxVids = 50
         request = youtube.search().list(part="snippet", type="video", channelId=channelId, maxResults=maxVids, order="date")
         return request.execute()
     except HttpError as ex:
+        if retryCount - 1 == 0:
+            return {"items": 0}
         if ex.resp.status == 403:
             time.sleep(60)
-        return getVideos(youtube, channelId, maxVids)
+        return getVideos(youtube, channelId, maxVids, retryCount - 1)
 
 
-def getNextPageVideos(youtube, channelId, nextPageToken, maxVids):
+def getNextPageVideos(youtube, channelId, nextPageToken, maxVids, retryCount=3):
     try:
         request = youtube.search().list(part="snippet", type="video", channelId=channelId, maxResults=maxVids, order="date", pageToken=nextPageToken)
         return request.execute()
     except HttpError as ex:
+        if retryCount - 1 == 0:
+            return {"items": 0}
         if ex.resp.status == 403:
             time.sleep(60)
-        return getNextPageVideos(youtube, channelId, nextPageToken, maxVids)
+        return getNextPageVideos(youtube, channelId, nextPageToken, maxVids, retryCount - 1)

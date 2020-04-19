@@ -14,9 +14,11 @@ def analyze_sentiment(comments, sentimentFile):
             fresult["negativenum"] += 1
         else:
             fresult["neutralnum"] += 1
+    sentimentFile.write("Sentiment Vader" + "\n")
     sentimentFile.write("Positive sentiment : " + str(fresult["positivenum"] / count * 100) + "\n")
     sentimentFile.write("Negative sentiment : " + str(fresult["negativenum"] / count * 100) + "\n")
     sentimentFile.write("Neutral sentiment : " + str(fresult["neutralnum"] / count * 100) + "\n")
+    print("Sentiment Vader")
     print("Positive sentiment : ", fresult["positivenum"] / count * 100)
     print("Negative sentiment : ", fresult["negativenum"] / count * 100)
     print("Neutral sentiment : ", fresult["neutralnum"] / count * 100)
