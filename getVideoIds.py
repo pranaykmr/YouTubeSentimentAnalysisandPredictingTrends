@@ -6,8 +6,9 @@ from googleapiclient.errors import HttpError
 
 
 def getIds(youtube, maxVids):
-    responseId, channelName = getChannelName(youtube)
+    responseId = getChannelName(youtube)
     response = getVideos(youtube, responseId["items"][0]["id"]["channelId"], maxVids)
+    channelName = responseId["items"][0]["snippet"]["title"]
     videos = response["items"]
     while "nextPageToken" in response and len(videos) < maxVids:
         response = getNextPageVideos(
@@ -18,7 +19,7 @@ def getIds(youtube, maxVids):
     filePtr = open("comments/" + channelName + "_vidlist.json", "w")
     filePtr.write(fdata)
     filePtr.close()
-    return channelName
+    return responseId["items"][0]["snippet"]["title"]
 
 
 def getChannelName(youtube):
@@ -28,7 +29,7 @@ def getChannelName(youtube):
         print("Please Enter Valid Channel Display Name")
         return getChannelName(youtube)
     else:
-        return responseId, channelName
+        return responseId
 
 
 def requestChannelId(youtube, channelName, retryCount=3):
