@@ -53,7 +53,7 @@ def getVideos(youtube, channelId, maxVids, retryCount=3):
         return request.execute()
     except HttpError as ex:
         if retryCount - 1 == 0:
-            return {"items": 0}
+            return {"items": []}
         if ex.resp.status == 403:
             time.sleep(60)
         return getVideos(youtube, channelId, maxVids, retryCount - 1)
@@ -65,7 +65,7 @@ def getNextPageVideos(youtube, channelId, nextPageToken, maxVids, retryCount=3):
         return request.execute()
     except HttpError as ex:
         if retryCount - 1 == 0:
-            return {"items": 0}
+            return {"items": []}
         if ex.resp.status == 403:
             time.sleep(60)
         return getNextPageVideos(youtube, channelId, nextPageToken, maxVids, retryCount - 1)
