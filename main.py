@@ -2,7 +2,7 @@ import os
 import json
 import extractComments as ec
 import sentiment_vader as sv
-import fancySentiment as fs
+import visualisations as vis
 import getVideoIds as fid
 import googleapiclient.discovery
 import google_auth_oauthlib
@@ -24,7 +24,9 @@ total_sentiment = [(0, 0, 0)]
 os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
 input()
 flow = google_auth_oauthlib.flow.InstalledAppFlow.from_client_secrets_file(constants["OAuthFile"], constants["Scopes"])
+    constants["OAuthFile"], constants["Scopes"])
 credentials = flow.run_console()
+youtube = googleapiclient.discovery.build(
 youtube = googleapiclient.discovery.build(constants["ApiServiceName"], constants["ApiVersion"], developerKey=keys["APIKey"])
 channelName = fid.getIds(youtube, constants["VideoCount"])
 
@@ -41,8 +43,11 @@ sentimentFile = open(filePath, "w")
 commentsInfo = []
 for index, v in enumerate(vlist):
     title = v["snippet"]["title"]
+    sentimentFile.write("Video Number : " +
     sentimentFile.write("Video Number : " + str(index + 1) + " --> " + title + "\n")
     print("Downloading comments of Video Number : " + str(index + 1) + " --> ", title)
+    print("Downloading comments of Video Number : " +
+          str(index + 1) + " --> ", title)
     vid = v["id"]["videoId"]
     comments = ec.commentExtract(vid, youtube, constants["CommentCount"])
     total_comments.extend(comments)
@@ -50,8 +55,11 @@ for index, v in enumerate(vlist):
         sent_vader = sv.analyze_sentiment(comments, sentimentFile)
         sent_afinn = sa.analyze_sentiment(comments, sentimentFile)
         sent_NRC = snrc.sentimentNRC(comments, sentimentFile)
+        stats[index]["title"] = "Video Number : " + \
         stats[index]["title"] = "Video Number : " + str(index + 1) + " --> " + title + "\n"
         stats[index] = mapper.mapObject(sent_vader, sent_afinn, sent_NRC, stats[index], comments)
+        stats[index] = mapper.mapObject(
+            sent_vader, sent_afinn, sent_NRC, stats[index], comments)
     total_sentiment.append(sent_vader)
 
 fdata = json.dumps(stats)
@@ -99,9 +107,11 @@ dataframe.shape
 
 sentimentFile.close()
 print("Total Comments Scraped " + str(len(total_comments)))
-fs.fancySentiment(total_comments)
+# fs.fancySentiment(total_comments)
 
 pred.performPredictions(channelName)
+
+vis.performVisualisations(channelName, total_comments)
 
 total_sentiment = total_sentiment[1:]
 
