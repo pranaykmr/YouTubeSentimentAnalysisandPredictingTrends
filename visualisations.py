@@ -137,7 +137,7 @@ def NRC_pie(dataframe, channelName):
     plt.show()
 
 
-def fancySentiment(comments):
+def fancySentiment(comments, channelName):
     stopword = set(stopwords.words('english') +
                    list(string.punctuation) + ['n\'t'])
     filtered_comments = []
@@ -168,4 +168,4 @@ def performVisualisations(channelName, comments):
     vader_afinn_vis(dataframe, constants, channelName)
     vader_pie(dataframe, channelName)
     NRC_pie(dataframe, channelName)
-    fancySentiment(comments)
+    fancySentiment(comments, channelName)
