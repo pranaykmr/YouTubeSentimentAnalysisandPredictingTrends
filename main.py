@@ -43,7 +43,6 @@ for index, v in enumerate(vlist):
     title = v["snippet"]["title"]
     sentimentFile.write("Video Number : " + str(index + 1) + " --> " + title + "\n")
     print("Downloading comments of Video Number : " + str(index + 1) + " --> ", title)
-    print("Downloading comments of Video Number : " + str(index + 1) + " --> ", title)
     vid = v["id"]["videoId"]
     comments = ec.commentExtract(vid, youtube, constants["CommentCount"])
     total_comments.extend(comments)
