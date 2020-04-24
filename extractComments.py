@@ -1,5 +1,6 @@
 import time
 import json
+from datetime import datetime
 from googleapiclient.errors import HttpError
 
 
@@ -11,14 +12,26 @@ key = keys["APIKey"]
 def commentExtract(videoId, youtube, count=-1):
     page_info = makeRequest(youtube, videoId)
     comments = []
+    commentsWithDate = []
     comments = [x["snippet"]["topLevelComment"]["snippet"]["textOriginal"] for x in page_info["items"]]
-
+    commentsWithDate = [
+        {"comment": x["snippet"]["topLevelComment"]["snippet"]["textOriginal"], "date": x["snippet"]["topLevelComment"]["snippet"]["updatedAt"].split("T")[0]}
+        for x in page_info["items"]
+    ]
     while ("nextPageToken" in page_info) and (len(comments) < count):
         temp = page_info
         page_info = getNextPage(youtube, videoId, page_info["nextPageToken"])
         commentList = [x["snippet"]["topLevelComment"]["snippet"]["textOriginal"] for x in page_info["items"]]
+        commentListWithDate = [
+            {
+                "comment": x["snippet"]["topLevelComment"]["snippet"]["textOriginal"],
+                "date": x["snippet"]["topLevelComment"]["snippet"]["updatedAt"].split("T")[0],
+            }
+            for x in page_info["items"]
+        ]
         comments.extend(commentList)
-    return comments
+        commentsWithDate.extend(commentListWithDate)
+    return comments, commentsWithDate
 
 
 def makeRequest(youtube, videoId, retryCount=3):

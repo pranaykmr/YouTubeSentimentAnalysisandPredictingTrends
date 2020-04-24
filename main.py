@@ -20,6 +20,7 @@ with open("auth/keys.json") as json_file:
     keys = json.load(json_file)
 
 total_comments = []
+commentsWithDate = []
 total_sentiment = [(0, 0, 0)]
 os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
 input()
@@ -44,21 +45,27 @@ for index, v in enumerate(vlist):
     sentimentFile.write("Video Number : " + str(index + 1) + " --> " + title + "\n")
     print("Downloading comments of Video Number : " + str(index + 1) + " --> ", title)
     vid = v["id"]["videoId"]
-    comments = ec.commentExtract(vid, youtube, constants["CommentCount"])
+    comments, commentListWithDate = ec.commentExtract(vid, youtube, constants["CommentCount"])
     total_comments.extend(comments)
     if len(comments) > 0:
-        sent_vader = sv.analyze_sentiment(comments, sentimentFile)
-        sent_afinn = sa.analyze_sentiment(comments, sentimentFile)
+        sent_vader, commentListWithDate = sv.analyze_sentiment(commentListWithDate, sentimentFile)
+        sent_afinn, commentListWithDate = sa.analyze_sentiment(commentListWithDate, sentimentFile)
         sent_NRC = snrc.sentimentNRC(comments, sentimentFile)
         stats[index]["title"] = "Video Number : " + str(index + 1) + " --> " + title + "\n"
         stats[index] = mapper.mapObject(sent_vader, sent_afinn, sent_NRC, stats[index], comments)
-    total_sentiment.append(sent_vader)
+        total_sentiment.append(sent_vader)
+        commentsWithDate.extend(commentListWithDate)
 
 fdata = json.dumps(stats)
 filePtr = open("comments/" + channelName + "_stats.json", "w")
 filePtr.write(fdata)
 filePtr.close()
 
+
+fdata = json.dumps(commentsWithDate)
+filePtr = open("comments/" + channelName + "_Custom.json", "w")
+filePtr.write(fdata)
+filePtr.close()
 """
 Data Frame Created
 
@@ -99,7 +106,6 @@ dataframe.shape
 
 sentimentFile.close()
 print("Total Comments Scraped " + str(len(total_comments)))
-# fs.fancySentiment(total_comments)
 
 pred.performPredictions(channelName)
 
