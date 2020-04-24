@@ -9,6 +9,7 @@ from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import stopwords
 from afinn import Afinn
 from string import punctuation
+import json
 
 tokenizer = ToktokTokenizer()
 ps = nltk.porter.PorterStemmer()
@@ -76,12 +77,12 @@ def preprocess(text):
     return text
 
 
-def analyze_sentiment(comments, sentimentFile):
+def analyze_sentiment(commentListWithDate, sentimentFile):
     af = Afinn()
-    data = p.DataFrame(comments, columns=["Comments"])
-    data["word_count"] = data["Comments"].apply(lambda x: len(str(x).split(" ")))
+    data = p.DataFrame(commentListWithDate, columns=["comment", "date", "polarity_vader"])
+    data["word_count"] = data["comment"].apply(lambda x: len(str(x).split(" ")))
     data_clean = data.copy()
-    data_clean["Comments"] = data_clean["Comments"].str.lower().str.strip()
+    data_clean["Comments"] = data_clean["comment"].str.lower().str.strip()
 
     data_clean["Comments"] = data_clean["Comments"].apply(preprocess)
 
@@ -89,7 +90,7 @@ def analyze_sentiment(comments, sentimentFile):
     data_clean["Comments_Clean"] = data_clean["Comments"].apply(remove_stopwords)
     data_clean["Normalized_Comments"] = data_clean["Comments_Clean"].apply(simple_stemmer)
     data_clean = data_clean.drop(columns=data_clean[["Comments_Clean"]], axis=1)
-    data_clean = data_clean[["Comments", "Normalized_Comments", "word_count"]]
+    data_clean = data_clean[["Comments", "Normalized_Comments", "word_count", "comment", "date", "polarity_vader"]]
     data_clean_bckup_norm = data_clean.copy()
     # data_clean.head()
     data_clean["afinn_score"] = [afinn_sent_analysis(comm, af) for comm in data_clean["Normalized_Comments"]]
@@ -106,4 +107,5 @@ def analyze_sentiment(comments, sentimentFile):
     print("Positive sentiment : ", positive / count * 100)
     print("Negative sentiment : ", negative / count * 100)
     print("Neutral sentiment : ", neutral / count * 100)
-    return (positive, negative, neutral)
+    newDF = data_clean[["comment", "date", "polarity_vader", "afinn_score"]]
+    return (positive, negative, neutral), json.loads(newDF.to_json(orient="records"))
