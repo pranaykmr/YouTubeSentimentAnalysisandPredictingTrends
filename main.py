@@ -68,6 +68,7 @@ fdata = json.dumps(commentsWithDate)
 filePtr = open("comments/" + channelName + "_comment_scores.json", "w")
 filePtr.write(fdata)
 filePtr.close()
+
 """
 Data Frame Created
 
