@@ -4,7 +4,7 @@ from itertools import groupby
 
 
 def getDateWiseGrouped(channelName):
-    with open("comments/Dude Perfect_Custom.json") as json_file:
+    with open("comments/" + channelName + "_Custom.json") as json_file:
         contents = json.load(json_file)
 
     contents.sort(key=lambda content: content["date"])

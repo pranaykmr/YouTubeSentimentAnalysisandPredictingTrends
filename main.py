@@ -12,6 +12,8 @@ import sentiment_afinn as sa
 import sentiment_NRC as snrc
 import mapper
 import predictionModels as pred
+import preprocessing as preprocessing
+import predictionAnalysis as predict
 
 with open("constants.json") as json_file:
     constants = json.load(json_file)
@@ -107,7 +109,10 @@ dataframe.shape
 sentimentFile.close()
 print("Total Comments Scraped " + str(len(total_comments)))
 
-pred.performPredictions(channelName)
+# pred.performPredictions(channelName)
+
+data = preprocessing.getDateWiseGrouped(channelName)
+predict.predictionAnalysis(data, channelName)
 
 vis.performVisualisations(channelName, total_comments)
 
