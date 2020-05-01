@@ -1,0 +1,2000 @@
+Video Number : 1 --> Quarantine Stereotypes
+Sentiment Vader
+Positive sentiment : 35.69121447028424
+Negative sentiment : 29.941860465116278
+Neutral sentiment : 34.366925064599485
+Sentiment Afinn
+Positive sentiment : 22.25452196382429
+Negative sentiment : 23.385012919896642
+Neutral sentiment : 54.360465116279066
+Sentiment NRC
+anger : 0.11061210911510312
+anticipation : 0.1823020625415835
+disgust : 0.03642714570858283
+fear : 0.13988689288090486
+joy : 0.16600133067198936
+negative : 0.21989354624085164
+positive : 0.23303393213572854
+sadness : 0.0866600133067199
+surprise : 0.10528942115768464
+trust : 0.12308715901530273
+Video Number : 2 --> Eating Dog Food Like Cereal | Overtime 15 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 59.98709261051952
+Negative sentiment : 13.13326879638593
+Neutral sentiment : 26.879638593094548
+Sentiment Afinn
+Positive sentiment : 54.92094223943208
+Negative sentiment : 8.163923846402065
+Neutral sentiment : 36.91513391416586
+Sentiment NRC
+anger : 0.04547267650578381
+anticipation : 0.09553250897487037
+disgust : 0.038292780215396886
+fear : 0.06122856003191065
+joy : 0.32249700837654566
+negative : 0.09832469086557638
+positive : 0.4222177901874751
+sadness : 0.04427602712405265
+surprise : 0.033705624252094134
+trust : 0.08735540486637415
+Video Number : 3 --> Dude Perfect Documentary I Official Trailer | Backstage Pass
+Sentiment Vader
+Positive sentiment : 55.03333333333333
+Negative sentiment : 10.2
+Neutral sentiment : 34.766666666666666
+Sentiment Afinn
+Positive sentiment : 37.833333333333336
+Negative sentiment : 5.4
+Neutral sentiment : 56.766666666666666
+Sentiment NRC
+anger : 0.04488232074438971
+anticipation : 0.19923371647509577
+disgust : 0.018609742747673783
+fear : 0.06403940886699508
+joy : 0.19175332968436418
+negative : 0.11895639481846379
+positive : 0.25250866630176977
+sadness : 0.03557744937055282
+surprise : 0.056559022076263454
+trust : 0.16876482393723774
+Video Number : 4 --> Blindfolded Archery Battle | Dude Perfect
+Sentiment Vader
+Positive sentiment : 44.1
+Negative sentiment : 13.0
+Neutral sentiment : 42.9
+Sentiment Afinn
+Positive sentiment : 31.0
+Negative sentiment : 7.199999999999999
+Neutral sentiment : 61.8
+Sentiment NRC
+anger : 0.08038758298941324
+anticipation : 0.1256055984209582
+disgust : 0.021352951731562892
+fear : 0.09689574735331061
+joy : 0.10281715413601292
+negative : 0.14839404270590345
+positive : 0.16239009510138167
+sadness : 0.06423829176386148
+surprise : 0.09258926969316347
+trust : 0.12847658352772295
+Video Number : 5 --> Freeze Frame Nerf Battle | Dude Perfect
+Sentiment Vader
+Positive sentiment : 40.400000000000006
+Negative sentiment : 9.066666666666666
+Neutral sentiment : 50.53333333333333
+Sentiment Afinn
+Positive sentiment : 26.400000000000002
+Negative sentiment : 4.333333333333334
+Neutral sentiment : 69.26666666666667
+Sentiment NRC
+anger : 0.07528568227649562
+anticipation : 0.12435581447456867
+disgust : 0.03674658301590858
+fear : 0.08424826349988797
+joy : 0.16625588169392785
+negative : 0.14810665471655837
+positive : 0.21935917544252745
+sadness : 0.09903652251848533
+surprise : 0.0768541339905893
+trust : 0.266636791395922
+Video Number : 6 --> World&#39;s Best Candy | Overtime 14 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 39.96666666666667
+Negative sentiment : 20.599999999999998
+Neutral sentiment : 39.43333333333333
+Sentiment Afinn
+Positive sentiment : 31.566666666666666
+Negative sentiment : 6.633333333333333
+Neutral sentiment : 61.8
+Sentiment NRC
+anger : 0.04031977754605492
+anticipation : 0.11452902328814737
+disgust : 0.042926659714980886
+fear : 0.04466458116093153
+joy : 0.07542579075425791
+negative : 0.11696211331247827
+positive : 0.22228015293708725
+sadness : 0.037191518943343764
+surprise : 0.04553354188390685
+trust : 0.10236357316649287
+Video Number : 7 --> Airsoft Battle Royale 2 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 41.8
+Negative sentiment : 16.400000000000002
+Neutral sentiment : 41.8
+Sentiment Afinn
+Positive sentiment : 30.466666666666665
+Negative sentiment : 8.266666666666666
+Neutral sentiment : 61.266666666666666
+Sentiment NRC
+anger : 0.07149425287356322
+anticipation : 0.09310344827586207
+disgust : 0.03103448275862069
+fear : 0.09264367816091953
+joy : 0.10275862068965518
+negative : 0.13425287356321838
+positive : 0.18620689655172415
+sadness : 0.067816091954023
+surprise : 0.03954022988505747
+trust : 0.11172413793103449
+Video Number : 8 --> Water Bottle Flip 3 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 50.13333333333333
+Negative sentiment : 11.733333333333333
+Neutral sentiment : 38.13333333333333
+Sentiment Afinn
+Positive sentiment : 32.233333333333334
+Negative sentiment : 5.833333333333333
+Neutral sentiment : 61.93333333333333
+Sentiment NRC
+anger : 0.09626982354255081
+anticipation : 0.16975653339289704
+disgust : 0.02010274737547465
+fear : 0.09805673442037079
+joy : 0.13245476881840518
+negative : 0.17377708286799196
+positive : 0.2106321197230288
+sadness : 0.08242126423944605
+surprise : 0.11011838284565557
+trust : 0.13558186285459012
+Video Number : 9 --> Lightsaber Accident | Overtime 13 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 32.6
+Negative sentiment : 14.466666666666667
+Neutral sentiment : 52.93333333333333
+Sentiment Afinn
+Positive sentiment : 21.96666666666667
+Negative sentiment : 10.100000000000001
+Neutral sentiment : 67.93333333333334
+Sentiment NRC
+anger : 0.08623629719853837
+anticipation : 0.11644336175395859
+disgust : 0.047503045066991476
+fear : 0.1315468940316687
+joy : 0.10182704019488428
+negative : 0.17880633373934227
+positive : 0.19390986601705237
+sadness : 0.06723507917174178
+surprise : 0.0930572472594397
+trust : 0.08696711327649208
+Video Number : 10 --> Bucket List: Aircraft Carrier
+Sentiment Vader
+Positive sentiment : 34.36592449177154
+Negative sentiment : 12.003872216844142
+Neutral sentiment : 53.63020329138431
+Sentiment Afinn
+Positive sentiment : 24.459503065505
+Negative sentiment : 9.551468215553404
+Neutral sentiment : 65.98902871894158
+Sentiment NRC
+anger : 0.05463035019455253
+anticipation : 0.11688715953307394
+disgust : 0.025525291828793775
+fear : 0.0667704280155642
+joy : 0.08575875486381324
+negative : 0.10007782101167315
+positive : 0.1648249027237354
+sadness : 0.04653696498054475
+surprise : 0.045136186770428015
+trust : 0.09898832684824903
+Video Number : 11 --> Hockey Trick Shots | Dude Perfect
+Sentiment Vader
+Positive sentiment : 42.233333333333334
+Negative sentiment : 13.166666666666666
+Neutral sentiment : 44.6
+Sentiment Afinn
+Positive sentiment : 30.266666666666666
+Negative sentiment : 5.2
+Neutral sentiment : 64.53333333333333
+Sentiment NRC
+anger : 0.09305816135084428
+anticipation : 0.13621013133208254
+disgust : 0.017823639774859287
+fear : 0.10412757973733583
+joy : 0.11819887429643527
+negative : 0.1825515947467167
+positive : 0.1823639774859287
+sadness : 0.08348968105065666
+surprise : 0.125515947467167
+trust : 0.11632270168855535
+Video Number : 12 --> YouTube Rewind 2019: Dude Perfect Edition | #YouTubeRewind
+Sentiment Vader
+Positive sentiment : 54.13333333333333
+Negative sentiment : 11.933333333333334
+Neutral sentiment : 33.93333333333333
+Sentiment Afinn
+Positive sentiment : 44.96666666666667
+Negative sentiment : 5.2
+Neutral sentiment : 49.833333333333336
+Sentiment NRC
+anger : 0.06730369754881595
+anticipation : 0.1726215205650187
+disgust : 0.02035729123390112
+fear : 0.07644370585791442
+joy : 0.16576651433319484
+negative : 0.12796011632737847
+positive : 0.25571250519318656
+sadness : 0.05317823016202742
+surprise : 0.08226007478188617
+trust : 0.1503946821769838
+Video Number : 13 --> All Sports Bowling Battle | Dude Perfect
+Sentiment Vader
+Positive sentiment : 40.9
+Negative sentiment : 20.8
+Neutral sentiment : 38.3
+Sentiment Afinn
+Positive sentiment : 30.599999999999998
+Negative sentiment : 11.899999999999999
+Neutral sentiment : 57.49999999999999
+Sentiment NRC
+anger : 0.09403846153846154
+anticipation : 0.12057692307692308
+disgust : 0.04153846153846154
+fear : 0.09076923076923077
+joy : 0.10653846153846154
+negative : 0.165
+positive : 0.1828846153846154
+sadness : 0.07923076923076923
+surprise : 0.09442307692307693
+trust : 0.1301923076923077
+Video Number : 14 --> Nerf Trick Shots | Dude Perfect
+Sentiment Vader
+Positive sentiment : 38.56082607292675
+Negative sentiment : 18.715714746692484
+Neutral sentiment : 42.72345918038077
+Sentiment Afinn
+Positive sentiment : 30.558244595030654
+Negative sentiment : 10.293643110680865
+Neutral sentiment : 59.14811229428848
+Sentiment NRC
+anger : 0.10800948731983215
+anticipation : 0.14413428206531656
+disgust : 0.01879219120598431
+fear : 0.13282247765006386
+joy : 0.11950374019339537
+negative : 0.20288268564130632
+positive : 0.17606276226965883
+sadness : 0.08921729611384784
+surprise : 0.1291735084838533
+trust : 0.09542054369640576
+Video Number : 15 --> Backyard Games Battle | Dude Perfect
+Sentiment Vader
+Positive sentiment : 46.800000000000004
+Negative sentiment : 13.666666666666666
+Neutral sentiment : 39.53333333333333
+Sentiment Afinn
+Positive sentiment : 37.06666666666666
+Negative sentiment : 6.566666666666666
+Neutral sentiment : 56.36666666666667
+Sentiment NRC
+anger : 0.1153163808397398
+anticipation : 0.1608515671200473
+disgust : 0.0788488074117879
+fear : 0.07116104868913857
+joy : 0.15336093041592747
+negative : 0.11413364872856298
+positive : 0.267297457125961
+sadness : 0.05381431105854524
+surprise : 0.12359550561797752
+trust : 0.23733491030948156
+Video Number : 16 --> We Broke The Budget | Overtime 12 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 20.066666666666666
+Negative sentiment : 35.16666666666667
+Neutral sentiment : 44.766666666666666
+Sentiment Afinn
+Positive sentiment : 16.433333333333334
+Negative sentiment : 10.433333333333334
+Neutral sentiment : 73.13333333333333
+Sentiment NRC
+anger : 0.10398445092322643
+anticipation : 0.15419501133786848
+disgust : 0.10560414642047296
+fear : 0.15257531584062195
+joy : 0.08130871396177519
+negative : 0.17006802721088435
+positive : 0.22384191771946874
+sadness : 0.0913508260447036
+surprise : 0.027210884353741496
+trust : 0.14188532555879493
+Video Number : 17 --> Unexpected Trick Shots | Dude Perfect
+Sentiment Vader
+Positive sentiment : 25.6
+Negative sentiment : 13.100000000000001
+Neutral sentiment : 61.3
+Sentiment Afinn
+Positive sentiment : 16.1
+Negative sentiment : 8.5
+Neutral sentiment : 75.4
+Sentiment NRC
+anger : 0.1033857315598549
+anticipation : 0.12515114873035066
+disgust : 0.024385328496573964
+fear : 0.2226924627166465
+joy : 0.06368399838774688
+negative : 0.31519548569125355
+positive : 0.2704554615074567
+sadness : 0.06690850463522773
+surprise : 0.300080612656187
+trust : 0.0916968964127368
+Video Number : 18 --> All Sports Trick Shots | Dude Perfect
+Sentiment Vader
+Positive sentiment : 37.13333333333333
+Negative sentiment : 17.833333333333336
+Neutral sentiment : 45.03333333333333
+Sentiment Afinn
+Positive sentiment : 25.433333333333337
+Negative sentiment : 10.0
+Neutral sentiment : 64.56666666666668
+Sentiment NRC
+anger : 0.11714836223506744
+anticipation : 0.11946050096339114
+disgust : 0.018497109826589597
+fear : 0.1138728323699422
+joy : 0.12235067437379576
+negative : 0.22254335260115607
+positive : 0.17148362235067438
+sadness : 0.09633911368015415
+surprise : 0.18169556840077072
+trust : 0.09094412331406551
+Video Number : 19 --> Camping Stereotypes
+Sentiment Vader
+Positive sentiment : 32.7
+Negative sentiment : 25.633333333333336
+Neutral sentiment : 41.66666666666667
+Sentiment Afinn
+Positive sentiment : 20.433333333333334
+Negative sentiment : 22.366666666666667
+Neutral sentiment : 57.199999999999996
+Sentiment NRC
+anger : 0.1644331763853676
+anticipation : 0.09724737413980442
+disgust : 0.06501267656646142
+fear : 0.16226005070626584
+joy : 0.09090909090909091
+negative : 0.28069540021731254
+positive : 0.16877942774357116
+sadness : 0.06374501992031872
+surprise : 0.04491126403477001
+trust : 0.10050706265845707
+Video Number : 20 --> Helicopter Battleship Battle | Dude Perfect
+Sentiment Vader
+Positive sentiment : 40.819619232010325
+Negative sentiment : 19.006131010003227
+Neutral sentiment : 40.174249757986445
+Sentiment Afinn
+Positive sentiment : 31.55856727976767
+Negative sentiment : 10.067763794772508
+Neutral sentiment : 58.37366892545982
+Sentiment NRC
+anger : 0.0884857460199926
+anticipation : 0.1358756016290263
+disgust : 0.03794890781192151
+fear : 0.09866716031099593
+joy : 0.10422065901517956
+negative : 0.16586449463161793
+positive : 0.2197334320621992
+sadness : 0.07367641614216956
+surprise : 0.08570899666790077
+trust : 0.1616068122917438
+Video Number : 21 --> World&#39;s Weirdest Pillow | Overtime 11 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 40.699999999999996
+Negative sentiment : 21.5
+Neutral sentiment : 37.8
+Sentiment Afinn
+Positive sentiment : 29.86666666666667
+Negative sentiment : 13.333333333333334
+Neutral sentiment : 56.8
+Sentiment NRC
+anger : 0.06782244236997523
+anticipation : 0.10611545056201181
+disgust : 0.046294532291865115
+fear : 0.08839779005524862
+joy : 0.09087445227662412
+negative : 0.12554772337588113
+positive : 0.25071442179462755
+sadness : 0.06420270527719565
+surprise : 0.037340445799199845
+trust : 0.11049723756906077
+Video Number : 22 --> Editor Edition 2 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 41.86666666666667
+Negative sentiment : 15.166666666666668
+Neutral sentiment : 42.96666666666666
+Sentiment Afinn
+Positive sentiment : 31.866666666666667
+Negative sentiment : 7.933333333333334
+Neutral sentiment : 60.199999999999996
+Sentiment NRC
+anger : 0.08651951123374065
+anticipation : 0.12199448167126527
+disgust : 0.0216791486007095
+fear : 0.0967678360268033
+joy : 0.10031533307055578
+negative : 0.15924320063066613
+positive : 0.17481277098935752
+sadness : 0.07094994087504927
+surprise : 0.10386283011430823
+trust : 0.10878990934174222
+Video Number : 23 --> Bass Fishing Battle | Dude Perfect
+Sentiment Vader
+Positive sentiment : 45.233333333333334
+Negative sentiment : 15.9
+Neutral sentiment : 38.86666666666667
+Sentiment Afinn
+Positive sentiment : 34.06666666666667
+Negative sentiment : 7.3
+Neutral sentiment : 58.63333333333334
+Sentiment NRC
+anger : 0.0610632183908046
+anticipation : 0.11188936781609195
+disgust : 0.020474137931034482
+fear : 0.08279454022988506
+joy : 0.10326867816091954
+negative : 0.12966954022988506
+positive : 0.17780172413793102
+sadness : 0.051544540229885055
+surprise : 0.07489224137931035
+trust : 0.10883620689655173
+Video Number : 24 --> RC Airplane Battle | Dude Perfect
+Sentiment Vader
+Positive sentiment : 44.1
+Negative sentiment : 10.166666666666666
+Neutral sentiment : 45.733333333333334
+Sentiment Afinn
+Positive sentiment : 31.1
+Negative sentiment : 6.3
+Neutral sentiment : 62.6
+Sentiment NRC
+anger : 0.06337662337662338
+anticipation : 0.13428571428571429
+disgust : 0.028311688311688312
+fear : 0.07922077922077922
+joy : 0.1225974025974026
+negative : 0.11844155844155844
+positive : 0.19688311688311688
+sadness : 0.05480519480519481
+surprise : 0.05688311688311688
+trust : 0.18675324675324675
+Video Number : 25 --> World&#39;s Best Gaming Room | Overtime 10 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 42.6
+Negative sentiment : 16.03333333333333
+Neutral sentiment : 41.36666666666667
+Sentiment Afinn
+Positive sentiment : 29.5
+Negative sentiment : 8.766666666666667
+Neutral sentiment : 61.73333333333333
+Sentiment NRC
+anger : 0.06863455269829771
+anticipation : 0.11155378486055777
+disgust : 0.02969938428105759
+fear : 0.07696486780152119
+joy : 0.08529518290474465
+negative : 0.12332488228902572
+positive : 0.19630568634552698
+sadness : 0.032777978993118434
+surprise : 0.03132922854038392
+trust : 0.07225642883013401
+Video Number : 26 --> Metal Detector Battle 2 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 39.787028073572124
+Negative sentiment : 15.650209745079058
+Neutral sentiment : 44.562762181348816
+Sentiment Afinn
+Positive sentiment : 30.816392384640206
+Negative sentiment : 10.487253952888029
+Neutral sentiment : 58.696353662471765
+Sentiment NRC
+anger : 0.05171054705975091
+anticipation : 0.08182248147564244
+disgust : 0.03231909191234432
+fear : 0.062273372221346365
+joy : 0.08875926217877976
+negative : 0.10815071732618635
+positive : 0.24105312943402177
+sadness : 0.054075358663093175
+surprise : 0.03105785905722844
+trust : 0.10452467286772821
+Video Number : 27 --> Plunger Trick Shots | Dude Perfect
+Sentiment Vader
+Positive sentiment : 40.9
+Negative sentiment : 14.433333333333334
+Neutral sentiment : 44.666666666666664
+Sentiment Afinn
+Positive sentiment : 29.86666666666667
+Negative sentiment : 7.7
+Neutral sentiment : 62.43333333333333
+Sentiment NRC
+anger : 0.09563237424963776
+anticipation : 0.12109294141999585
+disgust : 0.03932933140136618
+fear : 0.1119850962533637
+joy : 0.1215069343821155
+negative : 0.20865245290830056
+positive : 0.19995860070378804
+sadness : 0.09977230387083419
+surprise : 0.1486234734009522
+trust : 0.10929414199958601
+Video Number : 28 --> Laying in a Box of Snakes | Overtime 9 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 34.13333333333333
+Negative sentiment : 18.73333333333333
+Neutral sentiment : 47.13333333333333
+Sentiment Afinn
+Positive sentiment : 26.43333333333333
+Negative sentiment : 11.733333333333333
+Neutral sentiment : 61.83333333333333
+Sentiment NRC
+anger : 0.09009740259740259
+anticipation : 0.08786525974025974
+disgust : 0.0955762987012987
+fear : 0.14387175324675325
+joy : 0.09435876623376624
+negative : 0.19257305194805194
+positive : 0.2224025974025974
+sadness : 0.056006493506493504
+surprise : 0.03794642857142857
+trust : 0.0919237012987013
+Video Number : 29 --> Ping Pong Trick Shots 5 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 44.99677211103938
+Negative sentiment : 12.330535829567463
+Neutral sentiment : 42.67269205939316
+Sentiment Afinn
+Positive sentiment : 29.08327953518399
+Negative sentiment : 6.423499031633312
+Neutral sentiment : 64.4932214331827
+Sentiment NRC
+anger : 0.09538878842676311
+anticipation : 0.1437613019891501
+disgust : 0.01876130198915009
+fear : 0.11437613019891502
+joy : 0.12115732368896925
+negative : 0.19462025316455697
+positive : 0.19642857142857142
+sadness : 0.09629294755877034
+surprise : 0.14850813743218808
+trust : 0.10216998191681737
+Video Number : 30 --> All Sports Baseball Battle | Dude Perfect
+Sentiment Vader
+Positive sentiment : 41.06666666666667
+Negative sentiment : 12.666666666666668
+Neutral sentiment : 46.266666666666666
+Sentiment Afinn
+Positive sentiment : 29.2
+Negative sentiment : 7.666666666666666
+Neutral sentiment : 63.13333333333333
+Sentiment NRC
+anger : 0.09720785935884178
+anticipation : 0.1233195449844881
+disgust : 0.03981385729058945
+fear : 0.07807652533609101
+joy : 0.11478800413650465
+negative : 0.14115822130299896
+positive : 0.1923474663908997
+sadness : 0.05894519131334023
+surprise : 0.05972078593588418
+trust : 0.15563598759048605
+Video Number : 31 --> Nerf Fortnite Blasters Battle | Dude Perfect
+Sentiment Vader
+Positive sentiment : 38.4
+Negative sentiment : 15.2
+Neutral sentiment : 46.400000000000006
+Sentiment Afinn
+Positive sentiment : 30.133333333333333
+Negative sentiment : 9.466666666666667
+Neutral sentiment : 60.4
+Sentiment NRC
+anger : 0.10081008100810081
+anticipation : 0.09405940594059406
+disgust : 0.046804680468046804
+fear : 0.10688568856885688
+joy : 0.1035103510351035
+negative : 0.12961296129612962
+positive : 0.18901890189018902
+sadness : 0.05828082808280828
+surprise : 0.03442844284428443
+trust : 0.33303330333033304
+Video Number : 32 --> Real Life Trick Shots Bloopers | Overtime 8 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 36.6
+Negative sentiment : 19.3
+Neutral sentiment : 44.1
+Sentiment Afinn
+Positive sentiment : 28.333333333333332
+Negative sentiment : 8.966666666666667
+Neutral sentiment : 62.7
+Sentiment NRC
+anger : 0.056218365871294286
+anticipation : 0.09978308026030369
+disgust : 0.03759942154736081
+fear : 0.07266811279826464
+joy : 0.11352133044107014
+negative : 0.12906724511930587
+positive : 0.23987707881417208
+sadness : 0.05007230657989877
+surprise : 0.06218365871294288
+trust : 0.113882863340564
+Video Number : 33 --> Airplane Trick Shots 2 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 35.03333333333333
+Negative sentiment : 10.566666666666666
+Neutral sentiment : 54.400000000000006
+Sentiment Afinn
+Positive sentiment : 23.833333333333336
+Negative sentiment : 6.766666666666667
+Neutral sentiment : 69.39999999999999
+Sentiment NRC
+anger : 0.07975656630365151
+anticipation : 0.12299807815502883
+disgust : 0.033632286995515695
+fear : 0.09352978859705317
+joy : 0.1137091607943626
+negative : 0.1672005124919923
+positive : 0.21524663677130046
+sadness : 0.07078795643818066
+surprise : 0.09641255605381166
+trust : 0.1258808456117873
+Video Number : 34 --> Real Life Trick Shots 3 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 37.9
+Negative sentiment : 17.0
+Neutral sentiment : 45.1
+Sentiment Afinn
+Positive sentiment : 26.333333333333332
+Negative sentiment : 7.533333333333333
+Neutral sentiment : 66.13333333333333
+Sentiment NRC
+anger : 0.1001132502831257
+anticipation : 0.107361268403171
+disgust : 0.024462061155152887
+fear : 0.11664779161947905
+joy : 0.09218573046432615
+negative : 0.23873159682899206
+positive : 0.20770101925254814
+sadness : 0.10962627406568516
+surprise : 0.1725934314835787
+trust : 0.12819932049830124
+Video Number : 35 --> Dude Shaves Eyebrows | Overtime 7 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 42.66666666666667
+Negative sentiment : 15.966666666666669
+Neutral sentiment : 41.36666666666667
+Sentiment Afinn
+Positive sentiment : 33.03333333333333
+Negative sentiment : 9.766666666666666
+Neutral sentiment : 57.199999999999996
+Sentiment NRC
+anger : 0.0609623339865012
+anticipation : 0.08621815806662313
+disgust : 0.06553450903548878
+fear : 0.09187894622251253
+joy : 0.10820814282603962
+negative : 0.13868930981929023
+positive : 0.2155453951665578
+sadness : 0.06792945787067277
+surprise : 0.06161550185064228
+trust : 0.07707380796864795
+Video Number : 36 --> Super Bowl Stadium Trick Shots | Dude Perfect
+Sentiment Vader
+Positive sentiment : 46.33333333333333
+Negative sentiment : 13.833333333333334
+Neutral sentiment : 39.83333333333333
+Sentiment Afinn
+Positive sentiment : 35.36666666666667
+Negative sentiment : 6.5
+Neutral sentiment : 58.13333333333334
+Sentiment NRC
+anger : 0.10391897842360194
+anticipation : 0.15125495376486128
+disgust : 0.029722589167767502
+fear : 0.10149713782474681
+joy : 0.12417437252311757
+negative : 0.1873623954205196
+positive : 0.2144429766622633
+sadness : 0.07970057243505063
+surprise : 0.12527520915896082
+trust : 0.1312197269925143
+Video Number : 37 --> Model Rocket Battle 2 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 32.83333333333333
+Negative sentiment : 14.266666666666666
+Neutral sentiment : 52.900000000000006
+Sentiment Afinn
+Positive sentiment : 24.666666666666668
+Negative sentiment : 6.800000000000001
+Neutral sentiment : 68.53333333333333
+Sentiment NRC
+anger : 0.19501079395538498
+anticipation : 0.10122331494363157
+disgust : 0.026864955624850084
+fear : 0.06068601583113457
+joy : 0.07483809066922524
+negative : 0.08275365795154713
+positive : 0.18949388342528184
+sadness : 0.03621971695850324
+surprise : 0.05229071719836891
+trust : 0.09522667306308467
+Video Number : 38 --> Dude Perfect Rewind 2018
+Sentiment Vader
+Positive sentiment : 51.5
+Negative sentiment : 11.333333333333332
+Neutral sentiment : 37.166666666666664
+Sentiment Afinn
+Positive sentiment : 40.03333333333333
+Negative sentiment : 6.333333333333334
+Neutral sentiment : 53.63333333333333
+Sentiment NRC
+anger : 0.07516750418760469
+anticipation : 0.1811139028475712
+disgust : 0.02386934673366834
+fear : 0.08479899497487438
+joy : 0.16729480737018426
+negative : 0.1379815745393635
+positive : 0.24413735343383586
+sadness : 0.055904522613065326
+surprise : 0.09003350083752094
+trust : 0.152428810720268
+Video Number : 39 --> Skiing Stereotypes | Dude Perfect
+Sentiment Vader
+Positive sentiment : 34.333333333333336
+Negative sentiment : 20.066666666666666
+Neutral sentiment : 45.6
+Sentiment Afinn
+Positive sentiment : 24.133333333333333
+Negative sentiment : 16.0
+Neutral sentiment : 59.86666666666667
+Sentiment NRC
+anger : 0.10796110103840448
+anticipation : 0.09015988132520192
+disgust : 0.0575243118509972
+fear : 0.12477336410087358
+joy : 0.07862205373331135
+negative : 0.20158233064117356
+positive : 0.1364760178012197
+sadness : 0.0774682709741223
+surprise : 0.03823965716169441
+trust : 0.08505027196307895
+Video Number : 40 --> World Record Exercise Ball Surfing | Overtime 6 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 43.8
+Negative sentiment : 11.033333333333333
+Neutral sentiment : 45.166666666666664
+Sentiment Afinn
+Positive sentiment : 32.1
+Negative sentiment : 7.199999999999999
+Neutral sentiment : 60.699999999999996
+Sentiment NRC
+anger : 0.03848260750479321
+anticipation : 0.13900301287318542
+disgust : 0.019583675705286224
+fear : 0.06833744179676801
+joy : 0.13188167625308134
+negative : 0.07450013694878116
+positive : 0.2155573815393043
+sadness : 0.25554642563681185
+surprise : 0.02259654889071487
+trust : 0.10243768830457409
+Video Number : 41 --> Airsoft Battle Royale | Dude Perfect
+Sentiment Vader
+Positive sentiment : 42.62665375927719
+Negative sentiment : 13.810906744111003
+Neutral sentiment : 43.56243949661181
+Sentiment Afinn
+Positive sentiment : 28.81574701516618
+Negative sentiment : 9.164246531139076
+Neutral sentiment : 62.02000645369474
+Sentiment NRC
+anger : 0.112006237006237
+anticipation : 0.09901247401247401
+disgust : 0.04002079002079002
+fear : 0.13799376299376298
+joy : 0.08913721413721414
+negative : 0.18711018711018712
+positive : 0.18477130977130976
+sadness : 0.059511434511434515
+surprise : 0.04313929313929314
+trust : 0.09511434511434512
+Video Number : 42 --> Dunk Tank FIFA | Dude Perfect
+Sentiment Vader
+Positive sentiment : 40.86666666666667
+Negative sentiment : 11.033333333333333
+Neutral sentiment : 48.1
+Sentiment Afinn
+Positive sentiment : 25.900000000000002
+Negative sentiment : 7.5
+Neutral sentiment : 66.60000000000001
+Sentiment NRC
+anger : 0.06094750320102433
+anticipation : 0.11651728553137004
+disgust : 0.03354673495518566
+fear : 0.08399487836107554
+joy : 0.11088348271446863
+negative : 0.13060179257362356
+positive : 0.17080665813060178
+sadness : 0.04967989756722151
+surprise : 0.03687580025608195
+trust : 0.0998719590268886
+Video Number : 43 --> Grocery Store Stereotypes
+Sentiment Vader
+Positive sentiment : 28.000000000000004
+Negative sentiment : 27.96666666666667
+Neutral sentiment : 44.03333333333334
+Sentiment Afinn
+Positive sentiment : 18.433333333333334
+Negative sentiment : 23.033333333333335
+Neutral sentiment : 58.53333333333334
+Sentiment NRC
+anger : 0.17801329261720855
+anticipation : 0.1519669480869409
+disgust : 0.03484821268187534
+fear : 0.18070774205137416
+joy : 0.09340758038440812
+negative : 0.2495060176037363
+positive : 0.17352254356026586
+sadness : 0.0499371295132028
+surprise : 0.0476019400035926
+trust : 0.10238907849829351
+Video Number : 44 --> World&#39;s Strongest Laser | Overtime 5 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 44.766666666666666
+Negative sentiment : 14.499999999999998
+Neutral sentiment : 40.733333333333334
+Sentiment Afinn
+Positive sentiment : 34.166666666666664
+Negative sentiment : 10.833333333333334
+Neutral sentiment : 55.00000000000001
+Sentiment NRC
+anger : 0.06302916274694262
+anticipation : 0.09896519285042334
+disgust : 0.03819379115710254
+fear : 0.0735653809971778
+joy : 0.09840075258701787
+negative : 0.13207902163687676
+positive : 0.2957666980244591
+sadness : 0.05042333019755409
+surprise : 0.04026340545625588
+trust : 0.1200376293508937
+Video Number : 45 --> Archery Trick Shots 2 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 28.88028396256857
+Negative sentiment : 16.585995482413683
+Neutral sentiment : 54.53372055501775
+Sentiment Afinn
+Positive sentiment : 20.52274927395934
+Negative sentiment : 12.036140690545336
+Neutral sentiment : 67.44111003549533
+Sentiment NRC
+anger : 0.14957580228697898
+anticipation : 0.08373293987458502
+disgust : 0.02637403172261158
+fear : 0.14865363334562892
+joy : 0.06602729620066396
+negative : 0.21744743637034306
+positive : 0.13187015861305793
+sadness : 0.0866838804869052
+surprise : 0.1149022500922169
+trust : 0.08871265215787533
+Video Number : 46 --> High Speed Sports Battle | Dude Perfect
+Sentiment Vader
+Positive sentiment : 47.733333333333334
+Negative sentiment : 13.766666666666666
+Neutral sentiment : 38.5
+Sentiment Afinn
+Positive sentiment : 36.43333333333334
+Negative sentiment : 8.799999999999999
+Neutral sentiment : 54.766666666666666
+Sentiment NRC
+anger : 0.10373983739837399
+anticipation : 0.11707317073170732
+disgust : 0.08130081300813008
+fear : 0.10178861788617886
+joy : 0.09495934959349593
+negative : 0.15414634146341463
+positive : 0.16
+sadness : 0.10016260162601626
+surprise : 0.05723577235772358
+trust : 0.2640650406504065
+Video Number : 47 --> Bowling Trick Shots 2 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 36.3
+Negative sentiment : 16.133333333333333
+Neutral sentiment : 47.56666666666667
+Sentiment Afinn
+Positive sentiment : 25.8
+Negative sentiment : 10.533333333333333
+Neutral sentiment : 63.66666666666667
+Sentiment NRC
+anger : 0.10475809676129548
+anticipation : 0.08876449420231908
+disgust : 0.023990403838464614
+fear : 0.08236705317872851
+joy : 0.07696921231507398
+negative : 0.19072371051579368
+positive : 0.14814074370251898
+sadness : 0.08296681327469012
+surprise : 0.09216313474610156
+trust : 0.08416633346661336
+Video Number : 48 --> Nerf Blasters Floating Island Battle | Dude Perfect
+Sentiment Vader
+Positive sentiment : 47.93333333333333
+Negative sentiment : 10.9
+Neutral sentiment : 41.16666666666667
+Sentiment Afinn
+Positive sentiment : 28.666666666666668
+Negative sentiment : 7.566666666666666
+Neutral sentiment : 63.76666666666667
+Sentiment NRC
+anger : 0.05736137667304015
+anticipation : 0.20049166894291176
+disgust : 0.03332422835290904
+fear : 0.08904670854957662
+joy : 0.21223709369024857
+negative : 0.13138486752253484
+positive : 0.2944550669216061
+sadness : 0.06664845670581808
+surprise : 0.1264681780934171
+trust : 0.10625512155148867
+Video Number : 49 --> All Sports Golf Battle 3 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 37.13333333333333
+Negative sentiment : 14.633333333333335
+Neutral sentiment : 48.233333333333334
+Sentiment Afinn
+Positive sentiment : 24.099999999999998
+Negative sentiment : 8.0
+Neutral sentiment : 67.9
+Sentiment NRC
+anger : 0.050968828980623423
+anticipation : 0.17038753159224937
+disgust : 0.02843302443133951
+fear : 0.060657118786857624
+joy : 0.08909014321819714
+negative : 0.10551811288963774
+positive : 0.15290648694187026
+sadness : 0.04907329401853412
+surprise : 0.039385004212299915
+trust : 0.09224936815501264
+Video Number : 50 --> Dirt Bike Battle | Dude Perfect
+Sentiment Vader
+Positive sentiment : 39.43333333333333
+Negative sentiment : 13.633333333333333
+Neutral sentiment : 46.93333333333333
+Sentiment Afinn
+Positive sentiment : 31.266666666666666
+Negative sentiment : 10.333333333333334
+Neutral sentiment : 58.4
+Sentiment NRC
+anger : 0.03643724696356275
+anticipation : 0.10818713450292397
+disgust : 0.07197480881691408
+fear : 0.05982905982905983
+joy : 0.09716599190283401
+negative : 0.1250562303193882
+positive : 0.19253261358524518
+sadness : 0.039361223571749884
+surprise : 0.031938821412505626
+trust : 0.10593792172739541
+Video Number : 51 --> The Net Gun | Overtime 4 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 25.433333333333337
+Negative sentiment : 46.5
+Neutral sentiment : 28.066666666666666
+Sentiment Afinn
+Positive sentiment : 21.266666666666666
+Negative sentiment : 10.233333333333333
+Neutral sentiment : 68.5
+Sentiment NRC
+anger : 0.04156923876331515
+anticipation : 0.0468952974798649
+disgust : 0.012860483242400623
+fear : 0.04481683554169914
+joy : 0.04091971940763835
+negative : 0.08274876591322422
+positive : 0.1096388672382437
+sadness : 0.020135100025980773
+surprise : 0.02429202390231229
+trust : 0.045596258768511304
+Video Number : 52 --> Ping Pong Trick Shots 4 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 36.333333333333336
+Negative sentiment : 10.4
+Neutral sentiment : 53.266666666666666
+Sentiment Afinn
+Positive sentiment : 27.500000000000004
+Negative sentiment : 6.133333333333333
+Neutral sentiment : 66.36666666666666
+Sentiment NRC
+anger : 0.07798784604996624
+anticipation : 0.1485482781904119
+disgust : 0.027346387575962187
+fear : 0.08203916272788657
+joy : 0.10938555030384875
+negative : 0.14686022957461176
+positive : 0.20695476029709656
+sadness : 0.06380823767724511
+surprise : 0.0837272113436867
+trust : 0.11343686698176908
+Video Number : 53 --> Go Kart Soccer Battle | Dude Perfect
+Sentiment Vader
+Positive sentiment : 36.36666666666667
+Negative sentiment : 6.5
+Neutral sentiment : 57.13333333333333
+Sentiment Afinn
+Positive sentiment : 26.866666666666667
+Negative sentiment : 3.6999999999999997
+Neutral sentiment : 69.43333333333334
+Sentiment NRC
+anger : 0.09375
+anticipation : 0.0709696261682243
+disgust : 0.02102803738317757
+fear : 0.038551401869158876
+joy : 0.07272196261682243
+negative : 0.06366822429906542
+positive : 0.15537383177570094
+sadness : 0.05724299065420561
+surprise : 0.03125
+trust : 0.24094626168224298
+Video Number : 54 --> Old School Trick Shots | Dude Perfect
+Sentiment Vader
+Positive sentiment : 50.43562439496612
+Negative sentiment : 8.163923846402065
+Neutral sentiment : 41.40045175863182
+Sentiment Afinn
+Positive sentiment : 40.14198128428526
+Negative sentiment : 4.517586318167151
+Neutral sentiment : 55.3404323975476
+Sentiment NRC
+anger : 0.08002424977265839
+anticipation : 0.14307365868444982
+disgust : 0.024552894816611093
+fear : 0.10669899969687784
+joy : 0.11185207638678388
+negative : 0.15398605638072144
+positive : 0.21824795392543195
+sadness : 0.08487420430433465
+surprise : 0.10306153379812064
+trust : 0.1279175507729615
+Video Number : 55 --> Giant Darts Battle | Dude Perfect
+Sentiment Vader
+Positive sentiment : 35.721200387221685
+Negative sentiment : 12.39109390125847
+Neutral sentiment : 51.88770571151985
+Sentiment Afinn
+Positive sentiment : 24.749919328815746
+Negative sentiment : 5.162955792191029
+Neutral sentiment : 70.08712487899322
+Sentiment NRC
+anger : 0.0519280205655527
+anticipation : 0.09794344473007711
+disgust : 0.02416452442159383
+fear : 0.19203084832904885
+joy : 0.08868894601542417
+negative : 0.09974293059125965
+positive : 0.15784061696658097
+sadness : 0.05141388174807198
+surprise : 0.0583547557840617
+trust : 0.16555269922879176
+Video Number : 56 --> Fortnite with Ninja | Overtime 3 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 46.46666666666667
+Negative sentiment : 13.366666666666665
+Neutral sentiment : 40.166666666666664
+Sentiment Afinn
+Positive sentiment : 31.0
+Negative sentiment : 8.966666666666667
+Neutral sentiment : 60.03333333333334
+Sentiment NRC
+anger : 0.04810597257727167
+anticipation : 0.09969788519637462
+disgust : 0.040436904485242856
+fear : 0.08250058099000697
+joy : 0.09388798512665582
+negative : 0.13339530560074367
+positive : 0.2321636067859633
+sadness : 0.05926098071113177
+surprise : 0.036950964443411574
+trust : 0.08877527306530328
+Video Number : 57 --> Deep Sea Fishing Battle | Dude Perfect
+Sentiment Vader
+Positive sentiment : 52.166666666666664
+Negative sentiment : 9.033333333333333
+Neutral sentiment : 38.800000000000004
+Sentiment Afinn
+Positive sentiment : 25.333333333333336
+Negative sentiment : 5.166666666666667
+Neutral sentiment : 69.5
+Sentiment NRC
+anger : 0.03841425937307929
+anticipation : 0.11616472034419176
+disgust : 0.022741241548862937
+fear : 0.07744314689612784
+joy : 0.12599877074370006
+negative : 0.1693300553165335
+positive : 0.2006760909649662
+sadness : 0.055623847572218804
+surprise : 0.07713583282114321
+trust : 0.10202827289489859
+Video Number : 58 --> Crossbow Trick Shots | Dude Perfect
+Sentiment Vader
+Positive sentiment : 35.266666666666666
+Negative sentiment : 14.799999999999999
+Neutral sentiment : 49.93333333333334
+Sentiment Afinn
+Positive sentiment : 24.866666666666667
+Negative sentiment : 8.766666666666667
+Neutral sentiment : 66.36666666666666
+Sentiment NRC
+anger : 0.15350600126342387
+anticipation : 0.09623078542851127
+disgust : 0.038323857654242996
+fear : 0.1612971151821436
+joy : 0.082122552116235
+negative : 0.24405137923773426
+positive : 0.15140029479890504
+sadness : 0.11518214360918089
+surprise : 0.16066540324278797
+trust : 0.08970309538850284
+Video Number : 59 --> Boomerang Trick Shots | Dude Perfect
+Sentiment Vader
+Positive sentiment : 38.7
+Negative sentiment : 11.233333333333333
+Neutral sentiment : 50.06666666666667
+Sentiment Afinn
+Positive sentiment : 30.5
+Negative sentiment : 7.333333333333333
+Neutral sentiment : 62.16666666666667
+Sentiment NRC
+anger : 0.06402959590210586
+anticipation : 0.2159931701764371
+disgust : 0.021912350597609563
+fear : 0.07285145133750712
+joy : 0.09704040978941378
+negative : 0.14741035856573706
+positive : 0.20944792259533296
+sadness : 0.05321570859419465
+surprise : 0.07370517928286853
+trust : 0.21400113830392714
+Video Number : 60 --> March Madness Stereotypes
+Sentiment Vader
+Positive sentiment : 31.8
+Negative sentiment : 24.4
+Neutral sentiment : 43.8
+Sentiment Afinn
+Positive sentiment : 21.9
+Negative sentiment : 20.8
+Neutral sentiment : 57.3
+Sentiment NRC
+anger : 0.12919847328244274
+anticipation : 0.09351145038167939
+disgust : 0.07137404580152672
+fear : 0.1620229007633588
+joy : 0.06660305343511451
+negative : 0.23568702290076335
+positive : 0.21717557251908398
+sadness : 0.10744274809160305
+surprise : 0.038549618320610685
+trust : 0.07729007633587787
+Video Number : 61 --> World&#39;s Longest LEGO Walk | Overtime 2 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 44.59503065505002
+Negative sentiment : 15.972894482090997
+Neutral sentiment : 39.43207486285898
+Sentiment Afinn
+Positive sentiment : 34.5595353339787
+Negative sentiment : 11.455308163923847
+Neutral sentiment : 53.98515650209745
+Sentiment NRC
+anger : 0.06285034822490233
+anticipation : 0.11839646679123493
+disgust : 0.030236113470358417
+fear : 0.08833021912688975
+joy : 0.11975539323934092
+negative : 0.11533888228299644
+positive : 0.24426702904705283
+sadness : 0.07321216239171055
+surprise : 0.03380329539663666
+trust : 0.09801257006964498
+Video Number : 62 --> Football vs Soccer Trick Shots | Dude Perfect
+Sentiment Vader
+Positive sentiment : 42.96666666666666
+Negative sentiment : 3.7666666666666666
+Neutral sentiment : 53.266666666666666
+Sentiment Afinn
+Positive sentiment : 28.433333333333334
+Negative sentiment : 2.3333333333333335
+Neutral sentiment : 69.23333333333333
+Sentiment NRC
+anger : 0.06176331918906176
+anticipation : 0.10231023102310231
+disgust : 0.017916077322017915
+fear : 0.061291843470061294
+joy : 0.10513908533710514
+negative : 0.1999057048561999
+positive : 0.1782178217821782
+sadness : 0.04856199905704856
+surprise : 0.07213578500707214
+trust : 0.09712399811409712
+Video Number : 63 --> Model Rocket Battle | Dude Perfect
+Sentiment Vader
+Positive sentiment : 33.766666666666666
+Negative sentiment : 8.433333333333334
+Neutral sentiment : 57.8
+Sentiment Afinn
+Positive sentiment : 25.566666666666666
+Negative sentiment : 4.8
+Neutral sentiment : 69.63333333333334
+Sentiment NRC
+anger : 0.24318955732122588
+anticipation : 0.10839954597048808
+disgust : 0.01844494892167991
+fear : 0.08938706015891033
+joy : 0.06441543700340523
+negative : 0.10158910329171396
+positive : 0.188422247446084
+sadness : 0.061577752553916
+surprise : 0.03916004540295119
+trust : 0.10414301929625426
+Video Number : 64 --> Real Life Trick Shots 2 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 36.6
+Negative sentiment : 15.066666666666666
+Neutral sentiment : 48.333333333333336
+Sentiment Afinn
+Positive sentiment : 24.6
+Negative sentiment : 8.066666666666666
+Neutral sentiment : 67.33333333333333
+Sentiment NRC
+anger : 0.09505010628606134
+anticipation : 0.12784694807166716
+disgust : 0.029456422714849682
+fear : 0.11600364409353174
+joy : 0.10537503795930762
+negative : 0.21409049498937138
+positive : 0.2007288187063468
+sadness : 0.10841178256908594
+surprise : 0.1366535074400243
+trust : 0.13543880959611296
+Video Number : 65 --> Crush a Diamond with a Hammer? | Dude Perfect
+Sentiment Vader
+Positive sentiment : 23.799999999999997
+Negative sentiment : 9.2
+Neutral sentiment : 67.0
+Sentiment Afinn
+Positive sentiment : 19.966666666666665
+Negative sentiment : 4.233333333333333
+Neutral sentiment : 75.8
+Sentiment NRC
+anger : 0.09261658031088082
+anticipation : 0.0598013816925734
+disgust : 0.023100172711571675
+fear : 0.11118307426597582
+joy : 0.0939119170984456
+negative : 0.13234024179620035
+positive : 0.18221070811744386
+sadness : 0.08052677029360968
+surprise : 0.09412780656303972
+trust : 0.2912348877374784
+Video Number : 66 --> Dude Perfect Rewind 2017
+Sentiment Vader
+Positive sentiment : 50.77469335054874
+Negative sentiment : 10.942543576500968
+Neutral sentiment : 38.282763072950296
+Sentiment Afinn
+Positive sentiment : 38.99289864428664
+Negative sentiment : 5.1646223369916076
+Neutral sentiment : 55.84247901872176
+Sentiment NRC
+anger : 0.08914285714285715
+anticipation : 0.16594285714285714
+disgust : 0.02422857142857143
+fear : 0.112
+joy : 0.17691428571428572
+negative : 0.17074285714285714
+positive : 0.25097142857142857
+sadness : 0.07177142857142857
+surprise : 0.1312
+trust : 0.19154285714285715
+Video Number : 67 --> Christmas Stereotypes
+Sentiment Vader
+Positive sentiment : 33.52694417554049
+Negative sentiment : 20.942239432074864
+Neutral sentiment : 45.53081639238464
+Sentiment Afinn
+Positive sentiment : 22.523394643433363
+Negative sentiment : 16.16650532429816
+Neutral sentiment : 61.31010003226848
+Sentiment NRC
+anger : 0.18454674508213345
+anticipation : 0.17663759886432773
+disgust : 0.07422429527479213
+fear : 0.18353275197728655
+joy : 0.1391198539849929
+negative : 0.2630298113972825
+positive : 0.19265868992090854
+sadness : 0.05800040559724194
+surprise : 0.11052524842831069
+trust : 0.12958831879943217
+Video Number : 68 --> All Sports Golf Battle 2 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 34.4
+Negative sentiment : 10.133333333333333
+Neutral sentiment : 55.46666666666666
+Sentiment Afinn
+Positive sentiment : 19.733333333333334
+Negative sentiment : 6.933333333333333
+Neutral sentiment : 73.33333333333333
+Sentiment NRC
+anger : 0.057219381543705865
+anticipation : 0.08448989530070611
+disgust : 0.03579254930606282
+fear : 0.06281957633308985
+joy : 0.05186267348429511
+negative : 0.10372534696859022
+positive : 0.0990990990990991
+sadness : 0.05113221329437546
+surprise : 0.03968833698563428
+trust : 0.3403944485025566
+Video Number : 69 --> Water Bottle Flip 2 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 35.873425896028415
+Negative sentiment : 11.075234097513723
+Neutral sentiment : 53.051340006457856
+Sentiment Afinn
+Positive sentiment : 26.412657410397163
+Negative sentiment : 6.264126574103972
+Neutral sentiment : 67.32321601549887
+Sentiment NRC
+anger : 0.06420545746388442
+anticipation : 0.15056179775280898
+disgust : 0.028892455858747994
+fear : 0.0898876404494382
+joy : 0.12038523274478331
+negative : 0.1476725521669342
+positive : 0.2362760834670947
+sadness : 0.06452648475120386
+surprise : 0.0796147672552167
+trust : 0.13354735152487962
+Video Number : 70 --> Freeze Frame Football Battle | Dude Perfect
+Sentiment Vader
+Positive sentiment : 33.2
+Negative sentiment : 15.666666666666668
+Neutral sentiment : 51.13333333333333
+Sentiment Afinn
+Positive sentiment : 21.333333333333336
+Negative sentiment : 5.933333333333334
+Neutral sentiment : 72.73333333333333
+Sentiment NRC
+anger : 0.05805038335158817
+anticipation : 0.11171960569550932
+disgust : 0.03797006206644761
+fear : 0.0887185104052574
+joy : 0.10624315443592552
+negative : 0.13508579773640014
+positive : 0.18838992332968238
+sadness : 0.07411464037970063
+surprise : 0.04235122307411464
+trust : 0.12449799196787148
+Video Number : 71 --> Glow In The Dark Trick Shots | Dude Perfect
+Sentiment Vader
+Positive sentiment : 43.666666666666664
+Negative sentiment : 10.633333333333333
+Neutral sentiment : 45.7
+Sentiment Afinn
+Positive sentiment : 31.5
+Negative sentiment : 6.533333333333332
+Neutral sentiment : 61.96666666666667
+Sentiment NRC
+anger : 0.07431430689399555
+anticipation : 0.12620459599703485
+disgust : 0.026130467012601927
+fear : 0.10581912527798369
+joy : 0.1276871756856931
+negative : 0.1421423276501112
+positive : 0.2070051890289103
+sadness : 0.10100074128984433
+surprise : 0.09414381022979985
+trust : 0.13676797627872497
+Video Number : 72 --> Build A Boat Battle | Dude Perfect
+Sentiment Vader
+Positive sentiment : 40.56666666666667
+Negative sentiment : 7.066666666666667
+Neutral sentiment : 52.36666666666666
+Sentiment Afinn
+Positive sentiment : 29.633333333333333
+Negative sentiment : 3.1333333333333333
+Neutral sentiment : 67.23333333333333
+Sentiment NRC
+anger : 0.026033192320208266
+anticipation : 0.07777416205662219
+disgust : 0.022128213472177027
+fear : 0.041327692808330624
+joy : 0.07517084282460136
+negative : 0.06768630003254149
+positive : 0.2271396029938171
+sadness : 0.03254149040026033
+surprise : 0.027985681744223886
+trust : 0.10055320533680442
+Video Number : 73 --> Soccer Trick Shots 2 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 29.9
+Negative sentiment : 8.0
+Neutral sentiment : 62.1
+Sentiment Afinn
+Positive sentiment : 16.03333333333333
+Negative sentiment : 4.566666666666666
+Neutral sentiment : 79.4
+Sentiment NRC
+anger : 0.10575793184488837
+anticipation : 0.09224441833137485
+disgust : 0.019388954171562868
+fear : 0.11515863689776733
+joy : 0.07696827262044653
+negative : 0.20270270270270271
+positive : 0.14659224441833138
+sadness : 0.06668625146886016
+surprise : 0.08372502937720329
+trust : 0.11368977673325499
+Video Number : 74 --> Nerf Bow Trick Shots | Dude Perfect
+Sentiment Vader
+Positive sentiment : 38.98031623104227
+Negative sentiment : 10.164569215876089
+Neutral sentiment : 50.855114553081634
+Sentiment Afinn
+Positive sentiment : 28.396256857050663
+Negative sentiment : 6.518231687641174
+Neutral sentiment : 65.08551145530816
+Sentiment NRC
+anger : 0.12155227710070558
+anticipation : 0.1369467607440667
+disgust : 0.033033996151379086
+fear : 0.12796664528543938
+joy : 0.13630532392559333
+negative : 0.20878768441308532
+positive : 0.22642719692110327
+sadness : 0.09781911481719051
+surprise : 0.14528543938422064
+trust : 0.14881334188582424
+Video Number : 75 --> Airplane Trick Shots | Dude Perfect
+Sentiment Vader
+Positive sentiment : 36.233333333333334
+Negative sentiment : 8.5
+Neutral sentiment : 55.266666666666666
+Sentiment Afinn
+Positive sentiment : 26.400000000000002
+Negative sentiment : 4.566666666666666
+Neutral sentiment : 69.03333333333333
+Sentiment NRC
+anger : 0.09208731241473397
+anticipation : 0.10914051841746249
+disgust : 0.02353342428376535
+fear : 0.10572987721691678
+joy : 0.10538881309686221
+negative : 0.15961800818553887
+positive : 0.22237380627557982
+sadness : 0.08867667121418826
+surprise : 0.10027285129604366
+trust : 0.1043656207366985
+Video Number : 76 --> Blitzball Trick Shots 3 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 33.5
+Negative sentiment : 11.166666666666666
+Neutral sentiment : 55.333333333333336
+Sentiment Afinn
+Positive sentiment : 25.1
+Negative sentiment : 6.433333333333334
+Neutral sentiment : 68.46666666666667
+Sentiment NRC
+anger : 0.12125984251968504
+anticipation : 0.1300787401574803
+disgust : 0.03181102362204724
+fear : 0.12220472440944882
+joy : 0.11275590551181103
+negative : 0.2125984251968504
+positive : 0.1763779527559055
+sadness : 0.09196850393700787
+surprise : 0.14614173228346455
+trust : 0.11464566929133858
+Video Number : 77 --> Nerf Slip and Slide Battle | Dude Perfect
+Sentiment Vader
+Positive sentiment : 55.32601678502259
+Negative sentiment : 7.714654615881214
+Neutral sentiment : 36.95932859909619
+Sentiment Afinn
+Positive sentiment : 25.112976113621695
+Negative sentiment : 5.51969012265978
+Neutral sentiment : 69.36733376371853
+Sentiment NRC
+anger : 0.05552184466019418
+anticipation : 0.09101941747572816
+disgust : 0.03822815533980582
+fear : 0.055825242718446605
+joy : 0.08343446601941748
+negative : 0.10983009708737865
+positive : 0.13470873786407767
+sadness : 0.05036407766990291
+surprise : 0.03853155339805825
+trust : 0.4056432038834951
+Video Number : 78 --> Card Throwing Trick Shots | Dude Perfect
+Sentiment Vader
+Positive sentiment : 35.5
+Negative sentiment : 12.633333333333333
+Neutral sentiment : 51.866666666666674
+Sentiment Afinn
+Positive sentiment : 19.7
+Negative sentiment : 9.0
+Neutral sentiment : 71.3
+Sentiment NRC
+anger : 0.04509120721459316
+anticipation : 0.08013937282229965
+disgust : 0.021315843410534947
+fear : 0.05902848944455831
+joy : 0.05738880918220947
+negative : 0.11908177905308465
+positive : 0.18651362984218078
+sadness : 0.04242672678827629
+surprise : 0.06148800983808157
+trust : 0.16232834597253534
+Video Number : 79 --> Beach Stereotypes | Dude Perfect
+Sentiment Vader
+Positive sentiment : 33.266666666666666
+Negative sentiment : 16.733333333333334
+Neutral sentiment : 50.0
+Sentiment Afinn
+Positive sentiment : 22.5
+Negative sentiment : 12.5
+Neutral sentiment : 65.0
+Sentiment NRC
+anger : 0.10541186698543795
+anticipation : 0.10106498587263639
+disgust : 0.03173223212345142
+fear : 0.10649858726363834
+joy : 0.1410562921104108
+negative : 0.18843729623994784
+positive : 0.19234948924146925
+sadness : 0.04086068246033471
+surprise : 0.046511627906976744
+trust : 0.09258856770267333
+Video Number : 80 --> Fidget Spinner Trick Shots | Dude Perfect
+Sentiment Vader
+Positive sentiment : 25.4
+Negative sentiment : 29.299999999999997
+Neutral sentiment : 45.300000000000004
+Sentiment Afinn
+Positive sentiment : 18.366666666666667
+Negative sentiment : 5.733333333333333
+Neutral sentiment : 75.9
+Sentiment NRC
+anger : 0.05689078186796471
+anticipation : 0.11499847885609979
+disgust : 0.020383328262853665
+fear : 0.08518405841192576
+joy : 0.09400669303316093
+negative : 0.1369029510191664
+positive : 0.15850319440219043
+sadness : 0.062366899908731364
+surprise : 0.08092485549132948
+trust : 0.09309400669303317
+Video Number : 81 --> Drew Brees Edition | Dude Perfect
+Sentiment Vader
+Positive sentiment : 31.866666666666667
+Negative sentiment : 11.200000000000001
+Neutral sentiment : 56.93333333333334
+Sentiment Afinn
+Positive sentiment : 23.333333333333332
+Negative sentiment : 8.766666666666667
+Neutral sentiment : 67.9
+Sentiment NRC
+anger : 0.08729984645755648
+anticipation : 0.1392849309059004
+disgust : 0.034437376617679316
+fear : 0.08291291949989033
+joy : 0.11713094976968634
+negative : 0.15441982890984865
+positive : 0.18403158587409518
+sadness : 0.0682167141917087
+surprise : 0.0991445492432551
+trust : 0.13489800394823426
+Video Number : 82 --> Real Life Trick Shots | Dude Perfect
+Sentiment Vader
+Positive sentiment : 36.46666666666666
+Negative sentiment : 13.733333333333334
+Neutral sentiment : 49.8
+Sentiment Afinn
+Positive sentiment : 24.333333333333336
+Negative sentiment : 9.5
+Neutral sentiment : 66.16666666666666
+Sentiment NRC
+anger : 0.09823865045894319
+anticipation : 0.11436368146861821
+disgust : 0.022575043413545028
+fear : 0.12701562887620937
+joy : 0.08161746464897048
+negative : 0.2001984619201191
+positive : 0.1617464648970479
+sadness : 0.0907963284544778
+surprise : 0.11560406846936244
+trust : 0.0977424956586455
+Video Number : 83 --> Stunt Driving Battle | Dude Perfect
+Sentiment Vader
+Positive sentiment : 37.93333333333334
+Negative sentiment : 17.433333333333334
+Neutral sentiment : 44.63333333333333
+Sentiment Afinn
+Positive sentiment : 28.733333333333334
+Negative sentiment : 6.133333333333333
+Neutral sentiment : 65.13333333333333
+Sentiment NRC
+anger : 0.06807372175980975
+anticipation : 0.11920332936979786
+disgust : 0.026159334126040427
+fear : 0.08115338882282996
+joy : 0.11533888228299644
+negative : 0.11831153388822829
+positive : 0.19351961950059454
+sadness : 0.04756242568370987
+surprise : 0.05737217598097503
+trust : 0.14209274673008324
+Video Number : 84 --> Giant Sumo Battle | Dude Perfect
+Sentiment Vader
+Positive sentiment : 50.73333333333333
+Negative sentiment : 6.833333333333333
+Neutral sentiment : 42.43333333333334
+Sentiment Afinn
+Positive sentiment : 31.1
+Negative sentiment : 3.933333333333333
+Neutral sentiment : 64.96666666666667
+Sentiment NRC
+anger : 0.06404657933042213
+anticipation : 0.15211062590975255
+disgust : 0.040756914119359534
+fear : 0.08842794759825327
+joy : 0.1277292576419214
+negative : 0.10844250363901019
+positive : 0.21761280931586607
+sadness : 0.03857350800582242
+surprise : 0.04148471615720524
+trust : 0.25036390101892286
+Video Number : 85 --> Ping Pong Trick Shots 3 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 21.133333333333333
+Negative sentiment : 3.5666666666666664
+Neutral sentiment : 75.3
+Sentiment Afinn
+Positive sentiment : 15.966666666666669
+Negative sentiment : 1.4333333333333333
+Neutral sentiment : 82.6
+Sentiment NRC
+anger : 0.03201219512195122
+anticipation : 0.2652439024390244
+disgust : 0.011814024390243903
+fear : 0.054496951219512195
+joy : 0.23246951219512196
+negative : 0.07088414634146341
+positive : 0.296875
+sadness : 0.05945121951219512
+surprise : 0.04801829268292683
+trust : 0.24657012195121952
+Video Number : 86 --> Dude Perfect vs. Power Rangers
+Sentiment Vader
+Positive sentiment : 46.7
+Negative sentiment : 9.6
+Neutral sentiment : 43.7
+Sentiment Afinn
+Positive sentiment : 36.7
+Negative sentiment : 5.800000000000001
+Neutral sentiment : 57.49999999999999
+Sentiment NRC
+anger : 0.04543439716312057
+anticipation : 0.17597517730496454
+disgust : 0.02526595744680851
+fear : 0.11170212765957446
+joy : 0.1777482269503546
+negative : 0.14339539007092197
+positive : 0.24822695035460993
+sadness : 0.04698581560283688
+surprise : 0.045877659574468085
+trust : 0.32557624113475175
+Video Number : 87 --> Virtual Reality Battle | Dude Perfect
+Sentiment Vader
+Positive sentiment : 44.233333333333334
+Negative sentiment : 12.133333333333333
+Neutral sentiment : 43.63333333333333
+Sentiment Afinn
+Positive sentiment : 28.53333333333333
+Negative sentiment : 5.866666666666666
+Neutral sentiment : 65.60000000000001
+Sentiment NRC
+anger : 0.07526881720430108
+anticipation : 0.10228839261097325
+disgust : 0.028949545078577336
+fear : 0.08188585607940446
+joy : 0.1039426523297491
+negative : 0.11855527984560242
+positive : 0.1833471188309898
+sadness : 0.04604356217259443
+surprise : 0.05155776123518059
+trust : 0.11524676040805074
+Video Number : 88 --> Pool Trick Shots 2 |  Dude Perfect
+Sentiment Vader
+Positive sentiment : 31.0
+Negative sentiment : 11.899999999999999
+Neutral sentiment : 57.099999999999994
+Sentiment Afinn
+Positive sentiment : 19.03333333333333
+Negative sentiment : 5.266666666666667
+Neutral sentiment : 75.7
+Sentiment NRC
+anger : 0.15849456665783196
+anticipation : 0.09673999469917838
+disgust : 0.06387490060959448
+fear : 0.17068645640074212
+joy : 0.07898224224754836
+negative : 0.260270341902995
+positive : 0.17757752451630002
+sadness : 0.09806520010601644
+surprise : 0.14921812880996554
+trust : 0.09382454280413464
+Video Number : 89 --> World Record Edition 2 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 36.16666666666667
+Negative sentiment : 11.133333333333335
+Neutral sentiment : 52.7
+Sentiment Afinn
+Positive sentiment : 24.566666666666666
+Negative sentiment : 7.366666666666667
+Neutral sentiment : 68.06666666666666
+Sentiment NRC
+anger : 0.06751521859435529
+anticipation : 0.10643792658181148
+disgust : 0.01586423169156982
+fear : 0.08817561335546947
+joy : 0.09666113263235565
+negative : 0.13466150156797638
+positive : 0.15347721822541965
+sadness : 0.05718502121379819
+surprise : 0.10311750599520383
+trust : 0.10219516694336839
+Video Number : 90 --> Epic Trick Shot Battle 3 | Dude Perfect
+Sentiment Vader
+Positive sentiment : 38.5
+Negative sentiment : 13.266666666666666
+Neutral sentiment : 48.233333333333334
+Sentiment Afinn
+Positive sentiment : 28.133333333333333
+Negative sentiment : 8.333333333333332
+Neutral sentiment : 63.53333333333333
+Sentiment NRC
+anger : 0.1894900336526016
+anticipation : 0.12192596427646907
+disgust : 0.03882992492881181
+fear : 0.18741910432306497
+joy : 0.10251100181206316
+negative : 0.31141599792907065
+positive : 0.1871602381568729
+sadness : 0.13901113124514625
+surprise : 0.20372767279316592
+trust : 0.11623090862024334
+Video Number : 91 --> Dude Perfect Rewind 2016
+Sentiment Vader
+Positive sentiment : 51.83989670755326
+Negative sentiment : 8.650742414460941
+Neutral sentiment : 39.5093608779858
+Sentiment Afinn
+Positive sentiment : 37.79857972885733
+Negative sentiment : 4.228534538411878
+Neutral sentiment : 57.972885732730795
+Sentiment NRC
+anger : 0.06612077789150461
+anticipation : 0.15087001023541455
+disgust : 0.022722620266120777
+fear : 0.08781985670419652
+joy : 0.18157625383828044
+negative : 0.1218014329580348
+positive : 0.2390992835209826
+sadness : 0.05506653019447288
+surprise : 0.09887410440122825
+trust : 0.16458546571136132
+Video Number : 92 --> Editor Edition | Dude Perfect
+Sentiment Vader
+Positive sentiment : 41.04718810601163
+Negative sentiment : 9.243697478991598
+Neutral sentiment : 49.70911441499677
+Sentiment Afinn
+Positive sentiment : 29.767291531997415
+Negative sentiment : 6.334841628959276
+Neutral sentiment : 63.8978668390433
+Sentiment NRC
+anger : 0.07044079515989628
+anticipation : 0.14282627484874677
+disgust : 0.02484874675885912
+fear : 0.08902333621434745
+joy : 0.12899740708729474
+negative : 0.1346153846153846
+positive : 0.21521175453759722
+sadness : 0.06633535004321521
+surprise : 0.09961106309420917
+trust : 0.1222990492653414
+Video Number : 93 --> Extreme Weather Golf Battle | Dude Perfect
+Sentiment Vader
+Positive sentiment : 48.13333333333333
+Negative sentiment : 20.833333333333336
+Neutral sentiment : 31.033333333333335
+Sentiment Afinn
+Positive sentiment : 14.866666666666667
+Negative sentiment : 10.0
+Neutral sentiment : 75.13333333333333
+Sentiment NRC
+anger : 0.16191768430574402
+anticipation : 0.11578471279963817
+disgust : 0.05834464043419267
+fear : 0.1691542288557214
+joy : 0.0777928539122569
+negative : 0.2225237449118046
+positive : 0.14427860696517414
+sadness : 0.0773405698778833
+surprise : 0.09588421528720036
+trust : 0.09950248756218906
+Video Number : 94 --> Flip Edition | Dude Perfect
+Sentiment Vader
+Positive sentiment : 31.27824402840542
+Negative sentiment : 10.91026468689477
+Neutral sentiment : 57.8114912846998
+Sentiment Afinn
+Positive sentiment : 22.207876049063913
+Negative sentiment : 7.391865719819238
+Neutral sentiment : 70.40025823111685
+Sentiment NRC
+anger : 0.06222222222222222
+anticipation : 0.11733333333333333
+disgust : 0.025777777777777778
+fear : 0.08325925925925926
+joy : 0.08829629629629629
+negative : 0.1259259259259259
+positive : 0.1754074074074074
+sadness : 0.07881481481481481
+surprise : 0.05925925925925926
+trust : 0.10666666666666667
+Video Number : 95 --> Drone Hunting Battle | Dude Perfect
+Sentiment Vader
+Positive sentiment : 32.6
+Negative sentiment : 15.333333333333332
+Neutral sentiment : 52.06666666666667
+Sentiment Afinn
+Positive sentiment : 20.233333333333334
+Negative sentiment : 9.0
+Neutral sentiment : 70.76666666666667
+Sentiment NRC
+anger : 0.09967931587386425
+anticipation : 0.0951362907536077
+disgust : 0.03661143773383217
+fear : 0.10315339390700161
+joy : 0.06574024585783003
+negative : 0.21806520577231428
+positive : 0.1288081239978621
+sadness : 0.05772314270443613
+surprise : 0.05959380010689471
+trust : 0.2765900587920898
+Video Number : 96 --> DPHQ2 Trick Shots | Dude Perfect
+Sentiment Vader
+Positive sentiment : 20.599999999999998
+Negative sentiment : 6.233333333333333
+Neutral sentiment : 73.16666666666667
+Sentiment Afinn
+Positive sentiment : 15.366666666666667
+Negative sentiment : 4.166666666666666
+Neutral sentiment : 80.46666666666667
+Sentiment NRC
+anger : 0.059238665526090674
+anticipation : 0.1169803250641574
+disgust : 0.013259195893926433
+fear : 0.09666381522668947
+joy : 0.06394354148845167
+negative : 0.0772027373823781
+positive : 0.17151411462788707
+sadness : 0.028656971770744225
+surprise : 0.03015397775876818
+trust : 0.05902480752780154
+Video Number : 97 --> Giant Warship Battle | Dude Perfect
+Sentiment Vader
+Positive sentiment : 34.699999999999996
+Negative sentiment : 16.2
+Neutral sentiment : 49.1
+Sentiment Afinn
+Positive sentiment : 24.099999999999998
+Negative sentiment : 9.700000000000001
+Neutral sentiment : 66.2
+Sentiment NRC
+anger : 0.1026647966339411
+anticipation : 0.11023842917251052
+disgust : 0.04964936886395512
+fear : 0.11388499298737728
+joy : 0.0788218793828892
+negative : 0.17447405329593269
+positive : 0.15231416549789623
+sadness : 0.09817671809256662
+surprise : 0.053015427769985975
+trust : 0.11921458625525946
+Video Number : 98 --> Metal Detector Battle | Dude Perfect
+Sentiment Vader
+Positive sentiment : 38.766666666666666
+Negative sentiment : 17.8
+Neutral sentiment : 43.43333333333334
+Sentiment Afinn
+Positive sentiment : 27.866666666666667
+Negative sentiment : 12.133333333333333
+Neutral sentiment : 60.0
+Sentiment NRC
+anger : 0.06217091940056703
+anticipation : 0.11077359254759012
+disgust : 0.03543944916970433
+fear : 0.08890238963142973
+joy : 0.106318347509113
+negative : 0.1223167274200081
+positive : 0.19724584852166868
+sadness : 0.043134872417982986
+surprise : 0.04394491697043337
+trust : 0.11988659376265695
+Video Number : 99 --> Giant Nerf Trick Shots | Dude Perfect
+Sentiment Vader
+Positive sentiment : 28.799999999999997
+Negative sentiment : 6.666666666666667
+Neutral sentiment : 64.53333333333333
+Sentiment Afinn
+Positive sentiment : 16.5
+Negative sentiment : 3.166666666666667
+Neutral sentiment : 80.33333333333333
+Sentiment NRC
+anger : 0.05021216407355021
+anticipation : 0.19236209335219237
+disgust : 0.02086280056577086
+fear : 0.09158415841584158
+joy : 0.17927864214992928
+negative : 0.09123055162659123
+positive : 0.22666195190947666
+sadness : 0.128005657708628
+surprise : 0.05834512022630835
+trust : 0.14321074964639322
+Video Number : 100 --> Shotgun Trick Shots | Dude Perfect
+Sentiment Vader
+Positive sentiment : 29.86666666666667
+Negative sentiment : 20.266666666666666
+Neutral sentiment : 49.86666666666667
+Sentiment Afinn
+Positive sentiment : 20.766666666666666
+Negative sentiment : 17.666666666666668
+Neutral sentiment : 61.56666666666667
+Sentiment NRC
+anger : 0.17223592733796816
+anticipation : 0.08723929132092398
+disgust : 0.034088360618972864
+fear : 0.1966808701502579
+joy : 0.07737160798385288
+negative : 0.26777304328324736
+positive : 0.16348957165283695
+sadness : 0.09755550571877103
+surprise : 0.10069522314420273
+trust : 0.11773940345368916
