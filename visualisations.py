@@ -26,7 +26,7 @@ def nrc_visualisation(dataframe, channelName):
     cm = ["r", "coral", "maroon", "tomato", "cyan", "chocolate", "green", "magenta", "black", "yellowgreen"]
     fig, ax = plt.subplots(4, 3, facecolor="w", edgecolor="k")
     fig.subplots_adjust(hspace=0.2, wspace=0.1)
-    fig.suptitle("Sentiment of " + channelName, fontsize=20, x=0.7, y=0.2)
+    # fig.suptitle("Sentiment of " + channelName, fontsize=20, x=0.7, y=0.2)
     fig.subplots_adjust(top=0.88)
     ax = ax.ravel()
 
@@ -60,9 +60,9 @@ def vader_afinn_vis(dataframe, constants, channelName):
     ax.plot(score_array_afinn, "k", ls="dashed", linewidth=2, label="Afinn ")
     # ax.plot(score_masked_afinn, 'blue',ls='dashed',linewidth=2,label='Afinn positive',)
     plt.axhline(zero, color="k", linestyle="--")
-    plt.title("Polarity Score in Vader vs Afinn for " + channelName, fontsize=20)
-    plt.xlabel("Video index", fontsize=15)
-    plt.ylabel("Sentiment score", fontsize=15)
+    # plt.title("Polarity Score in Vader vs Afinn for " + channelName, fontsize=20)
+    plt.xlabel("Video Number", fontsize=10)
+    plt.ylabel("Sentiment score", fontsize=10)
     plt.ylim(-1, 1)
     plt.xlim(0, constants["VideoCount"])
     ax.legend()
@@ -83,9 +83,9 @@ def vader_pie(dataframe, channelName):
     senti = ["Positive", "Negative", "Neutral"]
     my_colors = ["green", "red", "orange"]
     line1 = plt.pie(lis1, labels=senti, startangle=90, colors=my_colors, autopct="%.1f%%")
-    plt.title("Vader Sentiment for " + channelName)
+    # plt.title("Vader Sentiment for " + channelName)
+    plt.title("Vader")
     plt.axis("equal")
-
     ax1 = fig.add_subplot(224)
     lis1 = []
     tot_pos = dataframe["positive_afinn"].sum()
@@ -97,7 +97,8 @@ def vader_pie(dataframe, channelName):
     senti = ["Positive", "Negative", "Neutral"]
     my_colors = ["green", "red", "orange"]
     line2 = plt.pie(lis1, labels=senti, startangle=90, colors=my_colors, autopct="%.1f%%")
-    plt.title("Afinn Sentiment for " + channelName)
+    # plt.title("Afinn Sentiment for " + channelName)
+    plt.title("Afinn")
     plt.axis("equal")
     plt.savefig("images/" + channelName + "_pie1.png")
     plt.show()
@@ -131,7 +132,7 @@ def NRC_pie(dataframe, channelName):
     senti = ["positive", "negative", "Anger", "Anticipation", "Disgust", "Fear", "Joy", "Sad", "Surprise", "Trust"]
     my_colors = ["green", "red", "orange", "silver", "white", "pink", "purple", "magenta", "yellow", "cyan"]
     plt.pie(lis1, labels=senti, startangle=90, colors=my_colors, autopct="%.1f%%")
-    plt.title("NRC Sentiment for " + channelName, x=0, y=0.0005)
+    # plt.title("NRC Sentiment for " + channelName, x=0, y=0.0005)
     plt.axis("equal")
     plt.tight_layout()
     plt.savefig("images/" + channelName + "_pie2.png")

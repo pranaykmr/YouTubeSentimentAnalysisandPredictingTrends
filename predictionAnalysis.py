@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import matplotlib.ticker as ticker
 from keras.models import Sequential
 from keras.layers import Dense
 from keras.layers import LSTM
@@ -14,7 +15,7 @@ from sklearn.linear_model import Ridge
 from sklearn.linear_model import LinearRegression
 
 
-def LongShortTermMemory(dataframe_LSTM, algoName, channelName):
+def LongShortTermMemory(dataframe_LSTM, algoName, channelName, algo):
     dataframe_LSTM.index = dataframe_LSTM.date
     dataframe_LSTM.drop("date", axis=1, inplace=True)
     dataset = dataframe_LSTM.values
@@ -52,11 +53,17 @@ def LongShortTermMemory(dataframe_LSTM, algoName, channelName):
     valid["Predictions"] = predict
     plt.plot(train[algoName])
     plt.plot(valid[[algoName, "Predictions"]])
-    plt.savefig("images/" + channelName + "_LSTM_" + algoName + ".png")
+    ax = plt.axes()
+    ax.xaxis.set_major_locator(ticker.MultipleLocator(100))
+    plt.suptitle("LSTM Sentiment Predictions for " + channelName + " Using" + algo, fontsize=30)
+    # plt.title()
+    figure = plt.gcf()
+    figure.set_size_inches(16, 9)
+    plt.savefig("images/" + channelName + "_LSTM_" + algo + ".png", dpi=600)
     plt.show()
 
 
-def Linear_Poly_Regression(dates_df, dataframe, algoName, channelName):
+def Linear_Poly_Regression(dates_df, dataframe, algoName, channelName, algo):
     # Store the original dates for plotting the predicitons
     dates_df["date"] = dates_df["date"].astype(str)
 
@@ -89,14 +96,17 @@ def Linear_Poly_Regression(dates_df, dataframe, algoName, channelName):
 
     print(rmse_lr, rmse_pr)
     # Linear Zoomed
-    plt.figure(figsize=(12, 6))
-    plt.plot(org_dates[len(X_train) :], polarities[len(X_train) :], color="black", label="Data")
-    plt.plot(org_dates[len(X_train) :], lr_pred, color="red", label="Linear Regression")
-    plt.xlabel("Date")
-    plt.ylabel("Polarities")
-    plt.legend()
-    plt.savefig("images/" + channelName + "_Linear_Zoomed_" + algoName + ".png")
-    plt.show()
+    # plt.figure(figsize=(12, 6))
+    # plt.plot(org_dates[len(X_train) :], polarities[len(X_train) :], color="black", label="Data")
+    # plt.plot(org_dates[len(X_train) :], lr_pred, color="red", label="Linear Regression")
+    # plt.xlabel("Date")
+    # plt.ylabel("Polarities")
+    # plt.legend()
+    # ax = plt.axes()
+    # ax.xaxis.set_major_locator(ticker.MultipleLocator(100))
+    # plt.suptitle("Linear Regression Sentiment Predictions for " + channelName + " Using" + algo, fontsize=25)
+    # plt.savefig("images/" + channelName + "_Linear_Zoomed_" + algoName + ".png")
+    # plt.show()
     # Linear
     plt.figure(figsize=(12, 6))
     plt.plot(org_dates, polarities, color="black", label="Data")
@@ -104,17 +114,22 @@ def Linear_Poly_Regression(dates_df, dataframe, algoName, channelName):
     plt.xlabel("Date")
     plt.ylabel("Polarities")
     plt.legend()
-    plt.savefig("images/" + channelName + "_Linear_" + algoName + ".png")
+    ax = plt.axes()
+    ax.xaxis.set_major_locator(ticker.MultipleLocator(100))
+    figure = plt.gcf()
+    figure.set_size_inches(16, 9)
+    plt.suptitle("Linear Regression Sentiment Predictions for " + channelName + " Using" + algo, fontsize=25)
+    plt.savefig("images/" + channelName + "_Linear_" + algo + ".png")
     plt.show()
     # Polynomial Zommed
-    plt.figure(figsize=(12, 6))
-    plt.plot(org_dates[len(X_train) :], polarities[len(X_train) :], color="black", label="Data")
-    plt.plot(org_dates[len(X_train) :], poly_pred, color="blue", label="Polynomial Regression")
-    plt.xlabel("Date")
-    plt.ylabel("Polarities")
-    plt.legend()
-    plt.savefig("images/" + channelName + "_Polynomial_Zoomed_" + algoName + ".png")
-    plt.show()
+    # plt.figure(figsize=(12, 6))
+    # plt.plot(org_dates[len(X_train) :], polarities[len(X_train) :], color="black", label="Data")
+    # plt.plot(org_dates[len(X_train) :], poly_pred, color="blue", label="Polynomial Regression")
+    # plt.xlabel("Date")
+    # plt.ylabel("Polarities")
+    # plt.legend()
+    # plt.savefig("images/" + channelName + "_Polynomial_Zoomed_" + algoName + ".png")
+    # plt.show()
     # Polynomial
     plt.figure(figsize=(12, 6))
     plt.plot(org_dates, polarities, color="black", label="Data")
@@ -122,13 +137,18 @@ def Linear_Poly_Regression(dates_df, dataframe, algoName, channelName):
     plt.xlabel("Date")
     plt.ylabel("Polarities")
     plt.legend()
-    plt.savefig("images/" + channelName + "_Polynomial_" + algoName + ".png")
+    ax = plt.axes()
+    ax.xaxis.set_major_locator(ticker.MultipleLocator(100))
+    figure = plt.gcf()
+    figure.set_size_inches(16, 9)
+    plt.suptitle("Polynomial Regression Sentiment Predictions for " + channelName + " Using" + algo, fontsize=25)
+    plt.savefig("images/" + channelName + "_Polynomial_" + algo + ".png")
     plt.show()
 
 
 def predictionAnalysis(data, channelName):
     dataframe = pd.DataFrame(data, columns=["date", "polarity_vader_avg", "no_comments", "afinn_score_avg"])
-    LongShortTermMemory(dataframe[["date", "polarity_vader_avg"]], "polarity_vader_avg", channelName)
-    LongShortTermMemory(dataframe[["date", "afinn_score_avg"]], "afinn_score_avg", channelName)
-    Linear_Poly_Regression(dataframe[["date", "polarity_vader_avg"]], dataframe, "polarity_vader_avg", channelName)
-    Linear_Poly_Regression(dataframe[["date", "afinn_score_avg"]], dataframe, "afinn_score_avg", channelName)
+    LongShortTermMemory(dataframe[["date", "polarity_vader_avg"]], "polarity_vader_avg", channelName, "Vader")
+    LongShortTermMemory(dataframe[["date", "afinn_score_avg"]], "afinn_score_avg", channelName, "Afinn")
+    Linear_Poly_Regression(dataframe[["date", "polarity_vader_avg"]], dataframe, "polarity_vader_avg", channelName, "Vader")
+    Linear_Poly_Regression(dataframe[["date", "afinn_score_avg"]], dataframe, "afinn_score_avg", channelName, "Afinn")
