@@ -39,7 +39,7 @@ stats = vs.getStatistics(youtube, videoIds)
 
 
 filePath = "sentimentAnalysis/" + str(channelName) + ".txt"
-sentimentFile = open(filePath, "w")
+sentimentFile = open(filePath, "w", encoding="utf-8")
 commentsInfo = []
 for index, v in enumerate(vlist):
     title = v["snippet"]["title"]
