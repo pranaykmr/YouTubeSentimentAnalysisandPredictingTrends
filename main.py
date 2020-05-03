@@ -109,11 +109,10 @@ dataframe.shape
 sentimentFile.close()
 print("Total Comments Scraped " + str(len(total_comments)))
 
-# pred.performPredictions(channelName)
 
 data = preprocessing.getDateWiseGrouped(channelName)
 predict.predictionAnalysis(data, channelName)
-
+pred.performPredictions(channelName)
 vis.performVisualisations(channelName, total_comments)
 
 total_sentiment = total_sentiment[1:]
