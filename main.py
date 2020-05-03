@@ -12,8 +12,8 @@ import sentiment_afinn as sa
 import sentiment_NRC as snrc
 import mapper
 import predictionModels as pred
-import preprocessing as preprocessing
-import predictionAnalysis as predict
+import createTimeSeriesData as ctsd
+import predictionTimeSeriesModels as ptsm
 
 with open("constants.json") as json_file:
     constants = json.load(json_file)
@@ -72,10 +72,11 @@ sentimentFile.close()
 print("Total Comments Scraped " + str(len(total_comments)))
 
 
-data = preprocessing.getDateWiseGrouped(channelName)
-predict.predictionAnalysis(data, channelName)
+groupedData = ctsd.getDateWiseGrouped(channelName)
+ptsm.performPredictions(groupedData, channelName)
 pred.performPredictions(channelName)
 vis.performVisualisations(channelName, total_comments)
+
 
 total_sentiment = total_sentiment[1:]
 

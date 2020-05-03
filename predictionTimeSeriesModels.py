@@ -146,7 +146,7 @@ def Linear_Poly_Regression(dates_df, dataframe, algoName, channelName, algo):
     plt.show()
 
 
-def predictionAnalysis(data, channelName):
+def performPredictions(data, channelName):
     dataframe = pd.DataFrame(data, columns=["date", "polarity_vader_avg", "no_comments", "afinn_score_avg"])
     LongShortTermMemory(dataframe[["date", "polarity_vader_avg"]], "polarity_vader_avg", channelName, "Vader")
     LongShortTermMemory(dataframe[["date", "afinn_score_avg"]], "afinn_score_avg", channelName, "Afinn")
