@@ -18,6 +18,39 @@ def performPredictions(channelName):
     dataframe = p.read_json("comments/" + channelName + "_stats.json")
     dataframe.info()
     dataframe.shape
+    """
+    Data Frame Created
+
+    Data columns (total 25 columns):
+    #   Column            Non-Null Count  Dtype  
+    ---  ------            --------------  -----  
+    0   kind              25 non-null     object 
+    1   etag              25 non-null     object 
+    2   id                25 non-null     object 
+    3   title             25 non-null     object 
+    4   positive_vader    25 non-null     float64
+    5   negative_vader    25 non-null     float64
+    6   neutral_vader     25 non-null     int64  
+    7   positive_afinn    25 non-null     float64
+    8   negative_afinn    25 non-null     int64  
+    9   neutral_afinn     25 non-null     float64
+    10  anger_NRC         25 non-null     float64
+    11  anticipation_NRC  25 non-null     float64
+    12  disgust_NRC       25 non-null     float64
+    13  fear_NRC          25 non-null     float64
+    14  joy_NRC           25 non-null     float64
+    15  negative_NRC      25 non-null     float64
+    16  positive_NRC      25 non-null     float64
+    17  sadness_NRC       25 non-null     float64
+    18  surprise_NRC      25 non-null     float64
+    19  trust_NRC         25 non-null     float64
+    20  viewCount         25 non-null     int64  
+    21  likeCount         25 non-null     int64  
+    22  dislikeCount      25 non-null     int64  
+    23  commentCount      25 non-null     int64  
+    24  likedislikeratio  25 non-null     float64
+
+    """
     vader_prediction(dataframe)
     afinn_prediction(dataframe)
     nrc_prediction(dataframe)
