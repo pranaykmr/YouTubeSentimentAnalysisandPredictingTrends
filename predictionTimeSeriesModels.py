@@ -25,8 +25,8 @@ def LongShortTermMemory(dataframe_LSTM, algoName, channelName, algo):
     scaler = MinMaxScaler(feature_range=(0, 1))
     scaled_data = scaler.fit_transform(dataset)
     x_train, y_train = [], []
-    for i in range(200, len(train)):
-        x_train.append(scaled_data[i - 200 : i, 0])
+    for i in range(int(0.3 * (len(train))), len(train)):
+        x_train.append(scaled_data[i - int(0.3 * (len(train))) : i, 0])
         y_train.append(scaled_data[i, 0])
     x_train, y_train = np.array(x_train), np.array(y_train)
     x_train = np.reshape(x_train, (x_train.shape[0], x_train.shape[1], 1))
@@ -36,12 +36,12 @@ def LongShortTermMemory(dataframe_LSTM, algoName, channelName, algo):
     model.add(Dense(1))
     model.compile(loss="mean_squared_error", optimizer="Adagrad")
     model.fit(x_train, y_train, epochs=1, batch_size=1, verbose=2)
-    inputs = dataframe_LSTM[len(dataframe_LSTM) - len(valid) - 200 :].values
+    inputs = dataframe_LSTM[len(dataframe_LSTM) - len(valid) - int(0.3 * (len(train))) :].values
     inputs = inputs.reshape(-1, 1)
     inputs = scaler.transform(inputs)
     X_test = []
-    for i in range(200, inputs.shape[0]):
-        X_test.append(inputs[i - 200 : i, 0])
+    for i in range(int(0.3 * (len(train))), inputs.shape[0]):
+        X_test.append(inputs[i - int(0.3 * (len(train))) : i, 0])
     X_test = np.array(X_test)
     X_test = np.reshape(X_test, (X_test.shape[0], X_test.shape[1], 1))
     predict = model.predict(X_test)
