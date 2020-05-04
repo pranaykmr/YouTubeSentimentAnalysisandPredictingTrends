@@ -1,3 +1,7 @@
+"""
+This file is to fetch the comments for the videos
+"""
+# Import libraries and files
 import time
 import json
 from datetime import datetime
@@ -8,7 +12,7 @@ with open("auth/keys.json") as json_file:
     keys = json.load(json_file)
 key = keys["APIKey"]
 
-
+# function to fetch comments along with date
 def commentExtract(videoId, youtube, count=-1):
     page_info = makeRequest(youtube, videoId)
     comments = []
@@ -34,6 +38,7 @@ def commentExtract(videoId, youtube, count=-1):
     return comments, commentsWithDate
 
 
+#  Call API and handle exceptions
 def makeRequest(youtube, videoId, retryCount=3):
     try:
         request = youtube.commentThreads().list(part="snippet", videoId=videoId, maxResults=100)
@@ -46,6 +51,7 @@ def makeRequest(youtube, videoId, retryCount=3):
         return makeRequest(youtube, videoId, retryCount - 1)
 
 
+# Fetch next 100 comments
 def getNextPage(youtube, videoId, pageToken, retryCount=3):
     try:
         request = youtube.commentThreads().list(part="snippet", videoId=videoId, maxResults=100, pageToken=pageToken)

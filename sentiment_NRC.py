@@ -1,3 +1,4 @@
+# Import libraries and files
 import string
 import numpy as np
 import pandas as pd
@@ -5,7 +6,7 @@ from nltk import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
 
-
+# Sentiment Analysis of words using NRC Lexicon
 def sentimentNRC(comments, sentimentFile):
     comment = " ".join(comments)
     filepath = "data/NRC-Emotion-Lexicon-Wordlevel-v0.92.txt"
@@ -13,7 +14,7 @@ def sentimentNRC(comments, sentimentFile):
     emolex_words = emolex_df.pivot(index="word", columns="emotion", values="association").reset_index()
     emotions = emolex_words.columns.drop("word")
     emo_df = pd.DataFrame(0, index=np.arange(1), columns=emotions)
-
+    # Stem the words, remove stopwords and tokenize
     stemmer = SnowballStemmer("english")
     stopword = set(stopwords.words("english") + list(string.punctuation) + ["n't"])
 

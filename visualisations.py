@@ -9,7 +9,7 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from wordcloud import WordCloud
 
-
+# Visualizing graph results from NRC Lexicon
 def nrc_visualisation(dataframe, channelName):
     emotions = [
         "anger_NRC",
@@ -46,6 +46,7 @@ def nrc_visualisation(dataframe, channelName):
     plt.show()
 
 
+# Visualizing graph results from Vader and Afinn sentiment analysis
 def vader_afinn_vis(dataframe, constants, channelName):
     zero = 0
     dataframe["score_vader"] = dataframe["positive_vader"] / 100 * 1 + dataframe["negative_vader"] / 100 * -1 + dataframe["neutral_vader"] / 100 * 0
@@ -70,6 +71,7 @@ def vader_afinn_vis(dataframe, constants, channelName):
     plt.show()
 
 
+# Visualizing sentiment percentage from Vader and Afinn using Pie chart
 def vader_pie(dataframe, channelName):
     fig = plt.figure()
     ax1 = fig.add_subplot(221)
@@ -104,6 +106,7 @@ def vader_pie(dataframe, channelName):
     plt.show()
 
 
+# Visualizing sentiment percentage from NRC Lexicon using Pie chart
 def NRC_pie(dataframe, channelName):
     # ax1 = fig.add_subplot(339)
     lis1 = []
@@ -139,6 +142,7 @@ def NRC_pie(dataframe, channelName):
     plt.show()
 
 
+# Craete a word clous using 100 most frequent used words
 def fancySentiment(comments, channelName):
     stopword = set(stopwords.words("english") + list(string.punctuation) + ["n't"])
     filtered_comments = []
@@ -160,7 +164,8 @@ def fancySentiment(comments, channelName):
     plt.show()
 
 
-def performVisualisations(channelName, comments):
+# Calling function
+def performVisualisations(channelName):
     dataframe = pd.read_json("comments/" + channelName + "_stats.json")
     with open("constants.json") as json_file:
         constants = json.load(json_file)
@@ -168,4 +173,8 @@ def performVisualisations(channelName, comments):
     vader_afinn_vis(dataframe, constants, channelName)
     vader_pie(dataframe, channelName)
     NRC_pie(dataframe, channelName)
+
+
+# Calling function
+def makeWordCloud(comments, channelName):
     fancySentiment(comments, channelName)

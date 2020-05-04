@@ -1,3 +1,4 @@
+# Import libraries and files
 import pandas as p
 import re, string, unicodedata
 import contractions
@@ -11,33 +12,38 @@ from afinn import Afinn
 from string import punctuation
 import json
 
+# Create Global Objects
 tokenizer = ToktokTokenizer()
 ps = nltk.porter.PorterStemmer()
 pattern = r"[^a-zA-z0-9\s]"
 stopword_list = set(stopwords.words("english"))
 
-
+# Remove Punctuation
 def remove_punct(text):
     for p in punctuation:
         text = text.replace(p, "")
     return text
 
 
+# Remove Special characters
 def remove_special_chars(text, remove_digits=True):
     text = re.sub(pattern, "", text)
     return text
 
 
+# Remove Accented Characters
 def remove_accented_chars(text):
     text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode("utf-8", "ignore")
     return text
 
 
+#  Contractions
 def expand_contractions(con_text):
     con_text = contractions.fix(con_text)
     return con_text
 
 
+# Remove English Stopwords
 def remove_stopwords(text, is_lower_case=False):
     tokens = tokenizer.tokenize(text)
     tokens = [token.strip() for token in tokens]
@@ -49,16 +55,19 @@ def remove_stopwords(text, is_lower_case=False):
     return filtered_text
 
 
+# Stem the text
 def simple_stemmer(text):
     text = " ".join([ps.stem(word) for word in text.split()])
     return text
 
 
+# Assign polarity score using Afinn
 def afinn_sent_analysis(text1, af):
     score = af.score(text1)
     return score
 
 
+# Categorize Sentiments
 def afinn_sent_category(score):
     categories = ["positive", "negative", "neutral"]
     if score > 0:
@@ -69,6 +78,7 @@ def afinn_sent_category(score):
         return categories[2]
 
 
+# Function for preprocessing text
 def preprocess(text):
     text = remove_punct(text)
     text = remove_special_chars(text)
@@ -77,6 +87,7 @@ def preprocess(text):
     return text
 
 
+# Sentiment Analysis using Afinn
 def analyze_sentiment(commentListWithDate, sentimentFile):
     af = Afinn()
     data = p.DataFrame(commentListWithDate, columns=["comment", "date", "polarity_vader"])
@@ -99,6 +110,7 @@ def analyze_sentiment(commentListWithDate, sentimentFile):
     negative = len(data_clean[data_clean["afinn_sent_category"] == "negative"])
     neutral = len(data_clean[data_clean["afinn_sent_category"] == "neutral"])
     count = len(data_clean.index)
+    # Write sentiment score into file
     sentimentFile.write("Sentiment Afinn" + "\n")
     sentimentFile.write("Positive sentiment : " + str(positive / count * 100) + "\n")
     sentimentFile.write("Negative sentiment : " + str(negative / count * 100) + "\n")

@@ -1,3 +1,7 @@
+"""
+This file is for to determine accuracy of all the sentiment algorithms on the baseline data
+"""
+# Import libraries and files
 import pandas as p
 from afinn import Afinn
 import sentiment_afinn as sa
@@ -5,7 +9,7 @@ import numpy as np
 from sklearn.metrics import accuracy_score
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
-
+# function for Vader Sentiment Analysis
 def getVaderSentiment(row):
     commentbot = SentimentIntensityAnalyzer()
     vs = commentbot.polarity_scores(row["Comments"])
@@ -17,13 +21,14 @@ def getVaderSentiment(row):
         return 0
 
 
+# function to calculate sentiment score using Vader
 def analyze_sentiment_vader(df):
     df["vader_score"] = df.apply(lambda row: getVaderSentiment(row), axis=1)
     df["accuracy"] = np.where(df["vader_score"] == df["overallSentiment"], "True", "False")
     print(len(df[df["accuracy"] == "True"]) / len(df.index))
-    # df.to_csv("data.csv")
 
 
+# function to calculate sentiment score using Afinn
 def analyze_sentiment_afinn(df):
     af = Afinn()
     df.dropna(subset=["Comments"], inplace=True)
@@ -46,6 +51,7 @@ def analyze_sentiment_afinn(df):
     print(len(data_clean[data_clean["accuracy"] == "True"]) / len(data_clean.index))
 
 
+# Calling function to get accuracy for both Vader and Afinn
 def performBaselineAnalysis():
     dataframe = p.read_csv("data/labeled_comments.csv", encoding="ISO-8859-1")
     dataframe["overallSentiment"] = (dataframe["Positive"] * 1) + (dataframe["Neutral"] * 0) + (dataframe["Negative"] * -1)

@@ -1,10 +1,15 @@
+"""
+This is to get the channel name and video snippets
+"""
+# Import libraries and files
+import sys
 import sys
 import json
 import time
 import googleapiclient.errors
 from googleapiclient.errors import HttpError
 
-
+# fetch video ids 50 at a time
 def getIds(youtube, maxVids):
     responseId = getChannelName(youtube)
     response = getVideos(youtube, responseId["items"][0]["id"]["channelId"], maxVids)
@@ -22,6 +27,7 @@ def getIds(youtube, maxVids):
     return responseId["items"][0]["snippet"]["title"]
 
 
+# get channel name from user
 def getChannelName(youtube):
     channelName = input("Enter Channel Name : ")
     responseId = requestChannelId(youtube, channelName)
@@ -32,6 +38,7 @@ def getChannelName(youtube):
         return responseId
 
 
+# fetch channel ID
 def requestChannelId(youtube, channelName, retryCount=3):
     try:
         requestId = youtube.search().list(part="snippet", order="relevance", q=channelName, type="channel")
@@ -46,6 +53,7 @@ def requestChannelId(youtube, channelName, retryCount=3):
         return requestChannelId(youtube, channelName, retryCount - 1)
 
 
+# fetch videos using channel ID
 def getVideos(youtube, channelId, maxVids, retryCount=3):
     try:
         if maxVids > 50:

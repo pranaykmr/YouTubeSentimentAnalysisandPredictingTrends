@@ -1,3 +1,4 @@
+# comnbine the sentiment score for all algorithms and video stats such as view count, like/dislike count,commentcount
 def mapObject(vader, afinn, NRC, stats, comments):
     positive, negative, neutral = vader
     stats["positive_vader"] = (positive / len(comments)) * 100

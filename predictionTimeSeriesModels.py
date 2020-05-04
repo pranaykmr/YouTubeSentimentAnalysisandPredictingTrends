@@ -1,3 +1,4 @@
+# Import libraries and files
 import pandas as pd
 import numpy as np
 import matplotlib.ticker as ticker
@@ -14,7 +15,7 @@ from sklearn.pipeline import make_pipeline
 from sklearn.linear_model import Ridge
 from sklearn.linear_model import LinearRegression
 
-
+# LSTM model to predict future sentiment using Time series data
 def LongShortTermMemory(dataframe_LSTM, algoName, channelName, algo):
     dataframe_LSTM.index = dataframe_LSTM.date
     dataframe_LSTM.drop("date", axis=1, inplace=True)
@@ -46,11 +47,13 @@ def LongShortTermMemory(dataframe_LSTM, algoName, channelName, algo):
     X_test = np.reshape(X_test, (X_test.shape[0], X_test.shape[1], 1))
     predict = model.predict(X_test)
     predict = scaler.inverse_transform(predict)
+    # Calculate RMSE Value
     rms = np.sqrt(np.mean(np.power((valid - predict), 2)))
     print(rms)
     train = dataframe_LSTM[:split]
     valid = dataframe_LSTM[split + 1 :]
     valid["Predictions"] = predict
+    # Visualization of result
     plt.plot(train[algoName])
     plt.plot(valid[[algoName, "Predictions"]])
     ax = plt.axes()
@@ -63,6 +66,7 @@ def LongShortTermMemory(dataframe_LSTM, algoName, channelName, algo):
     plt.show()
 
 
+# Linear and Polynomial regression Model to predict future sentiment using Time Series data
 def Linear_Poly_Regression(dates_df, dataframe, algoName, channelName, algo):
     # Store the original dates for plotting the predicitons
     dates_df["date"] = dates_df["date"].astype(str)
@@ -90,7 +94,7 @@ def Linear_Poly_Regression(dates_df, dataframe, algoName, channelName, algo):
 
     lr_pred = lr.predict(X_test)
     poly_pred = clfpoly2.predict(X_test)
-
+    # Caluclate RMSE value
     rmse_lr = np.sqrt(np.mean(np.power((np.transpose(np.array(y_test)) - np.array(lr_pred)), 2)))
     rmse_pr = np.sqrt(np.mean(np.power((np.transpose(np.array(y_test)) - np.array(poly_pred)), 2)))
 
@@ -146,6 +150,7 @@ def Linear_Poly_Regression(dates_df, dataframe, algoName, channelName, algo):
     plt.show()
 
 
+# Driver function
 def performPredictions(data, channelName):
     dataframe = pd.DataFrame(data, columns=["date", "polarity_vader_avg", "no_comments", "afinn_score_avg"])
     LongShortTermMemory(dataframe[["date", "polarity_vader_avg"]], "polarity_vader_avg", channelName, "Vader")

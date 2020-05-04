@@ -1,3 +1,4 @@
+# Import libraries and files
 import pandas as p
 import numpy as np
 from matplotlib import pyplot
@@ -13,7 +14,7 @@ from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import KFold
 from sklearn.pipeline import Pipeline
 
-
+# Create a dataframe from video statistics
 def performPredictions(channelName):
     dataframe = p.read_json("comments/" + channelName + "_stats.json")
     dataframe.info()
@@ -56,6 +57,7 @@ def performPredictions(channelName):
     nrc_prediction(dataframe)
 
 
+# Predict like/dislike ratio using Vader polarity score
 def vader_prediction(dataframe):
     print("########################## Vader ##########################")
     X = p.DataFrame(dataframe, columns=["positive_vader", "negative_vader", "neutral_vader", "viewCount", "commentCount"])
@@ -63,7 +65,7 @@ def vader_prediction(dataframe):
 
     X.head()
     Y = p.DataFrame(dataframe, columns=["likedislikeratio"])
-
+    # split train test data
     X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=0)
 
     sc_X = StandardScaler()
@@ -74,6 +76,7 @@ def vader_prediction(dataframe):
     y_train = sc_y.fit_transform(y_train)
     # y_test = sc_y.fit_transform(y_test)
 
+    # train Linear Regression Model
     LinR = LinearRegression()
 
     fitResult = LinR.fit(X_train, y_train)
@@ -82,7 +85,7 @@ def vader_prediction(dataframe):
     print("MSE:", mean_squared_error(y_test, y_pred))
     print("RMSE:", np.sqrt(mean_squared_error(y_test, y_pred)))
     print("R2:", r2_score(y_test, y_pred))
-
+    # train MLP Regressor Model
     mlp = MLPRegressor(random_state=0, activation="relu", hidden_layer_sizes=16)
 
     mlp.fit(X_train, y_train)
@@ -93,6 +96,7 @@ def vader_prediction(dataframe):
     print("RMSE:", np.sqrt(mean_squared_error(y_test, predictedValues)))
     print("R2:", r2_score(y_test, predictedValues))
 
+    # define base model
     def baseline_model_vader():
         model = Sequential()
         model.add(Dense(12, input_dim=5, kernel_initializer="normal", activation="relu"))
@@ -100,6 +104,7 @@ def vader_prediction(dataframe):
         model.compile(loss="mean_squared_error", optimizer="adam", metrics=["accuracy"])
         return model
 
+    # evaluate model
     estimators = []
     estimators.append(("standardize", StandardScaler()))
     estimators.append(("mlp", KerasRegressor(build_fn=baseline_model_vader, epochs=50, batch_size=5, verbose=0)))
@@ -110,6 +115,7 @@ def vader_prediction(dataframe):
     print("RMSE: %2.f" % (results.std() ** (1 / 2)))
 
 
+# Predict like/dislike ratio using Afinn polarity score
 def afinn_prediction(dataframe):
     print("########################## Afinn ##########################")
 
@@ -120,7 +126,7 @@ def afinn_prediction(dataframe):
 
     # Y = dataframe['likedislikeratio']
     Y = p.DataFrame(dataframe, columns=["likedislikeratio"])
-
+    # split train test data
     X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=0)
 
     sc_X = StandardScaler()
@@ -131,6 +137,7 @@ def afinn_prediction(dataframe):
     y_train = sc_y.fit_transform(y_train)
     # y_test = sc_y.fit_transform(y_test)
 
+    # train Linear regression Model
     LinR = LinearRegression()
 
     fitResult = LinR.fit(X_train, y_train)
@@ -139,6 +146,8 @@ def afinn_prediction(dataframe):
     print("MSE:", mean_squared_error(y_test, y_pred))
     print("RMSE:", np.sqrt(mean_squared_error(y_test, y_pred)))
     print("R2:", r2_score(y_test, y_pred))
+
+    # train MLP Regressor Model
 
     mlp = MLPRegressor(random_state=0, activation="relu", hidden_layer_sizes=16)
 
@@ -172,6 +181,7 @@ def afinn_prediction(dataframe):
     print("RMSE: %2.f" % (results.std() ** (1 / 2)))
 
 
+# Predict like/dislike ratio using NRC Lexicon sentiment score
 def nrc_prediction(dataframe):
     print("########################## NRC ##########################")
 
@@ -198,7 +208,7 @@ def nrc_prediction(dataframe):
 
     # Y = dataframe['likedislikeratio']
     Y = p.DataFrame(dataframe, columns=["likedislikeratio"])
-
+    # split train test dataset
     X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=0)
 
     sc_X = StandardScaler()
@@ -209,6 +219,7 @@ def nrc_prediction(dataframe):
     y_train = sc_y.fit_transform(y_train)
     # y_test = sc_y.fit_transform(y_test)
 
+    # train Linear Regression Model
     LinR = LinearRegression()
 
     fitResult = LinR.fit(X_train, y_train)
@@ -218,6 +229,7 @@ def nrc_prediction(dataframe):
     print("RMSE:", np.sqrt(mean_squared_error(y_test, y_pred)))
     print("R2:", r2_score(y_test, y_pred))
 
+    # train MLP Regressor Model
     mlp = MLPRegressor(random_state=0, activation="relu", hidden_layer_sizes=16)
 
     mlp.fit(X_train, y_train)
