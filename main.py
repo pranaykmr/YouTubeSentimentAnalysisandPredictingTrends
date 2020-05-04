@@ -84,10 +84,3 @@ ptsm.performPredictions(groupedData, channelName)
 pred.performPredictions(channelName)
 vis.performVisualisations(channelName)
 vis.makeWordCloud(channelName, total_comments)
-
-total_sentiment = total_sentiment[1:]
-
-with open("comments/" + channelName + "_ts.txt", "w") as f:
-    for sentiment in total_sentiment:
-        f.write(str(sentiment))
-        f.write("\n")
