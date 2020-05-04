@@ -176,5 +176,5 @@ def performVisualisations(channelName):
 
 
 # Calling function
-def makeWordCloud(comments, channelName):
+def makeWordCloud(channelName, comments):
     fancySentiment(comments, channelName)
