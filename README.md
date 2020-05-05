@@ -375,9 +375,6 @@ magnitude of data. For the result analysis we scraped approximately 500,000 comm
 We juxtaposed the sentiment analysis result of Vader for above channels to compare and
 contrast our findings.
 
-```
-Figure III: Dude Perfect Figure IV: I hate everything Figure V: Unbox Therapy
-```
 In the above pie charts, we can see that theUnbox Therapy has most positive comments.
 On the other side, number of positive sentiment comments are approximately same forDude
 PerfectandI Hate Everything. Things gets interesting when we see negative sentiments.I
